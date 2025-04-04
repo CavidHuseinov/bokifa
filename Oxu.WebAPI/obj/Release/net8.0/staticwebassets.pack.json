@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\Oxu\\Oxu.WebAPI\\wwwroot\\Uploads\\Test\\374a9136-6e73-4f91-ba23-2f6dd7dbd433Снимок.PNG",
+      "PackagePath": "staticwebassets\\Uploads\\Test\\374a9136-6e73-4f91-ba23-2f6dd7dbd433Снимок.PNG"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Oxu.WebAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Oxu.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.Oxu.WebAPI.props",
+      "PackagePath": "build\\Oxu.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Oxu.WebAPI.props",
+      "PackagePath": "buildMultiTargeting\\Oxu.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.Oxu.WebAPI.props",
+      "PackagePath": "buildTransitive\\Oxu.WebAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,12 @@
+1.Sql Server => Persistance, WebApi, Domain
+2.Tools => WebApi
+3.Core => Domain, Persistance, WebApi
+4.Design => Persistance
+5.AspNetCore.Identity.EntityFrameworkCore => Persistance, WebApi
+
+
+proje 2 folderden ibaretdi src,test olaraq
+src=>1.Core(Folder) => Application,Domain
+     2.External(Folder) => Infrastructure, Persistance, Presentation
+     3.WebApi
+test=> ...

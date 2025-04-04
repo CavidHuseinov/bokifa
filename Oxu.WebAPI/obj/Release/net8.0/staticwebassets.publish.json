@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "1adkCGzE/qu5AQk9bX1XiE9/Uvr/RgXt6e6QJ/62a8M=",
+  "Source": "Bokifa.WebAPI",
+  "BasePath": "_content/Bokifa.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Bokifa.WebAPI\\wwwroot",
+      "Source": "Bokifa.WebAPI",
+      "ContentRoot": "C:\\Users\\Cavid\\Desktop\\Oxu\\Oxu.WebAPI\\wwwroot\\",
+      "BasePath": "_content/Bokifa.WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

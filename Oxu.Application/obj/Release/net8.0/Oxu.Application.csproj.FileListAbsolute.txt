@@ -1,0 +1,15 @@
+D:\Projects\Oxu\Oxu.Application\bin\Release\net8.0\Oxu.Application.deps.json
+D:\Projects\Oxu\Oxu.Application\bin\Release\net8.0\Oxu.Application.dll
+D:\Projects\Oxu\Oxu.Application\bin\Release\net8.0\Oxu.Application.pdb
+D:\Projects\Oxu\Oxu.Application\bin\Release\net8.0\Oxu.Domain.dll
+D:\Projects\Oxu\Oxu.Application\bin\Release\net8.0\Oxu.Domain.pdb
+D:\Projects\Oxu\Oxu.Application\obj\Release\net8.0\Oxu.Application.csproj.AssemblyReference.cache
+D:\Projects\Oxu\Oxu.Application\obj\Release\net8.0\Oxu.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Oxu\Oxu.Application\obj\Release\net8.0\Oxu.Application.AssemblyInfoInputs.cache
+D:\Projects\Oxu\Oxu.Application\obj\Release\net8.0\Oxu.Application.AssemblyInfo.cs
+D:\Projects\Oxu\Oxu.Application\obj\Release\net8.0\Oxu.Application.csproj.CoreCompileInputs.cache
+D:\Projects\Oxu\Oxu.Application\obj\Release\net8.0\Oxu.Appl.7B82C591.Up2Date
+D:\Projects\Oxu\Oxu.Application\obj\Release\net8.0\Oxu.Application.dll
+D:\Projects\Oxu\Oxu.Application\obj\Release\net8.0\refint\Oxu.Application.dll
+D:\Projects\Oxu\Oxu.Application\obj\Release\net8.0\Oxu.Application.pdb
+D:\Projects\Oxu\Oxu.Application\obj\Release\net8.0\ref\Oxu.Application.dll

@@ -1,0 +1,12 @@
+D:\Projects\Oxu\Oxu.Domain\bin\Release\net8.0\Oxu.Domain.deps.json
+D:\Projects\Oxu\Oxu.Domain\bin\Release\net8.0\Oxu.Domain.dll
+D:\Projects\Oxu\Oxu.Domain\bin\Release\net8.0\Oxu.Domain.pdb
+D:\Projects\Oxu\Oxu.Domain\obj\Release\net8.0\Oxu.Domain.csproj.AssemblyReference.cache
+D:\Projects\Oxu\Oxu.Domain\obj\Release\net8.0\Oxu.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Oxu\Oxu.Domain\obj\Release\net8.0\Oxu.Domain.AssemblyInfoInputs.cache
+D:\Projects\Oxu\Oxu.Domain\obj\Release\net8.0\Oxu.Domain.AssemblyInfo.cs
+D:\Projects\Oxu\Oxu.Domain\obj\Release\net8.0\Oxu.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\Oxu\Oxu.Domain\obj\Release\net8.0\Oxu.Domain.dll
+D:\Projects\Oxu\Oxu.Domain\obj\Release\net8.0\refint\Oxu.Domain.dll
+D:\Projects\Oxu\Oxu.Domain\obj\Release\net8.0\Oxu.Domain.pdb
+D:\Projects\Oxu\Oxu.Domain\obj\Release\net8.0\ref\Oxu.Domain.dll
