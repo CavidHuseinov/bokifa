@@ -5325,11 +5325,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cavid\\Desktop\\Oxu\\Oxu.WebAPI\\Bokifa.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Bokifa.WebAPI.csproj",
       "projectName": "Bokifa.WebAPI",
-      "projectPath": "C:\\Users\\Cavid\\Desktop\\Oxu\\Oxu.WebAPI\\Bokifa.WebAPI.csproj",
+      "projectPath": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Bokifa.WebAPI.csproj",
       "packagesPath": "C:\\Users\\Cavid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cavid\\Desktop\\Oxu\\Oxu.WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5350,14 +5350,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Cavid\\Desktop\\Oxu\\Oxu.Infrastructure\\Bokifa.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Cavid\\Desktop\\Oxu\\Oxu.Infrastructure\\Bokifa.Infrastructure.csproj"
+            "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Infrastructure\\Bokifa.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Infrastructure\\Bokifa.Infrastructure.csproj"
             },
-            "C:\\Users\\Cavid\\Desktop\\Oxu\\Oxu.Persistance\\Bokifa.Persistance.csproj": {
-              "projectPath": "C:\\Users\\Cavid\\Desktop\\Oxu\\Oxu.Persistance\\Bokifa.Persistance.csproj"
+            "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Bokifa.Persistance.csproj": {
+              "projectPath": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Bokifa.Persistance.csproj"
             },
-            "C:\\Users\\Cavid\\Desktop\\Oxu\\Oxu.Presentation\\Bokifa.Presentation.csproj": {
-              "projectPath": "C:\\Users\\Cavid\\Desktop\\Oxu\\Oxu.Presentation\\Bokifa.Presentation.csproj"
+            "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Bokifa.Presentation.csproj": {
+              "projectPath": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Bokifa.Presentation.csproj"
             }
           }
         }

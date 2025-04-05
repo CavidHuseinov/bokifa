@@ -162,7 +162,7 @@
         }
       }
     },
-    "/api/HeadBanner/GetAll": {
+    "/api/HeadBanner/get-all": {
       "get": {
         "tags": [
           "HeadBanner"
@@ -174,7 +174,7 @@
         }
       }
     },
-    "/api/HeadBanner/GetById": {
+    "/api/HeadBanner/get-by-id": {
       "get": {
         "tags": [
           "HeadBanner"
@@ -196,7 +196,7 @@
         }
       }
     },
-    "/api/HeadBanner/Create": {
+    "/api/HeadBanner/create": {
       "post": {
         "tags": [
           "HeadBanner"
@@ -209,11 +209,21 @@
                 "properties": {
                   "Content": {
                     "type": "string"
+                  },
+                  "THeadBannerIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "uuid"
+                    }
                   }
                 }
               },
               "encoding": {
                 "Content": {
+                  "style": "form"
+                },
+                "THeadBannerIds": {
                   "style": "form"
                 }
               }
@@ -227,7 +237,7 @@
         }
       }
     },
-    "/api/HeadBanner/Update": {
+    "/api/HeadBanner/update": {
       "put": {
         "tags": [
           "HeadBanner"
@@ -244,6 +254,13 @@
                   },
                   "Content": {
                     "type": "string"
+                  },
+                  "THeadBannerIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "uuid"
+                    }
                   }
                 }
               },
@@ -252,6 +269,9 @@
                   "style": "form"
                 },
                 "Content": {
+                  "style": "form"
+                },
+                "THeadBannerIds": {
                   "style": "form"
                 }
               }
@@ -265,10 +285,147 @@
         }
       }
     },
-    "/api/HeadBanner/Delete": {
+    "/api/HeadBanner/delete": {
       "delete": {
         "tags": [
           "HeadBanner"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/THeadBanner/get-all": {
+      "get": {
+        "tags": [
+          "THeadBanner"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/THeadBanner/get-by-id": {
+      "get": {
+        "tags": [
+          "THeadBanner"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/THeadBanner/create": {
+      "post": {
+        "tags": [
+          "THeadBanner"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Content": {
+                    "type": "string"
+                  },
+                  "LanguageType": {
+                    "$ref": "#/components/schemas/LanguageType"
+                  }
+                }
+              },
+              "encoding": {
+                "Content": {
+                  "style": "form"
+                },
+                "LanguageType": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/THeadBanner/update": {
+      "put": {
+        "tags": [
+          "THeadBanner"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "Content": {
+                    "type": "string"
+                  },
+                  "LanguageType": {
+                    "$ref": "#/components/schemas/LanguageType"
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Content": {
+                  "style": "form"
+                },
+                "LanguageType": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/THeadBanner/delete": {
+      "delete": {
+        "tags": [
+          "THeadBanner"
         ],
         "parameters": [
           {
@@ -511,6 +668,15 @@
   },
   "components": {
     "schemas": {
+      "LanguageType": {
+        "enum": [
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
       "ResetPasswordDto": {
         "type": "object",
         "properties": {

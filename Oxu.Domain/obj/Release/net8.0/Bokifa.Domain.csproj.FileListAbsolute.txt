@@ -10,3 +10,16 @@ C:\Users\Cavid\Desktop\Oxu\Oxu.Domain\obj\Release\net8.0\Bokifa.Domain.dll
 C:\Users\Cavid\Desktop\Oxu\Oxu.Domain\obj\Release\net8.0\refint\Bokifa.Domain.dll
 C:\Users\Cavid\Desktop\Oxu\Oxu.Domain\obj\Release\net8.0\Bokifa.Domain.pdb
 C:\Users\Cavid\Desktop\Oxu\Oxu.Domain\obj\Release\net8.0\ref\Bokifa.Domain.dll
+C:\Users\Cavid\Desktop\bokifa\Oxu.Domain\bin\Release\net8.0\Bokifa.Domain.deps.json
+C:\Users\Cavid\Desktop\bokifa\Oxu.Domain\bin\Release\net8.0\Bokifa.Domain.dll
+C:\Users\Cavid\Desktop\bokifa\Oxu.Domain\bin\Release\net8.0\Bokifa.Domain.pdb
+C:\Users\Cavid\Desktop\bokifa\Oxu.Domain\obj\Release\net8.0\Bokifa.Domain.csproj.AssemblyReference.cache
+C:\Users\Cavid\Desktop\bokifa\Oxu.Domain\obj\Release\net8.0\Bokifa.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cavid\Desktop\bokifa\Oxu.Domain\obj\Release\net8.0\Bokifa.Domain.AssemblyInfoInputs.cache
+C:\Users\Cavid\Desktop\bokifa\Oxu.Domain\obj\Release\net8.0\Bokifa.Domain.AssemblyInfo.cs
+C:\Users\Cavid\Desktop\bokifa\Oxu.Domain\obj\Release\net8.0\Bokifa.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Cavid\Desktop\bokifa\Oxu.Domain\obj\Release\net8.0\Bokifa.Domain.sourcelink.json
+C:\Users\Cavid\Desktop\bokifa\Oxu.Domain\obj\Release\net8.0\Bokifa.Domain.dll
+C:\Users\Cavid\Desktop\bokifa\Oxu.Domain\obj\Release\net8.0\refint\Bokifa.Domain.dll
+C:\Users\Cavid\Desktop\bokifa\Oxu.Domain\obj\Release\net8.0\Bokifa.Domain.pdb
+C:\Users\Cavid\Desktop\bokifa\Oxu.Domain\obj\Release\net8.0\ref\Bokifa.Domain.dll

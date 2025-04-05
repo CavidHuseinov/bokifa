@@ -2971,11 +2971,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cavid\\Desktop\\Oxu\\Oxu.Domain\\Bokifa.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Bokifa.Domain.csproj",
       "projectName": "Bokifa.Domain",
-      "projectPath": "C:\\Users\\Cavid\\Desktop\\Oxu\\Oxu.Domain\\Bokifa.Domain.csproj",
+      "projectPath": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Bokifa.Domain.csproj",
       "packagesPath": "C:\\Users\\Cavid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cavid\\Desktop\\Oxu\\Oxu.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

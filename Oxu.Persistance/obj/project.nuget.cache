@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "scmhHCsDonA=",
+  "dgSpecHash": "LacI7ZmDHwU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cavid\\Desktop\\Oxu\\Oxu.Persistance\\Bokifa.Persistance.csproj",
+  "projectFilePath": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Bokifa.Persistance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cavid\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Cavid\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

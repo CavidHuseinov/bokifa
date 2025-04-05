@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Bokifa.Domain.DTOs.HeadBanner;
+using Bokifa.Domain.DTOs.THeadBanner;
 using Bokifa.Domain.Entities;
 using Oxu.Domain.DTOs.Contact;
 using Oxu.Domain.DTOs.FileUpload;
@@ -38,6 +39,12 @@ namespace Oxu.Persistance.Mapping
             CreateMap<HeadBannerDto,HeadBanner>().ReverseMap();
             CreateMap<CreateHeadBannerDto, HeadBanner>().ReverseMap();
             CreateMap<UpdateHeadBannerDto, HeadBanner>().ReverseMap();
+            #endregion
+
+            #region THeadBanner
+            CreateMap<THeadBannerDto, THeadBanner>().ReverseMap();
+            CreateMap<CreateTHeadBannerDto, THeadBanner>().ReverseMap();
+            CreateMap<UpdateTHeadBannerDto, THeadBanner>().ReverseMap();
             #endregion
         }
     }

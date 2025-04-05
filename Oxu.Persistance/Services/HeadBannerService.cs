@@ -3,6 +3,7 @@ using Bokifa.Application.IServices;
 using Bokifa.Domain.DTOs.HeadBanner;
 using Bokifa.Domain.Entities;
 using Bokifa.Domain.IRepositories;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 using Oxu.Domain.IRepositories.Generics;
 using Oxu.Persistance.UnitOfWorks;
@@ -38,12 +39,16 @@ namespace Bokifa.Persistance.Services
 
         public async Task<ICollection<HeadBannerDto>> GetAllAsync()
         {
-            if (_cache.TryGetValue(cacheKey, out ICollection<HeadBanner>? cachedBanners))
+            if (_cache.TryGetValue(cacheKey, out Dictionary<Guid, HeadBanner>? cachedDict))
             {
-                return _mapper.Map<ICollection<HeadBannerDto>>(cachedBanners);
+                return _mapper.Map<ICollection<HeadBannerDto>>(cachedDict.Values);
             }
-            var banners = await _query.GetAllAsync();
-            _cache.Set(cacheKey, banners);
+
+            var banners = await _query.GetAllAsync(
+                include:q=>q.Include(x=>x.THeadBanners)
+                );
+            var bannerDict = banners.ToDictionary(b => b.Id);
+            _cache.Set(cacheKey, bannerDict);
             return _mapper.Map<ICollection<HeadBannerDto>>(banners);
         }
 
@@ -62,11 +67,21 @@ namespace Bokifa.Persistance.Services
             var newBanner = await _command.CreateAsync(banner);
             await _work.SaveChangeAsync();
 
-            if(_cache.TryGetValue(cacheKey, out IReadOnlyCollection<HeadBannerDto> cachedBanners))
+            if(_cache.TryGetValue(cacheKey, out Dictionary<Guid, HeadBanner> cachedDict))
             {
-                var newBannerDto = _mapper.Map<HeadBannerDto>(newBanner);
-                var updatedBanners = cachedBanners.Append(newBannerDto).ToList().AsReadOnly();
-                _cache.Set(cacheKey, updatedBanners);
+                var updatedCache = new Dictionary<Guid, HeadBanner>(cachedDict)
+                {
+                    [newBanner.Id] = newBanner
+                };
+                _cache.Set(cacheKey, updatedCache);
+            }
+            else
+            {
+                var newCache = new Dictionary<Guid, HeadBanner>
+                {
+                    [newBanner.Id] = newBanner
+                };
+                _cache.Set(cacheKey, newCache);
             }
             return _mapper.Map<HeadBannerDto>(newBanner);
         }

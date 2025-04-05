@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1adkCGzE/qu5AQk9bX1XiE9/Uvr/RgXt6e6QJ/62a8M=",
+  "Hash": "XWRHYPdaQRfdHSTsp37CfiGpj1XUzrVNlYMNGu38FCw=",
   "Source": "Bokifa.WebAPI",
   "BasePath": "_content/Bokifa.WebAPI",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "Bokifa.WebAPI\\wwwroot",
       "Source": "Bokifa.WebAPI",
-      "ContentRoot": "C:\\Users\\Cavid\\Desktop\\Oxu\\Oxu.WebAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\wwwroot\\",
       "BasePath": "_content/Bokifa.WebAPI",
       "Pattern": "**"
     }

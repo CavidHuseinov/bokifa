@@ -11,5 +11,6 @@ namespace Bokifa.Domain.DTOs.HeadBanner
     {
         public Guid Id { get; set; }
         public string Content { get; set; }
+        public ICollection<Guid> THeadBannerIds { get; set; }
     }
 }

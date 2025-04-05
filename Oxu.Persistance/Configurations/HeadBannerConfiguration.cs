@@ -21,9 +21,12 @@ namespace Bokifa.Persistance.Configurations
                     .HasColumnName("CreatedAt")
                     .IsRequired();
             });
-
             builder.Property(x => x.Content)
                 .IsRequired();
+            builder.HasMany(x=>x.THeadBanners)
+                .WithOne(x => x.HeadBanner)
+                .HasForeignKey(x => x.HeadBannerId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

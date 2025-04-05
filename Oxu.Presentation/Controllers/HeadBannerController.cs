@@ -12,31 +12,33 @@ namespace Bokifa.Presentation.Controllers
         {
             _service = service;
         }
-        [HttpGet("GetAll")]
+        [HttpGet("get-all")]
         public async Task<IActionResult> GetAllAsync()
         {
             var result = await _service.GetAllAsync();
             return Ok(result);
         }
-        [HttpGet("GetById")]
+        [HttpGet("get-by-id")]
         public async Task<IActionResult> GetByIdAsync(Guid id)
         {
             var result = await _service.GetByIdAsync(id);
             return Ok(result);
         }
-        [HttpPost("Create")]
+        [HttpPost("create")]
         public async Task<IActionResult> CreateAsync([FromForm] CreateHeadBannerDto dto)
         {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
             var result = await _service.CreateAsync(dto);
             return Ok(result);
         }
-        [HttpPut("Update")]
+        [HttpPut("update")]
         public async Task<IActionResult> UpdateAsync([FromForm] UpdateHeadBannerDto dto)
         {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
             await _service.UpdateAsync(dto);
             return NoContent();
         }
-        [HttpDelete("Delete")]
+        [HttpDelete("delete")]
         public async Task<IActionResult> DeleteAsync(Guid id)
         {
             await _service.DeleteAsync(id);

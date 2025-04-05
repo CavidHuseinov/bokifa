@@ -91,7 +91,7 @@
   {
     "ContainingType": "Bokifa.Presentation.Controllers.HeadBannerController",
     "Method": "CreateAsync",
-    "RelativePath": "api/HeadBanner/Create",
+    "RelativePath": "api/HeadBanner/create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -100,6 +100,11 @@
         "Name": "Content",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "THeadBannerIds",
+        "Type": "System.Collections.Generic.ICollection\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -107,7 +112,7 @@
   {
     "ContainingType": "Bokifa.Presentation.Controllers.HeadBannerController",
     "Method": "DeleteAsync",
-    "RelativePath": "api/HeadBanner/Delete",
+    "RelativePath": "api/HeadBanner/delete",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -123,7 +128,7 @@
   {
     "ContainingType": "Bokifa.Presentation.Controllers.HeadBannerController",
     "Method": "GetAllAsync",
-    "RelativePath": "api/HeadBanner/GetAll",
+    "RelativePath": "api/HeadBanner/get-all",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -133,7 +138,7 @@
   {
     "ContainingType": "Bokifa.Presentation.Controllers.HeadBannerController",
     "Method": "GetByIdAsync",
-    "RelativePath": "api/HeadBanner/GetById",
+    "RelativePath": "api/HeadBanner/get-by-id",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -149,7 +154,7 @@
   {
     "ContainingType": "Bokifa.Presentation.Controllers.HeadBannerController",
     "Method": "UpdateAsync",
-    "RelativePath": "api/HeadBanner/Update",
+    "RelativePath": "api/HeadBanner/update",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -161,6 +166,100 @@
       },
       {
         "Name": "Content",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "THeadBannerIds",
+        "Type": "System.Collections.Generic.ICollection\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.THeadBannerController",
+    "Method": "Create",
+    "RelativePath": "api/THeadBanner/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Content",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LanguageType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.THeadBannerController",
+    "Method": "Delete",
+    "RelativePath": "api/THeadBanner/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.THeadBannerController",
+    "Method": "GetAll",
+    "RelativePath": "api/THeadBanner/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.THeadBannerController",
+    "Method": "GetById",
+    "RelativePath": "api/THeadBanner/get-by-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.THeadBannerController",
+    "Method": "Update",
+    "RelativePath": "api/THeadBanner/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Content",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LanguageType",
         "Type": "System.String",
         "IsRequired": false
       }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pdCKBRoQ6OU=",
+  "dgSpecHash": "o9inmiksGmk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cavid\\Desktop\\Oxu\\Oxu.Application\\Bokifa.Application.csproj",
+  "projectFilePath": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Bokifa.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cavid\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Cavid\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

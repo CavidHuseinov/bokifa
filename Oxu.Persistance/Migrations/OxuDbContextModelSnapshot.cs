@@ -32,9 +32,35 @@ namespace Oxu.Persistance.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("LanguageType")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.ToTable("HeadBanners");
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.THeadBanner", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid?>("HeadBannerId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("LanguageType")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("HeadBannerId");
+
+                    b.ToTable("THeadBanners");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -283,6 +309,36 @@ namespace Oxu.Persistance.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.THeadBanner", b =>
+                {
+                    b.HasOne("Bokifa.Domain.Entities.HeadBanner", "HeadBanner")
+                        .WithMany("THeadBanners")
+                        .HasForeignKey("HeadBannerId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.OwnsOne("Oxu.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<Guid>("THeadBannerId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("THeadBannerId");
+
+                            b1.ToTable("THeadBanners");
+
+                            b1.WithOwner()
+                                .HasForeignKey("THeadBannerId");
+                        });
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+
+                    b.Navigation("HeadBanner");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -332,6 +388,11 @@ namespace Oxu.Persistance.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.HeadBanner", b =>
+                {
+                    b.Navigation("THeadBanners");
                 });
 #pragma warning restore 612, 618
         }
