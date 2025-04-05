@@ -2,6 +2,7 @@ using Oxu.WebAPI.Configurations;
 using Oxu.WebAPI.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddEndpointsApiExplorer();
 builder.Services
     .InstallServices(
     builder.Configuration, typeof(IServiceInstaller).Assembly);

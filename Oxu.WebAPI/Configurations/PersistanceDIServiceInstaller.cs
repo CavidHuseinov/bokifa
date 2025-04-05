@@ -25,6 +25,8 @@ namespace Oxu.WebAPI.Configurations
             services.AddScoped(typeof(ICommandRepository<>), typeof(CommandRepository<>));
             services.AddScoped<IHeadBannerRepo, HeadBannerRepo>();
             services.AddScoped<ITHeadBannerRepo, THeadBannerRepo>();
+            services.AddScoped<IBannerRepo, BannerRepo>();
+            services.AddScoped<ITBannerRepo, TBannerRepo>();
             #endregion
 
             #region Services
@@ -33,6 +35,8 @@ namespace Oxu.WebAPI.Configurations
             services.AddScoped<IFileUploadService, FileUploadService>();
             services.AddScoped<IHeadBannerService, HeadBannerService>();
             services.AddScoped<ITHeadBannerService, THeadBannerService>();
+            services.AddScoped<IBannerService, BannerService>();
+            services.AddScoped<ITBannerService, TBannerService>();
             #endregion
 
         }

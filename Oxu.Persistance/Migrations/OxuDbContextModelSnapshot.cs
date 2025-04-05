@@ -22,6 +22,43 @@ namespace Oxu.Persistance.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.Banner", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("BtnName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal?>("Discount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("ImgUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PrimaryLanguageType")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Banners");
+                });
+
             modelBuilder.Entity("Bokifa.Domain.Entities.HeadBanner", b =>
                 {
                     b.Property<Guid>("Id")
@@ -38,6 +75,41 @@ namespace Oxu.Persistance.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("HeadBanners");
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.TBanner", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("BannerId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("BtnName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("LanguageType")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BannerId");
+
+                    b.ToTable("TBanners");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.THeadBanner", b =>
@@ -286,6 +358,29 @@ namespace Oxu.Persistance.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.Banner", b =>
+                {
+                    b.OwnsOne("Oxu.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<Guid>("BannerId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("BannerId");
+
+                            b1.ToTable("Banners");
+
+                            b1.WithOwner()
+                                .HasForeignKey("BannerId");
+                        });
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Bokifa.Domain.Entities.HeadBanner", b =>
                 {
                     b.OwnsOne("Oxu.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
@@ -304,6 +399,36 @@ namespace Oxu.Persistance.Migrations
                             b1.WithOwner()
                                 .HasForeignKey("HeadBannerId");
                         });
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.TBanner", b =>
+                {
+                    b.HasOne("Bokifa.Domain.Entities.Banner", "Banner")
+                        .WithMany("TBanners")
+                        .HasForeignKey("BannerId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.OwnsOne("Oxu.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<Guid>("TBannerId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("TBannerId");
+
+                            b1.ToTable("TBanners");
+
+                            b1.WithOwner()
+                                .HasForeignKey("TBannerId");
+                        });
+
+                    b.Navigation("Banner");
 
                     b.Navigation("CreatedAt")
                         .IsRequired();
@@ -388,6 +513,11 @@ namespace Oxu.Persistance.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.Banner", b =>
+                {
+                    b.Navigation("TBanners");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.HeadBanner", b =>

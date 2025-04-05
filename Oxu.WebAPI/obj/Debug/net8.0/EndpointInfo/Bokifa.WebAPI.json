@@ -5,6 +5,213 @@
     "version": "v1"
   },
   "paths": {
+    "/api/Banner/get-all": {
+      "get": {
+        "tags": [
+          "Banner"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Banner/get-by-id": {
+      "get": {
+        "tags": [
+          "Banner"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Banner/create": {
+      "post": {
+        "tags": [
+          "Banner"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Title": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "BtnName": {
+                    "type": "string"
+                  },
+                  "ImgUrl": {
+                    "type": "string"
+                  },
+                  "Discount": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "TBannerIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "uuid"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "Title": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "BtnName": {
+                  "style": "form"
+                },
+                "ImgUrl": {
+                  "style": "form"
+                },
+                "Discount": {
+                  "style": "form"
+                },
+                "TBannerIds": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Banner/update": {
+      "put": {
+        "tags": [
+          "Banner"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Title": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "BtnName": {
+                    "type": "string"
+                  },
+                  "ImgUrl": {
+                    "type": "string"
+                  },
+                  "Discount": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "TBannerIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "uuid"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "Title": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "BtnName": {
+                  "style": "form"
+                },
+                "ImgUrl": {
+                  "style": "form"
+                },
+                "Discount": {
+                  "style": "form"
+                },
+                "TBannerIds": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Banner/delete": {
+      "delete": {
+        "tags": [
+          "Banner"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Contact": {
       "post": {
         "tags": [
@@ -289,6 +496,179 @@
       "delete": {
         "tags": [
           "HeadBanner"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TBanner/get-all": {
+      "get": {
+        "tags": [
+          "TBanner"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TBanner/get-by-id": {
+      "get": {
+        "tags": [
+          "TBanner"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TBanner/create": {
+      "post": {
+        "tags": [
+          "TBanner"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Title": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "BtnName": {
+                    "type": "string"
+                  },
+                  "LanguageType": {
+                    "$ref": "#/components/schemas/LanguageType"
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "Title": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "BtnName": {
+                  "style": "form"
+                },
+                "LanguageType": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TBanner/update": {
+      "put": {
+        "tags": [
+          "TBanner"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Title": {
+                    "type": "string"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "BtnName": {
+                    "type": "string"
+                  },
+                  "LanguageType": {
+                    "$ref": "#/components/schemas/LanguageType"
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "Title": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "BtnName": {
+                  "style": "form"
+                },
+                "LanguageType": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TBanner/delete": {
+      "delete": {
+        "tags": [
+          "TBanner"
         ],
         "parameters": [
           {
