@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Bokifa.Domain.DTOs.Banner;
+using Bokifa.Domain.DTOs.Category;
 using Bokifa.Domain.DTOs.HeadBanner;
 using Bokifa.Domain.DTOs.TBanner;
 using Bokifa.Domain.DTOs.THeadBanner;
@@ -59,6 +60,12 @@ namespace Oxu.Persistance.Mapping
             CreateMap<TBannerDto, TBanner>().ReverseMap();
             CreateMap<CreateTBannerDto, TBanner>().ReverseMap();
             CreateMap<UpdateTBannerDto, TBanner>().ReverseMap();
+            #endregion
+
+            #region Category
+            CreateMap<CategoryDto, Category>().ReverseMap();
+            CreateMap<CreateCategoryDto, Category>().ReverseMap();
+            CreateMap<UpdateCategoryDto, Category>().ReverseMap();
             #endregion
         }
     }

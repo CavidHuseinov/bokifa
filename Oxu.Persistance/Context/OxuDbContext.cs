@@ -15,6 +15,7 @@ namespace Oxu.Persistance.Context
         public DbSet<THeadBanner> THeadBanners { get; set; }
         public DbSet<Banner> Banners { get; set; }
         public DbSet<TBanner> TBanners { get; set; }
+        public DbSet<Category> Categories { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

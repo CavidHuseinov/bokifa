@@ -9,11 +9,11 @@ using Oxu.Persistance.Context;
 
 #nullable disable
 
-namespace Oxu.Persistance.Migrations
+namespace Bokifa.Persistance.Migrations
 {
     [DbContext(typeof(OxuDbContext))]
-    [Migration("20250405134227_ala")]
-    partial class ala
+    [Migration("20250408123521_lajsdlkad")]
+    partial class lajsdlkad
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -60,6 +60,21 @@ namespace Oxu.Persistance.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Banners");
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.Category", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.HeadBanner", b =>
@@ -378,6 +393,29 @@ namespace Oxu.Persistance.Migrations
 
                             b1.WithOwner()
                                 .HasForeignKey("BannerId");
+                        });
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.Category", b =>
+                {
+                    b.OwnsOne("Oxu.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<Guid>("CategoryId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("CategoryId");
+
+                            b1.ToTable("Categories");
+
+                            b1.WithOwner()
+                                .HasForeignKey("CategoryId");
                         });
 
                     b.Navigation("CreatedAt")
