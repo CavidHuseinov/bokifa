@@ -69,6 +69,9 @@ namespace Bokifa.Persistance.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("PrimaryLanguageType")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
@@ -98,7 +101,7 @@ namespace Bokifa.Persistance.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid?>("BannerId")
+                    b.Property<Guid>("BannerId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("BtnName")
@@ -125,6 +128,29 @@ namespace Bokifa.Persistance.Migrations
                     b.HasIndex("BannerId");
 
                     b.ToTable("TBanners");
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.TCategory", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("CategoryId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("LanguageType")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("TCategory");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.THeadBanner", b =>
@@ -447,7 +473,8 @@ namespace Bokifa.Persistance.Migrations
                     b.HasOne("Bokifa.Domain.Entities.Banner", "Banner")
                         .WithMany("TBanners")
                         .HasForeignKey("BannerId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.OwnsOne("Oxu.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
                         {
@@ -467,6 +494,37 @@ namespace Bokifa.Persistance.Migrations
                         });
 
                     b.Navigation("Banner");
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.TCategory", b =>
+                {
+                    b.HasOne("Bokifa.Domain.Entities.Category", "Category")
+                        .WithMany("TCategories")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.OwnsOne("Oxu.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<Guid>("TCategoryId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("TCategoryId");
+
+                            b1.ToTable("TCategory");
+
+                            b1.WithOwner()
+                                .HasForeignKey("TCategoryId");
+                        });
+
+                    b.Navigation("Category");
 
                     b.Navigation("CreatedAt")
                         .IsRequired();
@@ -556,6 +614,11 @@ namespace Bokifa.Persistance.Migrations
             modelBuilder.Entity("Bokifa.Domain.Entities.Banner", b =>
                 {
                     b.Navigation("TBanners");
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.Category", b =>
+                {
+                    b.Navigation("TCategories");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.HeadBanner", b =>

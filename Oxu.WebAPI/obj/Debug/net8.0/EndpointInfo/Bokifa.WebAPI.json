@@ -68,13 +68,6 @@
                   "Discount": {
                     "type": "number",
                     "format": "double"
-                  },
-                  "TBannerIds": {
-                    "type": "array",
-                    "items": {
-                      "type": "string",
-                      "format": "uuid"
-                    }
                   }
                 }
               },
@@ -95,9 +88,6 @@
                   "style": "form"
                 },
                 "Discount": {
-                  "style": "form"
-                },
-                "TBannerIds": {
                   "style": "form"
                 }
               }
@@ -144,13 +134,6 @@
                   "Discount": {
                     "type": "number",
                     "format": "double"
-                  },
-                  "TBannerIds": {
-                    "type": "array",
-                    "items": {
-                      "type": "string",
-                      "format": "uuid"
-                    }
                   }
                 }
               },
@@ -174,9 +157,6 @@
                   "style": "form"
                 },
                 "Discount": {
-                  "style": "form"
-                },
-                "TBannerIds": {
                   "style": "form"
                 }
               }
@@ -542,21 +522,11 @@
                 "properties": {
                   "Content": {
                     "type": "string"
-                  },
-                  "THeadBannerIds": {
-                    "type": "array",
-                    "items": {
-                      "type": "string",
-                      "format": "uuid"
-                    }
                   }
                 }
               },
               "encoding": {
                 "Content": {
-                  "style": "form"
-                },
-                "THeadBannerIds": {
                   "style": "form"
                 }
               }
@@ -587,13 +557,6 @@
                   },
                   "Content": {
                     "type": "string"
-                  },
-                  "THeadBannerIds": {
-                    "type": "array",
-                    "items": {
-                      "type": "string",
-                      "format": "uuid"
-                    }
                   }
                 }
               },
@@ -602,9 +565,6 @@
                   "style": "form"
                 },
                 "Content": {
-                  "style": "form"
-                },
-                "THeadBannerIds": {
                   "style": "form"
                 }
               }
@@ -699,6 +659,10 @@
                   },
                   "LanguageType": {
                     "$ref": "#/components/schemas/LanguageType"
+                  },
+                  "BannerId": {
+                    "type": "string",
+                    "format": "uuid"
                   }
                 }
               },
@@ -716,6 +680,9 @@
                   "style": "form"
                 },
                 "LanguageType": {
+                  "style": "form"
+                },
+                "BannerId": {
                   "style": "form"
                 }
               }
@@ -758,6 +725,10 @@
                   },
                   "LanguageType": {
                     "$ref": "#/components/schemas/LanguageType"
+                  },
+                  "BannerId": {
+                    "type": "string",
+                    "format": "uuid"
                   }
                 }
               },
@@ -779,6 +750,9 @@
                 },
                 "LanguageType": {
                   "style": "form"
+                },
+                "BannerId": {
+                  "style": "form"
                 }
               }
             }
@@ -795,6 +769,158 @@
       "delete": {
         "tags": [
           "TBanner"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TCategory/all": {
+      "get": {
+        "tags": [
+          "TCategory"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TCategory/{id}": {
+      "get": {
+        "tags": [
+          "TCategory"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TCategory/create": {
+      "post": {
+        "tags": [
+          "TCategory"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "LanguageType": {
+                    "$ref": "#/components/schemas/LanguageType"
+                  },
+                  "CategoryId": {
+                    "type": "string",
+                    "format": "uuid"
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "LanguageType": {
+                  "style": "form"
+                },
+                "CategoryId": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TCategory/update": {
+      "put": {
+        "tags": [
+          "TCategory"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "Name": {
+                    "type": "string"
+                  },
+                  "LanguageType": {
+                    "$ref": "#/components/schemas/LanguageType"
+                  },
+                  "CategoryId": {
+                    "type": "string",
+                    "format": "uuid"
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "LanguageType": {
+                  "style": "form"
+                },
+                "CategoryId": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TCategory/delete": {
+      "delete": {
+        "tags": [
+          "TCategory"
         ],
         "parameters": [
           {
@@ -863,6 +989,10 @@
                   },
                   "LanguageType": {
                     "$ref": "#/components/schemas/LanguageType"
+                  },
+                  "HeadBannerId": {
+                    "type": "string",
+                    "format": "uuid"
                   }
                 }
               },
@@ -871,6 +1001,9 @@
                   "style": "form"
                 },
                 "LanguageType": {
+                  "style": "form"
+                },
+                "HeadBannerId": {
                   "style": "form"
                 }
               }
@@ -904,6 +1037,10 @@
                   },
                   "LanguageType": {
                     "$ref": "#/components/schemas/LanguageType"
+                  },
+                  "HeadBannerId": {
+                    "type": "string",
+                    "format": "uuid"
                   }
                 }
               },
@@ -915,6 +1052,9 @@
                   "style": "form"
                 },
                 "LanguageType": {
+                  "style": "form"
+                },
+                "HeadBannerId": {
                   "style": "form"
                 }
               }
@@ -1177,8 +1317,7 @@
       "LanguageType": {
         "enum": [
           1,
-          2,
-          3
+          2
         ],
         "type": "integer",
         "format": "int32"

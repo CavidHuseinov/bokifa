@@ -1,9 +1,4 @@
 ﻿using Bokifa.Domain.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Bokifa.Domain.DTOs.THeadBanner
 {
@@ -12,5 +7,6 @@ namespace Bokifa.Domain.DTOs.THeadBanner
         public Guid Id { get; set; }
         public string Content { get; set; }
         public LanguageType LanguageType { get; set; }
+        public Guid HeadBannerId { get; set; }
     }
 }

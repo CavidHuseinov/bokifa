@@ -12,6 +12,5 @@ namespace Bokifa.Domain.DTOs.HeadBanner
     {
         public string Content { get; set; }
         public string LanguageType { get; set; }
-        public ICollection<THeadBannerDto>? THeadBanners { get; set; }
     }
 }

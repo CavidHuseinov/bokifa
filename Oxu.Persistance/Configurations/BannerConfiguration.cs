@@ -26,6 +26,7 @@ namespace Bokifa.Persistance.Configurations
                 .HasForeignKey(x => x.BannerId)
                 .OnDelete(DeleteBehavior.Cascade);
 
+
         }
     }
 }

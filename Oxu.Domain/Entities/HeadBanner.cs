@@ -11,7 +11,7 @@ namespace Bokifa.Domain.Entities
     public class HeadBanner:BaseEntity
     {
         public string Content { get; set; }
-        public LanguageType LanguageType { get; set; } = LanguageType.Azerbaijan;
+        public PrimaryLanguageType LanguageType { get; set; } = PrimaryLanguageType.Azerbaijan;
         public ICollection<THeadBanner>? THeadBanners { get; set; }
     }
 }

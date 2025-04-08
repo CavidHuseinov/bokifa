@@ -36,11 +36,6 @@
         "Name": "Discount",
         "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
-      },
-      {
-        "Name": "TBannerIds",
-        "Type": "System.Collections.Generic.ICollection\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -127,12 +122,7 @@
       },
       {
         "Name": "Discount",
-        "Type": "System.Decimal",
-        "IsRequired": false
-      },
-      {
-        "Name": "TBannerIds",
-        "Type": "System.Collections.Generic.ICollection\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       }
     ],
@@ -318,11 +308,6 @@
         "Name": "Content",
         "Type": "System.String",
         "IsRequired": false
-      },
-      {
-        "Name": "THeadBannerIds",
-        "Type": "System.Collections.Generic.ICollection\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -386,11 +371,6 @@
         "Name": "Content",
         "Type": "System.String",
         "IsRequired": false
-      },
-      {
-        "Name": "THeadBannerIds",
-        "Type": "System.Collections.Generic.ICollection\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -426,6 +406,11 @@
       {
         "Name": "LanguageType",
         "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BannerId",
+        "Type": "System.Guid",
         "IsRequired": false
       }
     ],
@@ -510,6 +495,110 @@
         "Name": "LanguageType",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "BannerId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.TCategoryController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/TCategory/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.TCategoryController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/TCategory/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.TCategoryController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/TCategory/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LanguageType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.TCategoryController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/TCategory/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.TCategoryController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/TCategory/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LanguageType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Guid",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -530,6 +619,11 @@
       {
         "Name": "LanguageType",
         "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "HeadBannerId",
+        "Type": "System.Guid",
         "IsRequired": false
       }
     ],
@@ -598,6 +692,11 @@
       {
         "Name": "LanguageType",
         "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "HeadBannerId",
+        "Type": "System.Guid",
         "IsRequired": false
       }
     ],

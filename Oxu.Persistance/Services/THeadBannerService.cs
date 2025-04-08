@@ -4,6 +4,7 @@ using Bokifa.Domain.DTOs.THeadBanner;
 using Bokifa.Domain.Entities;
 using Bokifa.Domain.Enums;
 using Bokifa.Domain.IRepositories;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 using Oxu.Domain.IRepositories.Generics;
 using Oxu.Persistance.UnitOfWorks;
@@ -34,7 +35,7 @@ namespace Bokifa.Persistance.Services
                 return _mapper.Map<ICollection<THeadBannerDto>>(cachedDict.Values);
             }
 
-            var banners = await _query.GetAllAsync();
+            var banners = await _query.GetAllAsync(include:q=>q.Include(x=>x.HeadBanner));
             var bannerDict = banners.ToDictionary(b => b.Id);
             _cache.Set(cacheKey, bannerDict);
             return _mapper.Map<ICollection<THeadBannerDto>>(banners);

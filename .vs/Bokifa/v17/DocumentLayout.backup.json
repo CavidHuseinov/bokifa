@@ -3,12 +3,256 @@
   "WorkspaceRootPath": "C:\\Users\\Cavid\\Desktop\\bokifa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\repositories\\generics\\queryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\repositories\\generics\\queryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Migrations\\20250408142505_kasdk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Oxu.Persistance\\Migrations\\20250408142505_kasdk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\entities\\tcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\entities\\tcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\entities\\theadbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\entities\\theadbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\entities\\tbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\entities\\tbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\tcategory\\tcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\tcategory\\tcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\category\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\category\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\tcategory\\createtcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\tcategory\\createtcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB724636-DCC9-4CB3-980F-1FA23EDA6AA0}|Oxu.Presentation\\Bokifa.Presentation.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.presentation\\controllers\\tcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB724636-DCC9-4CB3-980F-1FA23EDA6AA0}|Oxu.Presentation\\Bokifa.Presentation.csproj|solutionrelative:oxu.presentation\\controllers\\tcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB724636-DCC9-4CB3-980F-1FA23EDA6AA0}|Oxu.Presentation\\Bokifa.Presentation.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.presentation\\controllers\\theadbannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB724636-DCC9-4CB3-980F-1FA23EDA6AA0}|Oxu.Presentation\\Bokifa.Presentation.csproj|solutionrelative:oxu.presentation\\controllers\\theadbannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB724636-DCC9-4CB3-980F-1FA23EDA6AA0}|Oxu.Presentation\\Bokifa.Presentation.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.presentation\\bokifa.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BB724636-DCC9-4CB3-980F-1FA23EDA6AA0}|Oxu.Presentation\\Bokifa.Presentation.csproj|solutionrelative:oxu.presentation\\bokifa.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA8F729-557E-4BA3-A4B9-907CDBB076C4}|Oxu.WebAPI\\Bokifa.WebAPI.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.webapi\\bokifa.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6AA8F729-557E-4BA3-A4B9-907CDBB076C4}|Oxu.WebAPI\\Bokifa.WebAPI.csproj|solutionrelative:oxu.webapi\\bokifa.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Migrations\\20250408142304_aksdjas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Oxu.Persistance\\Migrations\\20250408142304_aksdjas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\theadbanner\\theadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\theadbanner\\theadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\headbanner\\headbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\headbanner\\headbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\theadbanner\\createtheadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\theadbanner\\createtheadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\headbanner\\updateheadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\headbanner\\updateheadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\headbanner\\createheadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\headbanner\\createheadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Migrations\\20250408142006_aksdja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Oxu.Persistance\\Migrations\\20250408142006_aksdja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\banner\\updatebannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\banner\\updatebannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\banner\\createbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\banner\\createbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\tbanner\\createtbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\tbanner\\createtbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\entities\\banner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\entities\\banner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\services\\tbannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\services\\tbannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\services\\tcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\services\\tcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\services\\bannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\services\\bannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\bokifa.persistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\bokifa.persistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\tbanner\\tbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\tbanner\\tbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\banner\\bannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\banner\\bannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\repositories\\generics\\commandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\repositories\\generics\\commandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\repositories\\generics\\queryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\repositories\\generics\\queryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\irepositories\\generics\\icommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\irepositories\\generics\\icommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\irepositories\\generics\\iqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\irepositories\\generics\\iqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.application\\validators\\banner\\updatebannervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|solutionrelative:oxu.application\\validators\\banner\\updatebannervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.application\\validators\\banner\\createbannervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|solutionrelative:oxu.application\\validators\\banner\\createbannervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\configurations\\bannerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\configurations\\bannerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\services\\theadbannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\services\\theadbannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\tcategory\\updatetcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\tcategory\\updatetcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\irepositories\\itcategoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\irepositories\\itcategoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\services\\headbannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\services\\headbannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\category\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\category\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\category\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\category\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\theadbanner\\updatetheadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\theadbanner\\updatetheadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\tbanner\\updatetbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\tbanner\\updatetbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB724636-DCC9-4CB3-980F-1FA23EDA6AA0}|Oxu.Presentation\\Bokifa.Presentation.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.presentation\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB724636-DCC9-4CB3-980F-1FA23EDA6AA0}|Oxu.Presentation\\Bokifa.Presentation.csproj|solutionrelative:oxu.presentation\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA8F729-557E-4BA3-A4B9-907CDBB076C4}|Oxu.WebAPI\\Bokifa.WebAPI.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.webapi\\configurations\\persistancediserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA8F729-557E-4BA3-A4B9-907CDBB076C4}|Oxu.WebAPI\\Bokifa.WebAPI.csproj|solutionrelative:oxu.webapi\\configurations\\persistancediserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.application\\iservices\\itcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|solutionrelative:oxu.application\\iservices\\itcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.application\\validators\\tcategory\\updatetcategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|solutionrelative:oxu.application\\validators\\tcategory\\updatetcategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.application\\validators\\tcategory\\createtcategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|solutionrelative:oxu.application\\validators\\tcategory\\createtcategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.application\\validators\\category\\updatecategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|solutionrelative:oxu.application\\validators\\category\\updatecategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.application\\validators\\category\\createcategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|solutionrelative:oxu.application\\validators\\category\\createcategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\entities\\headbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\entities\\headbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\enums\\primarylanguagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\enums\\primarylanguagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\bokifa.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\bokifa.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\enums\\languagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\enums\\languagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\repositories\\tcategoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\repositories\\tcategoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Migrations\\20250408132927_kalsdkad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Oxu.Persistance\\Migrations\\20250408132927_kalsdkad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\configurations\\tcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\configurations\\tcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\configurations\\headbannerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\configurations\\headbannerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\configurations\\tbannerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\configurations\\tbannerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AA8F729-557E-4BA3-A4B9-907CDBB076C4}|Oxu.WebAPI\\Bokifa.WebAPI.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +263,8 @@
       "RelativeMoniker": "D:0:0:{6AA8F729-557E-4BA3-A4B9-907CDBB076C4}|Oxu.WebAPI\\Bokifa.WebAPI.csproj|solutionrelative:oxu.webapi\\configurations\\iserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB724636-DCC9-4CB3-980F-1FA23EDA6AA0}|Oxu.Presentation\\Bokifa.Presentation.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.presentation\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB724636-DCC9-4CB3-980F-1FA23EDA6AA0}|Oxu.Presentation\\Bokifa.Presentation.csproj|solutionrelative:oxu.presentation\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AA8F729-557E-4BA3-A4B9-907CDBB076C4}|Oxu.WebAPI\\Bokifa.WebAPI.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.webapi\\configurations\\persistancediserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AA8F729-557E-4BA3-A4B9-907CDBB076C4}|Oxu.WebAPI\\Bokifa.WebAPI.csproj|solutionrelative:oxu.webapi\\configurations\\persistancediserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6AA8F729-557E-4BA3-A4B9-907CDBB076C4}|Oxu.WebAPI\\Bokifa.WebAPI.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.webapi\\configurations\\presentationserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,36 +279,8 @@
       "RelativeMoniker": "D:0:0:{BB724636-DCC9-4CB3-980F-1FA23EDA6AA0}|Oxu.Presentation\\Bokifa.Presentation.csproj|solutionrelative:oxu.presentation\\controllers\\bannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\services\\bannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\services\\bannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.application\\iservices\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|solutionrelative:oxu.application\\iservices\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.application\\validators\\category\\updatecategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|solutionrelative:oxu.application\\validators\\category\\updatecategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.application\\validators\\category\\createcategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|solutionrelative:oxu.application\\validators\\category\\createcategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\category\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\category\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\category\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\category\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\category\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\category\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\repositories\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,36 +291,12 @@
       "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\irepositories\\icategoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\configurations\\bannerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\configurations\\bannerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\context\\oxudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\context\\oxudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\services\\tbannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\services\\tbannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\entities\\tbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\entities\\tbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\tbanner\\createtbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\tbanner\\createtbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.application\\iservices\\itbannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -131,56 +311,12 @@
       "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|solutionrelative:oxu.application\\bokifa.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\enums\\languagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\enums\\languagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\headbanner\\createheadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\headbanner\\createheadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\headbanner\\headbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\headbanner\\headbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\theadbanner\\createtheadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\theadbanner\\createtheadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\theadbanner\\updatetheadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\theadbanner\\updatetheadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\theadbanner\\theadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\theadbanner\\theadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\services\\headbannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\services\\headbannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB724636-DCC9-4CB3-980F-1FA23EDA6AA0}|Oxu.Presentation\\Bokifa.Presentation.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.presentation\\controllers\\theadbannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB724636-DCC9-4CB3-980F-1FA23EDA6AA0}|Oxu.Presentation\\Bokifa.Presentation.csproj|solutionrelative:oxu.presentation\\controllers\\theadbannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\entities\\headbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\entities\\headbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\services\\theadbannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\services\\theadbannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6AA8F729-557E-4BA3-A4B9-907CDBB076C4}|Oxu.WebAPI\\Bokifa.WebAPI.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.webapi\\middlewares\\globalhandleexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AA8F729-557E-4BA3-A4B9-907CDBB076C4}|Oxu.WebAPI\\Bokifa.WebAPI.csproj|solutionrelative:oxu.webapi\\middlewares\\globalhandleexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\abstractions\\basedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\abstractions\\basedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\entities\\theadbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\entities\\theadbanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\abstractions\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -203,10 +339,6 @@
       "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\valueobjects\\createdatvo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\bokifa.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\bokifa.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.application\\extensions\\fileextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|solutionrelative:oxu.application\\extensions\\fileextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -227,20 +359,12 @@
       "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Oxu.Application\\Bokifa.Application.csproj|solutionrelative:oxu.application\\validators\\headbanner\\createheadbannervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\dtos\\headbanner\\updateheadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\dtos\\headbanner\\updateheadbannerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\repositories\\theadbannerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\repositories\\theadbannerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\irepositories\\itheadbannerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\irepositories\\itheadbannerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\configurations\\headbannerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\configurations\\headbannerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\configurations\\theadbannerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -285,18 +409,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\repositories\\headbannerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\repositories\\headbannerrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6AA8F729-557E-4BA3-A4B9-907CDBB076C4}|Oxu.WebAPI\\Bokifa.WebAPI.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.webapi\\bokifa.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6AA8F729-557E-4BA3-A4B9-907CDBB076C4}|Oxu.WebAPI\\Bokifa.WebAPI.csproj|solutionrelative:oxu.webapi\\bokifa.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB724636-DCC9-4CB3-980F-1FA23EDA6AA0}|Oxu.Presentation\\Bokifa.Presentation.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.presentation\\bokifa.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BB724636-DCC9-4CB3-980F-1FA23EDA6AA0}|Oxu.Presentation\\Bokifa.Presentation.csproj|solutionrelative:oxu.presentation\\bokifa.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.persistance\\bokifa.persistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Oxu.Persistance\\Bokifa.Persistance.csproj|solutionrelative:oxu.persistance\\bokifa.persistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19043856-02F9-4EE1-9CDC-37F9AFFA417B}|Oxu.Infrastructure\\Bokifa.Infrastructure.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.infrastructure\\bokifa.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -409,14 +521,6 @@
       "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\irepositories\\generics\\iqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\irepositories\\generics\\iqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\irepositories\\generics\\icommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\irepositories\\generics\\icommandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\oxu.domain\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Oxu.Domain\\Bokifa.Domain.csproj|solutionrelative:oxu.domain\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -484,7 +588,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -492,32 +596,826 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Oxu.Presentation\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Oxu.Presentation\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwAYAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "20250408142505_kasdk.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Migrations\\20250408142505_kasdk.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Migrations\\20250408142505_kasdk.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Migrations\\20250408142505_kasdk.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Migrations\\20250408142505_kasdk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T12:49:27.685Z"
+              "WhenOpened": "2025-04-08T14:25:05.694Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Oxu.WebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Program.cs",
-              "RelativeToolTip": "Oxu.WebAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "TCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\TCategory\\TCategoryDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\TCategory\\TCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\TCategory\\TCategoryDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\TCategory\\TCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T19:16:18.251Z",
+              "WhenOpened": "2025-04-08T13:32:04.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Category\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\Category\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Category\\CategoryDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\Category\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:37:03.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "Oxu.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:31:47.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "TBanner.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\TBanner.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\Entities\\TBanner.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\TBanner.cs",
+              "RelativeToolTip": "Oxu.Domain\\Entities\\TBanner.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T13:35:55.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "THeadBanner.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\THeadBanner.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\Entities\\THeadBanner.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\THeadBanner.cs",
+              "RelativeToolTip": "Oxu.Domain\\Entities\\THeadBanner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T16:55:27.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\TCategory.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\Entities\\TCategory.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\TCategory.cs",
+              "RelativeToolTip": "Oxu.Domain\\Entities\\TCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:24:23.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateTCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\TCategory\\CreateTCategoryDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\TCategory\\CreateTCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\TCategory\\CreateTCategoryDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\TCategory\\CreateTCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:32:19.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TCategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Controllers\\TCategoryController.cs",
+              "RelativeDocumentMoniker": "Oxu.Presentation\\Controllers\\TCategoryController.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Controllers\\TCategoryController.cs",
+              "RelativeToolTip": "Oxu.Presentation\\Controllers\\TCategoryController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:45:40.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "THeadBannerController.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Controllers\\THeadBannerController.cs",
+              "RelativeDocumentMoniker": "Oxu.Presentation\\Controllers\\THeadBannerController.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Controllers\\THeadBannerController.cs",
+              "RelativeToolTip": "Oxu.Presentation\\Controllers\\THeadBannerController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwC0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T17:26:59.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Bokifa.Presentation.csproj",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Bokifa.Presentation.csproj",
+              "RelativeDocumentMoniker": "Oxu.Presentation\\Bokifa.Presentation.csproj",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Bokifa.Presentation.csproj",
+              "RelativeToolTip": "Oxu.Presentation\\Bokifa.Presentation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-24T19:48:48.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Bokifa.WebAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Bokifa.WebAPI.csproj",
+              "RelativeDocumentMoniker": "Oxu.WebAPI\\Bokifa.WebAPI.csproj",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Bokifa.WebAPI.csproj",
+              "RelativeToolTip": "Oxu.WebAPI\\Bokifa.WebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-24T19:16:10.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250408142304_aksdjas.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Migrations\\20250408142304_aksdjas.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Migrations\\20250408142304_aksdjas.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Migrations\\20250408142304_aksdjas.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Migrations\\20250408142304_aksdjas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T14:23:04.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HeadBannerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\HeadBanner\\HeadBannerDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\HeadBanner\\HeadBannerDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\HeadBanner\\HeadBannerDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\HeadBanner\\HeadBannerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T15:49:24.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateTHeadBannerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\THeadBanner\\CreateTHeadBannerDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\THeadBanner\\CreateTHeadBannerDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\THeadBanner\\CreateTHeadBannerDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\THeadBanner\\CreateTHeadBannerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T17:04:08.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateHeadBannerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\HeadBanner\\UpdateHeadBannerDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\HeadBanner\\UpdateHeadBannerDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\HeadBanner\\UpdateHeadBannerDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\HeadBanner\\UpdateHeadBannerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T15:55:06.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "THeadBannerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\THeadBanner\\THeadBannerDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\THeadBanner\\THeadBannerDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\THeadBanner\\THeadBannerDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\THeadBanner\\THeadBannerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T17:04:02.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateHeadBannerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\HeadBanner\\CreateHeadBannerDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\HeadBanner\\CreateHeadBannerDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\HeadBanner\\CreateHeadBannerDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\HeadBanner\\CreateHeadBannerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T15:49:30.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:20:44.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20250408142006_aksdja.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Migrations\\20250408142006_aksdja.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Migrations\\20250408142006_aksdja.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Migrations\\20250408142006_aksdja.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Migrations\\20250408142006_aksdja.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T14:20:06.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateBannerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Banner\\CreateBannerDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\Banner\\CreateBannerDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Banner\\CreateBannerDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\Banner\\CreateBannerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:36:45.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateTBannerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\TBanner\\CreateTBannerDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\TBanner\\CreateTBannerDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\TBanner\\CreateTBannerDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\TBanner\\CreateTBannerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T13:40:59.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Banner.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\Banner.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\Entities\\Banner.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\Banner.cs",
+              "RelativeToolTip": "Oxu.Domain\\Entities\\Banner.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:35:54.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UpdateBannerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Banner\\UpdateBannerDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\Banner\\UpdateBannerDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Banner\\UpdateBannerDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\Banner\\UpdateBannerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:36:46.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TBannerService.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\TBannerService.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Services\\TBannerService.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\TBannerService.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Services\\TBannerService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T13:41:47.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\TCategoryService.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Services\\TCategoryService.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\TCategoryService.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Services\\TCategoryService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:42:04.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BannerService.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\BannerService.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Services\\BannerService.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\BannerService.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Services\\BannerService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwCQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T13:36:43.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Bokifa.Persistance.csproj",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Bokifa.Persistance.csproj",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Bokifa.Persistance.csproj",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Bokifa.Persistance.csproj",
+              "RelativeToolTip": "Oxu.Persistance\\Bokifa.Persistance.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-24T19:36:34.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TBannerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\TBanner\\TBannerDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\TBanner\\TBannerDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\TBanner\\TBannerDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\TBanner\\TBannerDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:49:15.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BannerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Banner\\BannerDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\Banner\\BannerDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Banner\\BannerDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\Banner\\BannerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:36:42.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CommandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Repositories\\Generics\\CommandRepository.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Repositories\\Generics\\CommandRepository.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Repositories\\Generics\\CommandRepository.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Repositories\\Generics\\CommandRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:38:57.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "QueryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Repositories\\Generics\\QueryRepository.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Repositories\\Generics\\QueryRepository.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Repositories\\Generics\\QueryRepository.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Repositories\\Generics\\QueryRepository.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAmwEgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:39:03.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ICommandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\IRepositories\\Generics\\ICommandRepository.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\IRepositories\\Generics\\ICommandRepository.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\IRepositories\\Generics\\ICommandRepository.cs",
+              "RelativeToolTip": "Oxu.Domain\\IRepositories\\Generics\\ICommandRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:33:31.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IQueryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\IRepositories\\Generics\\IQueryRepository.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\IRepositories\\Generics\\IQueryRepository.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\IRepositories\\Generics\\IQueryRepository.cs",
+              "RelativeToolTip": "Oxu.Domain\\IRepositories\\Generics\\IQueryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T13:34:36.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UpdateBannerValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\Banner\\UpdateBannerValidator.cs",
+              "RelativeDocumentMoniker": "Oxu.Application\\Validators\\Banner\\UpdateBannerValidator.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\Banner\\UpdateBannerValidator.cs",
+              "RelativeToolTip": "Oxu.Application\\Validators\\Banner\\UpdateBannerValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T14:02:55.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CreateBannerValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\Banner\\CreateBannerValidator.cs",
+              "RelativeDocumentMoniker": "Oxu.Application\\Validators\\Banner\\CreateBannerValidator.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\Banner\\CreateBannerValidator.cs",
+              "RelativeToolTip": "Oxu.Application\\Validators\\Banner\\CreateBannerValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T14:02:05.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "THeadBannerService.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\THeadBannerService.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Services\\THeadBannerService.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\THeadBannerService.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Services\\THeadBannerService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T17:21:13.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BannerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Configurations\\BannerConfiguration.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Configurations\\BannerConfiguration.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Configurations\\BannerConfiguration.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Configurations\\BannerConfiguration.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:34:00.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UpdateTCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\TCategory\\UpdateTCategoryDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\TCategory\\UpdateTCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\TCategory\\UpdateTCategoryDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\TCategory\\UpdateTCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:32:24.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ITCategoryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\IRepositories\\ITCategoryRepo.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\IRepositories\\ITCategoryRepo.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\IRepositories\\ITCategoryRepo.cs",
+              "RelativeToolTip": "Oxu.Domain\\IRepositories\\ITCategoryRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:30:03.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "HeadBannerService.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\HeadBannerService.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Services\\HeadBannerService.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\HeadBannerService.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Services\\HeadBannerService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowC4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T16:04:25.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Services\\CategoryService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAWwHAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:42:27.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CreateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Category\\CreateCategoryDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\Category\\CreateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Category\\CreateCategoryDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\Category\\CreateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:37:28.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UpdateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Category\\UpdateCategoryDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\Category\\UpdateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Category\\UpdateCategoryDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\Category\\UpdateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:38:04.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UpdateTHeadBannerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\THeadBanner\\UpdateTHeadBannerDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\THeadBanner\\UpdateTHeadBannerDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\THeadBanner\\UpdateTHeadBannerDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\THeadBanner\\UpdateTHeadBannerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T17:04:17.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UpdateTBannerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\TBanner\\UpdateTBannerDto.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\TBanner\\UpdateTBannerDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\TBanner\\UpdateTBannerDto.cs",
+              "RelativeToolTip": "Oxu.Domain\\DTOs\\TBanner\\UpdateTBannerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:49:10.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Oxu.Presentation\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Oxu.Presentation\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:49:27.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ITCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\IServices\\ITCategoryService.cs",
+              "RelativeDocumentMoniker": "Oxu.Application\\IServices\\ITCategoryService.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\IServices\\ITCategoryService.cs",
+              "RelativeToolTip": "Oxu.Application\\IServices\\ITCategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:41:13.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PersistanceDIServiceInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
+              "RelativeDocumentMoniker": "Oxu.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
+              "RelativeToolTip": "Oxu.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwCoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T14:03:40.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UpdateTCategoryValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\TCategory\\UpdateTCategoryValidator.cs",
+              "RelativeDocumentMoniker": "Oxu.Application\\Validators\\TCategory\\UpdateTCategoryValidator.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\TCategory\\UpdateTCategoryValidator.cs",
+              "RelativeToolTip": "Oxu.Application\\Validators\\TCategory\\UpdateTCategoryValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:40:47.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CreateTCategoryValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\TCategory\\CreateTCategoryValidator.cs",
+              "RelativeDocumentMoniker": "Oxu.Application\\Validators\\TCategory\\CreateTCategoryValidator.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\TCategory\\CreateTCategoryValidator.cs",
+              "RelativeToolTip": "Oxu.Application\\Validators\\TCategory\\CreateTCategoryValidator.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:40:09.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CreateCategoryValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\Category\\CreateCategoryValidator.cs",
+              "RelativeDocumentMoniker": "Oxu.Application\\Validators\\Category\\CreateCategoryValidator.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\Category\\CreateCategoryValidator.cs",
+              "RelativeToolTip": "Oxu.Application\\Validators\\Category\\CreateCategoryValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:40:06.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UpdateCategoryValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\Category\\UpdateCategoryValidator.cs",
+              "RelativeDocumentMoniker": "Oxu.Application\\Validators\\Category\\UpdateCategoryValidator.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\Category\\UpdateCategoryValidator.cs",
+              "RelativeToolTip": "Oxu.Application\\Validators\\Category\\UpdateCategoryValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:40:11.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "PrimaryLanguageType.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Enums\\PrimaryLanguageType.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\Enums\\PrimaryLanguageType.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Enums\\PrimaryLanguageType.cs",
+              "RelativeToolTip": "Oxu.Domain\\Enums\\PrimaryLanguageType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:35:31.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "HeadBanner.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\HeadBanner.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\Entities\\HeadBanner.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\HeadBanner.cs",
+              "RelativeToolTip": "Oxu.Domain\\Entities\\HeadBanner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T15:40:20.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Bokifa.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Bokifa.Domain.csproj",
+              "RelativeDocumentMoniker": "Oxu.Domain\\Bokifa.Domain.csproj",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Bokifa.Domain.csproj",
+              "RelativeToolTip": "Oxu.Domain\\Bokifa.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-24T19:58:41.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "LanguageType.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Enums\\LanguageType.cs",
+              "RelativeDocumentMoniker": "Oxu.Domain\\Enums\\LanguageType.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Enums\\LanguageType.cs",
+              "RelativeToolTip": "Oxu.Domain\\Enums\\LanguageType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T16:55:44.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "TCategoryRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Repositories\\TCategoryRepo.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Repositories\\TCategoryRepo.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Repositories\\TCategoryRepo.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Repositories\\TCategoryRepo.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:30:26.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20250408132927_kalsdkad.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Migrations\\20250408132927_kalsdkad.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Migrations\\20250408132927_kalsdkad.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Migrations\\20250408132927_kalsdkad.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Migrations\\20250408132927_kalsdkad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:29:27.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "TCategoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Configurations\\TCategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Configurations\\TCategoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Configurations\\TCategoryConfiguration.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Configurations\\TCategoryConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:27:40.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "HeadBannerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Configurations\\HeadBannerConfiguration.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Configurations\\HeadBannerConfiguration.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Configurations\\HeadBannerConfiguration.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Configurations\\HeadBannerConfiguration.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T15:44:01.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Configurations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Configurations\\CategoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Configurations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Configurations\\CategoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:33:03.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "TBannerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Configurations\\TBannerConfiguration.cs",
+              "RelativeDocumentMoniker": "Oxu.Persistance\\Configurations\\TBannerConfiguration.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Configurations\\TBannerConfiguration.cs",
+              "RelativeToolTip": "Oxu.Persistance\\Configurations\\TBannerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:26:35.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
               "Title": "IServiceInstaller.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Configurations\\IServiceInstaller.cs",
               "RelativeDocumentMoniker": "Oxu.WebAPI\\Configurations\\IServiceInstaller.cs",
@@ -529,45 +1427,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CommandRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Repositories\\Generics\\CommandRepository.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Repositories\\Generics\\CommandRepository.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Repositories\\Generics\\CommandRepository.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Repositories\\Generics\\CommandRepository.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwCMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 63,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Oxu.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Program.cs",
+              "RelativeToolTip": "Oxu.WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T13:38:57.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T19:16:18.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "QueryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Repositories\\Generics\\QueryRepository.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Repositories\\Generics\\QueryRepository.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Repositories\\Generics\\QueryRepository.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Repositories\\Generics\\QueryRepository.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAmwEYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T13:39:03.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Services\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\CategoryService.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Services\\CategoryService.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAArwCUAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T12:42:27.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 65,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Oxu.Persistance\\Services\\UserService.cs",
@@ -579,19 +1451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PersistanceDIServiceInstaller.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
-              "RelativeDocumentMoniker": "Oxu.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
-              "RelativeToolTip": "Oxu.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T14:03:40.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 66,
               "Title": "PresentationServiceInstaller.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Configurations\\PresentationServiceInstaller.cs",
               "RelativeDocumentMoniker": "Oxu.WebAPI\\Configurations\\PresentationServiceInstaller.cs",
@@ -603,7 +1463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 67,
               "Title": "PersistanceServiceInstaller.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Configurations\\PersistanceServiceInstaller.cs",
               "RelativeDocumentMoniker": "Oxu.WebAPI\\Configurations\\PersistanceServiceInstaller.cs",
@@ -615,7 +1475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 68,
               "Title": "BannerController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Controllers\\BannerController.cs",
               "RelativeDocumentMoniker": "Oxu.Presentation\\Controllers\\BannerController.cs",
@@ -627,19 +1487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BannerService.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\BannerService.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Services\\BannerService.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\BannerService.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Services\\BannerService.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAswHEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T13:36:43.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 69,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\IServices\\ICategoryService.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\IServices\\ICategoryService.cs",
@@ -651,67 +1499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UpdateCategoryValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\Category\\UpdateCategoryValidator.cs",
-              "RelativeDocumentMoniker": "Oxu.Application\\Validators\\Category\\UpdateCategoryValidator.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\Category\\UpdateCategoryValidator.cs",
-              "RelativeToolTip": "Oxu.Application\\Validators\\Category\\UpdateCategoryValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T12:40:11.408Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CreateCategoryValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\Category\\CreateCategoryValidator.cs",
-              "RelativeDocumentMoniker": "Oxu.Application\\Validators\\Category\\CreateCategoryValidator.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\Category\\CreateCategoryValidator.cs",
-              "RelativeToolTip": "Oxu.Application\\Validators\\Category\\CreateCategoryValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T12:40:06.221Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UpdateCategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Category\\UpdateCategoryDto.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\Category\\UpdateCategoryDto.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Category\\UpdateCategoryDto.cs",
-              "RelativeToolTip": "Oxu.Domain\\DTOs\\Category\\UpdateCategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T12:38:04.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CreateCategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Category\\CreateCategoryDto.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\Category\\CreateCategoryDto.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Category\\CreateCategoryDto.cs",
-              "RelativeToolTip": "Oxu.Domain\\DTOs\\Category\\CreateCategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T12:37:28.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Category\\CategoryDto.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\Category\\CategoryDto.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Category\\CategoryDto.cs",
-              "RelativeToolTip": "Oxu.Domain\\DTOs\\Category\\CategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T12:37:03.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 70,
               "Title": "CategoryRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Repositories\\CategoryRepo.cs",
               "RelativeDocumentMoniker": "Oxu.Persistance\\Repositories\\CategoryRepo.cs",
@@ -723,19 +1511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Mapping\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Mapping\\MappingProfile.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAwDkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T13:20:44.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 71,
               "Title": "ICategoryRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\IRepositories\\ICategoryRepo.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\IRepositories\\ICategoryRepo.cs",
@@ -747,7 +1523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 144,
               "Title": "20250408123521_lajsdlkad.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Migrations\\20250408123521_lajsdlkad.cs",
               "RelativeDocumentMoniker": "Oxu.Persistance\\Migrations\\20250408123521_lajsdlkad.cs",
@@ -759,31 +1535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "BannerConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Configurations\\BannerConfiguration.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Configurations\\BannerConfiguration.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Configurations\\BannerConfiguration.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Configurations\\BannerConfiguration.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T12:34:00.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CategoryConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Configurations\\CategoryConfiguration.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Configurations\\CategoryConfiguration.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Configurations\\CategoryConfiguration.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Configurations\\CategoryConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T12:33:03.923Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 72,
               "Title": "AppUserConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Configurations\\AppUserConfiguration.cs",
               "RelativeDocumentMoniker": "Oxu.Persistance\\Configurations\\AppUserConfiguration.cs",
@@ -795,31 +1547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "Oxu.Domain\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T12:31:47.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "TBanner.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\TBanner.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\Entities\\TBanner.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\TBanner.cs",
-              "RelativeToolTip": "Oxu.Domain\\Entities\\TBanner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T13:35:55.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 74,
               "Title": "ITBannerService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\IServices\\ITBannerService.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\IServices\\ITBannerService.cs",
@@ -831,7 +1559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 73,
               "Title": "OxuDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Context\\OxuDbContext.cs",
               "RelativeDocumentMoniker": "Oxu.Persistance\\Context\\OxuDbContext.cs",
@@ -843,7 +1571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 75,
               "Title": "IBannerService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\IServices\\IBannerService.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\IServices\\IBannerService.cs",
@@ -855,31 +1583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "CreateTBannerDto.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\TBanner\\CreateTBannerDto.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\TBanner\\CreateTBannerDto.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\TBanner\\CreateTBannerDto.cs",
-              "RelativeToolTip": "Oxu.Domain\\DTOs\\TBanner\\CreateTBannerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T13:40:59.231Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "TBannerService.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\TBannerService.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Services\\TBannerService.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\TBannerService.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Services\\TBannerService.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T13:41:47.824Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 76,
               "Title": "Bokifa.Application.csproj",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Bokifa.Application.csproj",
               "RelativeDocumentMoniker": "Oxu.Application\\Bokifa.Application.csproj",
@@ -891,127 +1595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "LanguageType.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Enums\\LanguageType.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\Enums\\LanguageType.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Enums\\LanguageType.cs",
-              "RelativeToolTip": "Oxu.Domain\\Enums\\LanguageType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T16:55:44.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "CreateHeadBannerDto.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\HeadBanner\\CreateHeadBannerDto.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\HeadBanner\\CreateHeadBannerDto.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\HeadBanner\\CreateHeadBannerDto.cs",
-              "RelativeToolTip": "Oxu.Domain\\DTOs\\HeadBanner\\CreateHeadBannerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T15:49:30.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "HeadBannerService.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\HeadBannerService.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Services\\HeadBannerService.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\HeadBannerService.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Services\\HeadBannerService.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAowDcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T16:04:25.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "THeadBannerDto.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\THeadBanner\\THeadBannerDto.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\THeadBanner\\THeadBannerDto.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\THeadBanner\\THeadBannerDto.cs",
-              "RelativeToolTip": "Oxu.Domain\\DTOs\\THeadBanner\\THeadBannerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:04:02.798Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "UpdateTHeadBannerDto.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\THeadBanner\\UpdateTHeadBannerDto.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\THeadBanner\\UpdateTHeadBannerDto.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\THeadBanner\\UpdateTHeadBannerDto.cs",
-              "RelativeToolTip": "Oxu.Domain\\DTOs\\THeadBanner\\UpdateTHeadBannerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:04:17.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "CreateTHeadBannerDto.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\THeadBanner\\CreateTHeadBannerDto.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\THeadBanner\\CreateTHeadBannerDto.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\THeadBanner\\CreateTHeadBannerDto.cs",
-              "RelativeToolTip": "Oxu.Domain\\DTOs\\THeadBanner\\CreateTHeadBannerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:04:08.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "HeadBannerDto.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\HeadBanner\\HeadBannerDto.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\HeadBanner\\HeadBannerDto.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\HeadBanner\\HeadBannerDto.cs",
-              "RelativeToolTip": "Oxu.Domain\\DTOs\\HeadBanner\\HeadBannerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T15:49:24.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "THeadBannerController.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Controllers\\THeadBannerController.cs",
-              "RelativeDocumentMoniker": "Oxu.Presentation\\Controllers\\THeadBannerController.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Controllers\\THeadBannerController.cs",
-              "RelativeToolTip": "Oxu.Presentation\\Controllers\\THeadBannerController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAcwC0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:26:59.416Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "HeadBanner.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\HeadBanner.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\Entities\\HeadBanner.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\HeadBanner.cs",
-              "RelativeToolTip": "Oxu.Domain\\Entities\\HeadBanner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T15:40:20.466Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "THeadBannerService.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\THeadBannerService.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Services\\THeadBannerService.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\THeadBannerService.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Services\\THeadBannerService.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAkwEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:21:13.926Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 77,
               "Title": "GlobalHandleException.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Middlewares\\GlobalHandleException.cs",
               "RelativeDocumentMoniker": "Oxu.WebAPI\\Middlewares\\GlobalHandleException.cs",
@@ -1023,7 +1607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 78,
               "Title": "BaseDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Abstractions\\BaseDto.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\Abstractions\\BaseDto.cs",
@@ -1035,7 +1619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 79,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Abstractions\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\Abstractions\\BaseEntity.cs",
@@ -1047,19 +1631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "THeadBanner.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\THeadBanner.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\Entities\\THeadBanner.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\THeadBanner.cs",
-              "RelativeToolTip": "Oxu.Domain\\Entities\\THeadBanner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T16:55:27.868Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 80,
               "Title": "HeadBannerController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Controllers\\HeadBannerController.cs",
               "RelativeDocumentMoniker": "Oxu.Presentation\\Controllers\\HeadBannerController.cs",
@@ -1071,7 +1643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 81,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\UnitOfWorks\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "Oxu.Persistance\\UnitOfWorks\\IUnitOfWork.cs",
@@ -1083,7 +1655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 82,
               "Title": "FileUploadService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\FileUploadService.cs",
               "RelativeDocumentMoniker": "Oxu.Persistance\\Services\\FileUploadService.cs",
@@ -1095,7 +1667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 83,
               "Title": "CreatedAtVO.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\ValueObjects\\CreatedAtVO.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\ValueObjects\\CreatedAtVO.cs",
@@ -1107,7 +1679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 84,
               "Title": "FileExtension.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Extensions\\FileExtension.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\Extensions\\FileExtension.cs",
@@ -1119,19 +1691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Bokifa.Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Bokifa.Domain.csproj",
-              "RelativeDocumentMoniker": "Oxu.Domain\\Bokifa.Domain.csproj",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Bokifa.Domain.csproj",
-              "RelativeToolTip": "Oxu.Domain\\Bokifa.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-24T19:58:41.484Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 85,
               "Title": "ITHeadBannerService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\IServices\\ITHeadBannerService.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\IServices\\ITHeadBannerService.cs",
@@ -1143,7 +1703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 86,
               "Title": "UpdateTHeadBannerValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\THeadBanner\\UpdateTHeadBannerValidator.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\Validators\\THeadBanner\\UpdateTHeadBannerValidator.cs",
@@ -1155,7 +1715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 87,
               "Title": "CreateTHeadBannerValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\THeadBanner\\CreateTHeadBannerValidator.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\Validators\\THeadBanner\\CreateTHeadBannerValidator.cs",
@@ -1167,19 +1727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "UpdateHeadBannerDto.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\HeadBanner\\UpdateHeadBannerDto.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\HeadBanner\\UpdateHeadBannerDto.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\HeadBanner\\UpdateHeadBannerDto.cs",
-              "RelativeToolTip": "Oxu.Domain\\DTOs\\HeadBanner\\UpdateHeadBannerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T15:55:06.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 88,
               "Title": "CreateHeadBannerValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\HeadBanner\\CreateHeadBannerValidator.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\Validators\\HeadBanner\\CreateHeadBannerValidator.cs",
@@ -1191,7 +1739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 89,
               "Title": "THeadBannerRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Repositories\\THeadBannerRepo.cs",
               "RelativeDocumentMoniker": "Oxu.Persistance\\Repositories\\THeadBannerRepo.cs",
@@ -1203,7 +1751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 90,
               "Title": "ITHeadBannerRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\IRepositories\\ITHeadBannerRepo.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\IRepositories\\ITHeadBannerRepo.cs",
@@ -1215,7 +1763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 91,
               "Title": "THeadBannerConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Configurations\\THeadBannerConfiguration.cs",
               "RelativeDocumentMoniker": "Oxu.Persistance\\Configurations\\THeadBannerConfiguration.cs",
@@ -1227,7 +1775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 92,
               "Title": "IHeadBannerRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\IRepositories\\IHeadBannerRepo.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\IRepositories\\IHeadBannerRepo.cs",
@@ -1239,19 +1787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "HeadBannerConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Configurations\\HeadBannerConfiguration.cs",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Configurations\\HeadBannerConfiguration.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Configurations\\HeadBannerConfiguration.cs",
-              "RelativeToolTip": "Oxu.Persistance\\Configurations\\HeadBannerConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T15:44:01.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 93,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Configurations\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Oxu.WebAPI\\Configurations\\DependencyInjection.cs",
@@ -1263,7 +1799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 95,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "Oxu.WebAPI\\appsettings.json",
@@ -1275,7 +1811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 97,
               "Title": "UpdateHeadBannerValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\HeadBanner\\UpdateHeadBannerValidator.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\Validators\\HeadBanner\\UpdateHeadBannerValidator.cs",
@@ -1287,7 +1823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 94,
               "Title": "ApplicationServiceInstaller.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Configurations\\ApplicationServiceInstaller.cs",
               "RelativeDocumentMoniker": "Oxu.WebAPI\\Configurations\\ApplicationServiceInstaller.cs",
@@ -1299,7 +1835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 105,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Oxu.Persistance\\Services\\EmailService.cs",
@@ -1311,7 +1847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 96,
               "Title": "IHeadBannerService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\IServices\\IHeadBannerService.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\IServices\\IHeadBannerService.cs",
@@ -1323,7 +1859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 100,
               "Title": "FileUploadDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\FileUpload\\FileUploadDto.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\FileUpload\\FileUploadDto.cs",
@@ -1335,7 +1871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 101,
               "Title": "HeadBannerRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Repositories\\HeadBannerRepo.cs",
               "RelativeDocumentMoniker": "Oxu.Persistance\\Repositories\\HeadBannerRepo.cs",
@@ -1347,7 +1883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 99,
               "Title": "ImageUploadDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\FileUpload\\ImageUploadDto.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\FileUpload\\ImageUploadDto.cs",
@@ -1359,7 +1895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 98,
               "Title": "VideoUploadDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\FileUpload\\VideoUploadDto.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\FileUpload\\VideoUploadDto.cs",
@@ -1371,7 +1907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 106,
               "Title": "AssemblyReference.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\AssemblyReference.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\AssemblyReference.cs",
@@ -1383,31 +1919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "Bokifa.Presentation.csproj",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Bokifa.Presentation.csproj",
-              "RelativeDocumentMoniker": "Oxu.Presentation\\Bokifa.Presentation.csproj",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Bokifa.Presentation.csproj",
-              "RelativeToolTip": "Oxu.Presentation\\Bokifa.Presentation.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-24T19:48:48.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "Bokifa.Persistance.csproj",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Bokifa.Persistance.csproj",
-              "RelativeDocumentMoniker": "Oxu.Persistance\\Bokifa.Persistance.csproj",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\Bokifa.Persistance.csproj",
-              "RelativeToolTip": "Oxu.Persistance\\Bokifa.Persistance.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-24T19:36:34.308Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 102,
               "Title": "Bokifa.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Infrastructure\\Bokifa.Infrastructure.csproj",
               "RelativeDocumentMoniker": "Oxu.Infrastructure\\Bokifa.Infrastructure.csproj",
@@ -1419,7 +1931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 107,
               "Title": "CreateFileUploadValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\FileUpload\\CreateFileUploadValidator.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\Validators\\FileUpload\\CreateFileUploadValidator.cs",
@@ -1431,19 +1943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "Bokifa.WebAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Bokifa.WebAPI.csproj",
-              "RelativeDocumentMoniker": "Oxu.WebAPI\\Bokifa.WebAPI.csproj",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Bokifa.WebAPI.csproj",
-              "RelativeToolTip": "Oxu.WebAPI\\Bokifa.WebAPI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-24T19:16:10.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 108,
               "Title": "DataSeeder.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Seeds\\DataSeeder.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\Seeds\\DataSeeder.cs",
@@ -1455,7 +1955,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 109,
               "Title": "ReadMe.txt",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Infrastructure\\ReadMe.txt",
               "RelativeDocumentMoniker": "Oxu.Infrastructure\\ReadMe.txt",
@@ -1467,7 +1967,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 110,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\IServices\\IEmailService.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\IServices\\IEmailService.cs",
@@ -1479,7 +1979,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 111,
               "Title": "IFileUploadService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\IServices\\IFileUploadService.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\IServices\\IFileUploadService.cs",
@@ -1491,7 +1991,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 112,
               "Title": "CreateImageUploadValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\FileUpload\\CreateImageUploadValidator.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\Validators\\FileUpload\\CreateImageUploadValidator.cs",
@@ -1503,7 +2003,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 113,
               "Title": "CreateVideoUploadValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\FileUpload\\CreateVideoUploadValidator.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\Validators\\FileUpload\\CreateVideoUploadValidator.cs",
@@ -1515,7 +2015,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 114,
               "Title": "ResetPassword.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\UserValidators\\ResetPassword.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\Validators\\UserValidators\\ResetPassword.cs",
@@ -1527,7 +2027,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 115,
               "Title": "RegisterValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\UserValidators\\RegisterValidator.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\Validators\\UserValidators\\RegisterValidator.cs",
@@ -1539,7 +2039,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 116,
               "Title": "LoginValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\UserValidators\\LoginValidator.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\Validators\\UserValidators\\LoginValidator.cs",
@@ -1551,7 +2051,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 117,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\IServices\\IUserService.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\IServices\\IUserService.cs",
@@ -1563,7 +2063,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 118,
               "Title": "ForgetPassword.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\Validators\\UserValidators\\ForgetPassword.cs",
               "RelativeDocumentMoniker": "Oxu.Application\\Validators\\UserValidators\\ForgetPassword.cs",
@@ -1575,7 +2075,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 119,
               "Title": "ContactFormDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\Contact\\ContactFormDto.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\Contact\\ContactFormDto.cs",
@@ -1587,7 +2087,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 120,
               "Title": "CreateVideoUploadDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\FileUpload\\CreateVideoUploadDto.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\FileUpload\\CreateVideoUploadDto.cs",
@@ -1599,7 +2099,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 121,
               "Title": "CreateImageUploadDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\FileUpload\\CreateImageUploadDto.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\FileUpload\\CreateImageUploadDto.cs",
@@ -1611,7 +2111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 122,
               "Title": "CreateFileUploadDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\FileUpload\\CreateFileUploadDto.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\FileUpload\\CreateFileUploadDto.cs",
@@ -1623,7 +2123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 123,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\User\\UserDto.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\User\\UserDto.cs",
@@ -1635,7 +2135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 124,
               "Title": "TokenDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\User\\TokenDto.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\User\\TokenDto.cs",
@@ -1647,7 +2147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 125,
               "Title": "ResetPasswordDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\User\\ResetPasswordDto.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\User\\ResetPasswordDto.cs",
@@ -1659,7 +2159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 126,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\User\\RegisterDto.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\User\\RegisterDto.cs",
@@ -1671,7 +2171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 127,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\User\\LoginDto.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\User\\LoginDto.cs",
@@ -1683,7 +2183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 128,
               "Title": "ForgotPasswordDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\DTOs\\User\\ForgotPasswordDto.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\DTOs\\User\\ForgotPasswordDto.cs",
@@ -1695,7 +2195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 129,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\Entities\\Identity\\AppUser.cs",
               "RelativeDocumentMoniker": "Oxu.Domain\\Entities\\Identity\\AppUser.cs",
@@ -1707,31 +2207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
-              "Title": "IQueryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\IRepositories\\Generics\\IQueryRepository.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\IRepositories\\Generics\\IQueryRepository.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\IRepositories\\Generics\\IQueryRepository.cs",
-              "RelativeToolTip": "Oxu.Domain\\IRepositories\\Generics\\IQueryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T13:34:36.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 103,
-              "Title": "ICommandRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\IRepositories\\Generics\\ICommandRepository.cs",
-              "RelativeDocumentMoniker": "Oxu.Domain\\IRepositories\\Generics\\ICommandRepository.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\IRepositories\\Generics\\ICommandRepository.cs",
-              "RelativeToolTip": "Oxu.Domain\\IRepositories\\Generics\\ICommandRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T13:33:31.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 130,
               "Title": "ReadMe.txt",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Domain\\ReadMe.txt",
               "RelativeDocumentMoniker": "Oxu.Domain\\ReadMe.txt",
@@ -1743,7 +2219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 131,
               "Title": "AssemblyReference.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\AssemblyReference.cs",
               "RelativeDocumentMoniker": "Oxu.Persistance\\AssemblyReference.cs",
@@ -1755,7 +2231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 132,
               "Title": "ApiController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Abstraction\\ApiController.cs",
               "RelativeDocumentMoniker": "Oxu.Presentation\\Abstraction\\ApiController.cs",
@@ -1767,7 +2243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 133,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Oxu.Presentation\\Controllers\\UserController.cs",
@@ -1779,7 +2255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 134,
               "Title": "FIleUploadController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Controllers\\FIleUploadController.cs",
               "RelativeDocumentMoniker": "Oxu.Presentation\\Controllers\\FIleUploadController.cs",
@@ -1791,7 +2267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 135,
               "Title": "ContactController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\Controllers\\ContactController.cs",
               "RelativeDocumentMoniker": "Oxu.Presentation\\Controllers\\ContactController.cs",
@@ -1803,7 +2279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 103,
               "Title": "Monitor.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\AppData\\Local\\Temp\\.vsdbgsrc\\1ca169b5f8096b3fd01bc738c77225099d363dea7bb508bd774b256157500bca\\Monitor.cs",
               "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\1ca169b5f8096b3fd01bc738c77225099d363dea7bb508bd774b256157500bca\\Monitor.cs",
@@ -1816,7 +2292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 136,
               "Title": "AssemblyReference.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\AssemblyReference.cs",
               "RelativeDocumentMoniker": "Oxu.Presentation\\AssemblyReference.cs",
@@ -1828,7 +2304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 137,
               "Title": "UnitOfWorks.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\UnitOfWorks\\UnitOfWorks.cs",
               "RelativeDocumentMoniker": "Oxu.Persistance\\UnitOfWorks\\UnitOfWorks.cs",
@@ -1840,7 +2316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 138,
               "Title": "ReadMe.txt",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Persistance\\ReadMe.txt",
               "RelativeDocumentMoniker": "Oxu.Persistance\\ReadMe.txt",
@@ -1852,7 +2328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 139,
               "Title": "ReadMe.txt",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\ReadMe.txt",
               "RelativeDocumentMoniker": "Oxu.WebAPI\\ReadMe.txt",
@@ -1864,7 +2340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 140,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Oxu.WebAPI\\appsettings.Development.json",
@@ -1876,7 +2352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 141,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.WebAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Oxu.WebAPI\\Properties\\launchSettings.json",
@@ -1888,7 +2364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 142,
               "Title": "ReadMe.txt",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Application\\ReadMe.txt",
               "RelativeDocumentMoniker": "Oxu.Application\\ReadMe.txt",
@@ -1900,7 +2376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 143,
               "Title": "ReadMe.txt",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Oxu.Presentation\\ReadMe.txt",
               "RelativeDocumentMoniker": "Oxu.Presentation\\ReadMe.txt",
@@ -1912,7 +2388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 104,
               "Title": "NuGet.txt",
               "DocumentMoniker": "D:\\Projects\\Oxu\\NuGet.txt",
               "ToolTip": "D:\\Projects\\Oxu\\NuGet.txt",

@@ -17,6 +17,10 @@ namespace Bokifa.Persistance.Configurations
                     .IsRequired();
             });
             builder.Property(x=>x.Name).IsRequired();
+            builder.HasMany(x => x.TCategories)
+                .WithOne(x => x.Category)
+                .HasForeignKey(x => x.CategoryId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

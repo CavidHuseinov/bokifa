@@ -16,7 +16,7 @@ namespace Bokifa.Domain.Entities
         public Decimal? Discount { get; set; }
         public string BtnName { get; set; }
         public string ImgUrl { get; set; }
-        public LanguageType PrimaryLanguageType { get; set; }= LanguageType.Azerbaijan;
+        public PrimaryLanguageType PrimaryLanguageType { get; set; }= PrimaryLanguageType.Azerbaijan;
         public ICollection<TBanner>? TBanners { get; set; }
     }
 }

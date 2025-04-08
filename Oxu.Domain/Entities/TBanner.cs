@@ -15,7 +15,7 @@ namespace Bokifa.Domain.Entities
         public string Title { get; set; }
         public string Description { get; set; }
         public string BtnName { get; set; }
-        public Banner? Banner { get; set; }
-        public Guid? BannerId { get; set; }
+        public Banner Banner { get; set; }
+        public Guid BannerId { get; set; }
     }
 }

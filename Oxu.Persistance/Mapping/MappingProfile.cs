@@ -3,6 +3,7 @@ using Bokifa.Domain.DTOs.Banner;
 using Bokifa.Domain.DTOs.Category;
 using Bokifa.Domain.DTOs.HeadBanner;
 using Bokifa.Domain.DTOs.TBanner;
+using Bokifa.Domain.DTOs.TCategory;
 using Bokifa.Domain.DTOs.THeadBanner;
 using Bokifa.Domain.Entities;
 using Oxu.Domain.DTOs.Contact;
@@ -66,6 +67,12 @@ namespace Oxu.Persistance.Mapping
             CreateMap<CategoryDto, Category>().ReverseMap();
             CreateMap<CreateCategoryDto, Category>().ReverseMap();
             CreateMap<UpdateCategoryDto, Category>().ReverseMap();
+            #endregion
+
+            #region TCategory
+            CreateMap<TCategoryDto, TCategory>().ReverseMap();
+            CreateMap<CreateTCategoryDto, TCategory>().ReverseMap();
+            CreateMap<UpdateTCategoryDto, TCategory>().ReverseMap();
             #endregion
         }
     }

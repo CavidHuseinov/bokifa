@@ -15,5 +15,6 @@ namespace Bokifa.Domain.DTOs.TBanner
         public string Description { get; set; }
         public string BtnName { get; set; }
         public LanguageType LanguageType { get; set; }
+        public Guid BannerId { get; set; }
     }
 }

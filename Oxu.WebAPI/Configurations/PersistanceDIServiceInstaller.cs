@@ -28,6 +28,7 @@ namespace Oxu.WebAPI.Configurations
             services.AddScoped<IBannerRepo, BannerRepo>();
             services.AddScoped<ITBannerRepo, TBannerRepo>();
             services.AddScoped<ICategoryRepo, CategoryRepo>();
+            services.AddScoped<ITCategoryRepo, TCategoryRepo>();
             #endregion
 
             #region Services
@@ -39,6 +40,7 @@ namespace Oxu.WebAPI.Configurations
             services.AddScoped<IBannerService, BannerService>();
             services.AddScoped<ITBannerService, TBannerService>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<ITCategoryService, TCategoryService>();
             #endregion
 
         }

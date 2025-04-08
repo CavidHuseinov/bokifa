@@ -1,4 +1,5 @@
-﻿using Bokifa.Domain.Enums;
+﻿using Bokifa.Domain.DTOs.Banner;
+using Bokifa.Domain.Enums;
 using Oxu.Domain.Abstractions;
 
 namespace Bokifa.Domain.DTOs.TBanner
@@ -10,5 +11,7 @@ namespace Bokifa.Domain.DTOs.TBanner
         public string Description { get; set; }
         public string BtnName { get; set; }
         public LanguageType LanguageType { get; set; }
+        public BannerDto Banner { get; set; }
+
     }
 }
