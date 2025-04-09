@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\wwwroot\\Uploads\\string\\216577e9-981b-4ca7-8e3f-c3b443924a1aoutput (3).jpg",
+      "PackagePath": "staticwebassets\\Uploads\\string\\216577e9-981b-4ca7-8e3f-c3b443924a1aoutput (3).jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Bokifa.WebAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Bokifa.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Bokifa.WebAPI.props",
+      "PackagePath": "build\\Bokifa.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Bokifa.WebAPI.props",
+      "PackagePath": "buildMultiTargeting\\Bokifa.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Bokifa.WebAPI.props",
+      "PackagePath": "buildTransitive\\Bokifa.WebAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -179,7 +179,6 @@ C:\Users\Cavid\Desktop\bokifa\Bokifa.WebAPI\obj\Debug\net8.0\Bokifa.WebAPI.MvcAp
 C:\Users\Cavid\Desktop\bokifa\Bokifa.WebAPI\obj\Debug\net8.0\Bokifa.WebAPI.sourcelink.json
 C:\Users\Cavid\Desktop\bokifa\Bokifa.WebAPI\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Cavid\Desktop\bokifa\Bokifa.WebAPI\bin\Debug\net8.0\appsettings.json
-C:\Users\Cavid\Desktop\bokifa\Bokifa.WebAPI\bin\Debug\net8.0\Bokifa.WebAPI.staticwebassets.runtime.json
 C:\Users\Cavid\Desktop\bokifa\Bokifa.WebAPI\bin\Debug\net8.0\Bokifa.WebAPI.staticwebassets.endpoints.json
 C:\Users\Cavid\Desktop\bokifa\Bokifa.WebAPI\bin\Debug\net8.0\Bokifa.WebAPI.exe
 C:\Users\Cavid\Desktop\bokifa\Bokifa.WebAPI\bin\Debug\net8.0\Bokifa.WebAPI.deps.json
@@ -341,3 +340,4 @@ C:\Users\Cavid\Desktop\bokifa\Bokifa.WebAPI\obj\Debug\net8.0\refint\Bokifa.WebAP
 C:\Users\Cavid\Desktop\bokifa\Bokifa.WebAPI\obj\Debug\net8.0\Bokifa.WebAPI.pdb
 C:\Users\Cavid\Desktop\bokifa\Bokifa.WebAPI\obj\Debug\net8.0\Bokifa.WebAPI.genruntimeconfig.cache
 C:\Users\Cavid\Desktop\bokifa\Bokifa.WebAPI\obj\Debug\net8.0\ref\Bokifa.WebAPI.dll
+C:\Users\Cavid\Desktop\bokifa\Bokifa.WebAPI\bin\Debug\net8.0\Bokifa.WebAPI.staticwebassets.runtime.json

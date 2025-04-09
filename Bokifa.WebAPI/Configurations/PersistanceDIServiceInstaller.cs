@@ -31,6 +31,7 @@ namespace Bookifa.WebAPI.Configurations
             services.AddScoped<ICategoryRepo, CategoryRepo>();
             services.AddScoped<ITCategoryRepo, TCategoryRepo>();
             services.AddScoped<IBookRepo, BookRepo>();
+            services.AddScoped<ITBookRepo, TBookRepo>();
             #endregion
 
             #region Services
@@ -44,6 +45,7 @@ namespace Bookifa.WebAPI.Configurations
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<ITCategoryService, TCategoryService>();
             services.AddScoped<IBookService, BookService>();
+            services.AddScoped<ITBookService, TBookService>();
             #endregion
 
         }

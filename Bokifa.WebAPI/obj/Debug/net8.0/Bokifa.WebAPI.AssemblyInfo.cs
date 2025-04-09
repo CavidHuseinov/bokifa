@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bokifa.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6ff885dff768f8c410b90f5829afe5dce1a60f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc2aa7e92ba9bce35fefe59e183c1cb3ea28ae3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bokifa.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bokifa.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

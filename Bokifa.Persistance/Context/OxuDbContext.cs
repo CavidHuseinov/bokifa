@@ -17,6 +17,9 @@ namespace Bookifa.Persistance.Context
         public DbSet<TBanner> TBanners { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Book> Books { get; set; }
+        public DbSet<BookAndCategory> BookAndCategories { get; set; }
+        public DbSet<TBook> TBooks { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

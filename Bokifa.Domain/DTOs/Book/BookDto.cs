@@ -1,4 +1,5 @@
-﻿using Bokifa.Domain.ValueObjects;
+﻿using Bokifa.Domain.DTOs.BookAndCategory;
+using Bokifa.Domain.ValueObjects;
 using Bookifa.Domain.Abstractions;
 
 namespace Bokifa.Domain.DTOs.Book
@@ -12,5 +13,8 @@ namespace Bokifa.Domain.DTOs.Book
         public decimal Discount { get; set; }
         public FinalPriceVO? FinalPrice => new FinalPriceVO(Price, Discount);
         public string Description { get; set; }
+        public ICollection<BookAndCategoryDto>? Categories { get; set; }
+        public string PrimaryLanguageType { get; set; }
+
     }
 }

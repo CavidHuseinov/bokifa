@@ -2,6 +2,6 @@
 {
     public enum PrimaryLanguageType
     {
-        Azerbaijan = 1 
+        English = 1 
     }
 }

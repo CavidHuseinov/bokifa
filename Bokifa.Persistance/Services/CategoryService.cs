@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using Bokifa.Application.IServices;
 using Bokifa.Domain.DTOs.Category;
-using Bokifa.Domain.DTOs.Category;
 using Bokifa.Domain.Entities;
 using Bokifa.Domain.IRepositories;
 using Microsoft.EntityFrameworkCore;
@@ -35,7 +34,7 @@ namespace Bokifa.Persistance.Services
                 return _mapper.Map<ICollection<CategoryDto>>(cachedDict.Values);
             }
 
-            var categories = await _query.GetAllAsync();
+            var categories = await _query.GetAllAsync(include: q => q.Include(x => x.BookAndCategories).ThenInclude(x => x.Book));
             var categoryDict = categories.ToDictionary(b => b.Id);
             _cache.Set(cacheKey, categoryDict);
             return _mapper.Map<ICollection<CategoryDto>>(categories);

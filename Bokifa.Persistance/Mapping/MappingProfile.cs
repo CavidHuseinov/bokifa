@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
 using Bokifa.Domain.DTOs.Banner;
 using Bokifa.Domain.DTOs.Book;
+using Bokifa.Domain.DTOs.BookAndCategory;
 using Bokifa.Domain.DTOs.Category;
 using Bokifa.Domain.DTOs.HeadBanner;
 using Bokifa.Domain.DTOs.TBanner;
+using Bokifa.Domain.DTOs.TBook;
 using Bokifa.Domain.DTOs.TCategory;
 using Bokifa.Domain.DTOs.THeadBanner;
 using Bokifa.Domain.Entities;
@@ -77,10 +79,27 @@ namespace Bookifa.Persistance.Mapping
             #endregion
 
             #region Book
-            CreateMap<BookDto, Book>().ReverseMap();
+            CreateMap<BookDto, Book>().ReverseMap()
+                .ForMember(dest => dest.Categories,
+                    opt => opt.MapFrom(src => src.BookAndCategories));
             CreateMap<CreateBookDto, Book>().ReverseMap();
             CreateMap<UpdateBookDto, Book>().ReverseMap();
             #endregion
+
+            #region BookAndCategory
+            CreateMap<BookAndCategoryDto, BookAndCategory>().ReverseMap()
+                .ForMember(dest => dest.Category,
+                    opt => opt.MapFrom(src => src.Category))
+                .ReverseMap();
+            CreateMap<CreateBookAndCategoryDto, BookAndCategory>().ReverseMap();
+            #endregion
+
+            #region TBook
+            CreateMap<TBookDto, TBook>().ReverseMap();
+            CreateMap<CreateTBookDto, TBook>().ReverseMap();
+            CreateMap<UpdateTBookDto, TBook>().ReverseMap();
+            #endregion
+
         }
     }
 }

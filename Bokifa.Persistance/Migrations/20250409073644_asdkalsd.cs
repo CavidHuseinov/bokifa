@@ -5,7 +5,7 @@
 namespace Bokifa.Persistance.Migrations
 {
     /// <inheritdoc />
-    public partial class aksdjas : Migration
+    public partial class asdkalsd : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

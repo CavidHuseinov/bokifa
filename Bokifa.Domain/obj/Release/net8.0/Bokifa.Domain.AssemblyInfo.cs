@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bokifa.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bc5cef18efa270feb1a3f79ea81c13455c849cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc2aa7e92ba9bce35fefe59e183c1cb3ea28ae3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bokifa.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bokifa.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

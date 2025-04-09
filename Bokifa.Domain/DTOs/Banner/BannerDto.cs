@@ -16,6 +16,6 @@ namespace Bokifa.Domain.DTOs.Banner
         public string BtnName { get; set; }
         public string ImgUrl { get; set; }
         public decimal Discount { get; set; }
-
+        public string PrimaryLanguageType { get; set; } 
     }
 }

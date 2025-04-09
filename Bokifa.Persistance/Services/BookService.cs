@@ -6,10 +6,11 @@ using Bokifa.Domain.IRepositories;
 using Microsoft.Extensions.Caching.Memory;
 using Bookifa.Domain.IRepositories.Generics;
 using Bookifa.Persistance.UnitOfWorks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Bokifa.Persistance.Services
 {
-    public class BookService:IBookService
+    public class BookService : IBookService
     {
         private readonly IMapper _mapper;
         private readonly IUnitOfWork _work;
@@ -32,7 +33,10 @@ namespace Bokifa.Persistance.Services
                 return _mapper.Map<ICollection<BookDto>>(cachedDict.Values);
             }
 
-            var books = await _query.GetAllAsync();
+            var books = await _query.GetAllAsync(
+                include: x => x
+                .Include(x => x.BookAndCategories)
+                .ThenInclude(x => x.Category));
             var bookDict = books.ToDictionary(b => b.Id);
             _cache.Set(cacheKey, bookDict);
             return _mapper.Map<ICollection<BookDto>>(books);
@@ -50,7 +54,20 @@ namespace Bokifa.Persistance.Services
         public async Task<BookDto> CreateAsync(CreateBookDto dto)
         {
             var book = _mapper.Map<Book>(dto);
+
+            if (dto.CategoryIds != null && dto.CategoryIds.Any())
+            {
+                book.BookAndCategories = new List<BookAndCategory>();
+                foreach (var categoryId in dto.CategoryIds)
+                {
+                    book.BookAndCategories.Add(new BookAndCategory
+                    {
+                        CategoryId = categoryId
+                    });
+                }
+            }
             var newBook = await _command.CreateAsync(book);
+
             await _work.SaveChangeAsync();
 
             if (_cache.TryGetValue(cacheKey, out Dictionary<Guid, Book> cachedDict))
@@ -69,6 +86,7 @@ namespace Bokifa.Persistance.Services
                 };
                 _cache.Set(cacheKey, newCache);
             }
+
             return _mapper.Map<BookDto>(newBook);
         }
         public async Task UpdateAsync(UpdateBookDto dto)

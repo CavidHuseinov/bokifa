@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Qa9Jg2sqzDDPqdxNS1bRslrBUHRgQz/GktiYiqmpXv8=",
+  "Hash": "cpnli5C7OcHWiZLIZKC+Qh4Y5K+R0VQqpzVfuYdvsWE=",
   "Source": "Bokifa.WebAPI",
   "BasePath": "_content/Bokifa.WebAPI",
   "Mode": "Default",
@@ -15,6 +15,111 @@
       "Pattern": "**"
     }
   ],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\wwwroot\\Uploads\\string\\216577e9-981b-4ca7-8e3f-c3b443924a1aoutput (3).jpg",
+      "SourceId": "Bokifa.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\wwwroot\\",
+      "BasePath": "_content/Bokifa.WebAPI",
+      "RelativePath": "Uploads/string/216577e9-981b-4ca7-8e3f-c3b443924a1aoutput (3)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5q0vhd507m",
+      "Integrity": "bWrOKJpss2c43Lo8v8C0yjf6+61y7naMpygABuz5cZY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\string\\216577e9-981b-4ca7-8e3f-c3b443924a1aoutput (3).jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Uploads/string/216577e9-981b-4ca7-8e3f-c3b443924a1aoutput (3).5q0vhd507m.jpg",
+      "AssetFile": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\wwwroot\\Uploads\\string\\216577e9-981b-4ca7-8e3f-c3b443924a1aoutput (3).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1054170"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bWrOKJpss2c43Lo8v8C0yjf6+61y7naMpygABuz5cZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 20:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5q0vhd507m"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/string/216577e9-981b-4ca7-8e3f-c3b443924a1aoutput (3).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bWrOKJpss2c43Lo8v8C0yjf6+61y7naMpygABuz5cZY="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/string/216577e9-981b-4ca7-8e3f-c3b443924a1aoutput (3).jpg",
+      "AssetFile": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\wwwroot\\Uploads\\string\\216577e9-981b-4ca7-8e3f-c3b443924a1aoutput (3).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1054170"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bWrOKJpss2c43Lo8v8C0yjf6+61y7naMpygABuz5cZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 20:47:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bWrOKJpss2c43Lo8v8C0yjf6+61y7naMpygABuz5cZY="
+        }
+      ]
+    }
+  ]
 }
