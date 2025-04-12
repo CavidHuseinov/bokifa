@@ -270,6 +270,13 @@
                       "type": "string",
                       "format": "uuid"
                     }
+                  },
+                  "VariantIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "uuid"
+                    }
                   }
                 }
               },
@@ -296,6 +303,9 @@
                   "style": "form"
                 },
                 "TagIds": {
+                  "style": "form"
+                },
+                "VariantIds": {
                   "style": "form"
                 }
               }
@@ -357,6 +367,13 @@
                       "type": "string",
                       "format": "uuid"
                     }
+                  },
+                  "VariantIds": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "uuid"
+                    }
                   }
                 }
               },
@@ -386,6 +403,9 @@
                   "style": "form"
                 },
                 "TagIds": {
+                  "style": "form"
+                },
+                "VariantIds": {
                   "style": "form"
                 }
               }
@@ -1883,6 +1903,157 @@
         }
       }
     },
+    "/api/TVariant/get-all": {
+      "get": {
+        "tags": [
+          "TVariant"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TVariant/get-by-id": {
+      "get": {
+        "tags": [
+          "TVariant"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TVariant/create": {
+      "post": {
+        "tags": [
+          "TVariant"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "VariantId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "LanguageType": {
+                    "$ref": "#/components/schemas/LanguageType"
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "VariantId": {
+                  "style": "form"
+                },
+                "LanguageType": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TVariant/update": {
+      "put": {
+        "tags": [
+          "TVariant"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "Name": {
+                    "type": "string"
+                  },
+                  "VariantId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "LanguageType": {
+                    "$ref": "#/components/schemas/LanguageType"
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "VariantId": {
+                  "style": "form"
+                },
+                "LanguageType": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TVariant/delete": {
+      "delete": {
+        "tags": [
+          "TVariant"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/User": {
       "get": {
         "tags": [
@@ -2089,6 +2260,131 @@
       "post": {
         "tags": [
           "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Variant/get-all": {
+      "get": {
+        "tags": [
+          "Variant"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Variant/get-by-id": {
+      "get": {
+        "tags": [
+          "Variant"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Variant/create": {
+      "post": {
+        "tags": [
+          "Variant"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Variant/update": {
+      "put": {
+        "tags": [
+          "Variant"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "Name": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Variant/delete": {
+      "delete": {
+        "tags": [
+          "Variant"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
         ],
         "responses": {
           "200": {

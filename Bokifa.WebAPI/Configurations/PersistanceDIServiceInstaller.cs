@@ -35,6 +35,8 @@ namespace Bookifa.WebAPI.Configurations
             services.AddScoped<ITagRepo, TagRepo>();
             services.AddScoped<ITTagRepo, TTagRepo>();
             services.AddScoped<IReviewRepo, ReviewRepo>();
+            services.AddScoped<IVariantRepo, VariantRepo>();
+            services.AddScoped<ITVariantRepo, TVariantRepo>();
             #endregion
 
             #region Services
@@ -52,6 +54,8 @@ namespace Bookifa.WebAPI.Configurations
             services.AddScoped<ITagService, TagService>();
             services.AddScoped<ITTagService, TTagService>();
             services.AddScoped<IReviewService, ReviewService>();
+            services.AddScoped<IVariantService, VariantService>();
+            services.AddScoped<ITVariantService, TVariantService>();
             #endregion
 
         }

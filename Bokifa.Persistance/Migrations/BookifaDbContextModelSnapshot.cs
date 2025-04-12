@@ -127,6 +127,21 @@ namespace Bokifa.Persistance.Migrations
                     b.ToTable("BookAndTags");
                 });
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.BookAndVariant", b =>
+                {
+                    b.Property<Guid>("BookId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("VariantId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("BookId", "VariantId");
+
+                    b.HasIndex("VariantId");
+
+                    b.ToTable("BookAndVariants");
+                });
+
             modelBuilder.Entity("Bokifa.Domain.Entities.Category", b =>
                 {
                     b.Property<Guid>("Id")
@@ -322,6 +337,29 @@ namespace Bokifa.Persistance.Migrations
                     b.ToTable("TTags");
                 });
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.TVariant", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("LanguageType")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("VariantId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("VariantId");
+
+                    b.ToTable("TVariants");
+                });
+
             modelBuilder.Entity("Bokifa.Domain.Entities.Tag", b =>
                 {
                     b.Property<Guid>("Id")
@@ -338,6 +376,24 @@ namespace Bokifa.Persistance.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Tags");
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.Variant", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PrimaryLanugageType")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Variants");
                 });
 
             modelBuilder.Entity("Bookifa.Domain.Entities.Identity.AppUser", b =>
@@ -646,6 +702,25 @@ namespace Bokifa.Persistance.Migrations
                     b.Navigation("Tag");
                 });
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.BookAndVariant", b =>
+                {
+                    b.HasOne("Bokifa.Domain.Entities.Book", "Book")
+                        .WithMany("BookAndVariants")
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Bokifa.Domain.Entities.Variant", "Variant")
+                        .WithMany("BookAndVariants")
+                        .HasForeignKey("VariantId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Book");
+
+                    b.Navigation("Variant");
+                });
+
             modelBuilder.Entity("Bokifa.Domain.Entities.Category", b =>
                 {
                     b.OwnsOne("Bookifa.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
@@ -885,6 +960,37 @@ namespace Bokifa.Persistance.Migrations
                     b.Navigation("Tag");
                 });
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.TVariant", b =>
+                {
+                    b.HasOne("Bokifa.Domain.Entities.Variant", "Variant")
+                        .WithMany("TVariants")
+                        .HasForeignKey("VariantId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.OwnsOne("Bookifa.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<Guid>("TVariantId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("TVariantId");
+
+                            b1.ToTable("TVariants");
+
+                            b1.WithOwner()
+                                .HasForeignKey("TVariantId");
+                        });
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+
+                    b.Navigation("Variant");
+                });
+
             modelBuilder.Entity("Bokifa.Domain.Entities.Tag", b =>
                 {
                     b.OwnsOne("Bookifa.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
@@ -902,6 +1008,29 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.WithOwner()
                                 .HasForeignKey("TagId");
+                        });
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.Variant", b =>
+                {
+                    b.OwnsOne("Bookifa.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<Guid>("VariantId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("VariantId");
+
+                            b1.ToTable("Variants");
+
+                            b1.WithOwner()
+                                .HasForeignKey("VariantId");
                         });
 
                     b.Navigation("CreatedAt")
@@ -970,6 +1099,8 @@ namespace Bokifa.Persistance.Migrations
 
                     b.Navigation("BookAndTags");
 
+                    b.Navigation("BookAndVariants");
+
                     b.Navigation("Comments");
 
                     b.Navigation("TBooks");
@@ -992,6 +1123,13 @@ namespace Bokifa.Persistance.Migrations
                     b.Navigation("BookAndTags");
 
                     b.Navigation("TTags");
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.Variant", b =>
+                {
+                    b.Navigation("BookAndVariants");
+
+                    b.Navigation("TVariants");
                 });
 
             modelBuilder.Entity("Bookifa.Domain.Entities.Identity.AppUser", b =>

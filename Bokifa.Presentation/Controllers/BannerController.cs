@@ -14,7 +14,6 @@ namespace Bokifa.Presentation.Controllers
         {
             _service = services;
         }
-        [Authorize]
         [HttpGet("get-all")]
         public async Task<IActionResult> GetAllAsync()
         {

@@ -1,6 +1,8 @@
 ﻿using Bokifa.Domain.DTOs.BookAndCategory;
 using Bokifa.Domain.DTOs.BookAndTag;
+using Bokifa.Domain.DTOs.BookAndVariant;
 using Bokifa.Domain.DTOs.Review;
+using Bokifa.Domain.DTOs.TVariant;
 using Bokifa.Domain.ValueObjects;
 using Bookifa.Domain.Abstractions;
 
@@ -19,6 +21,7 @@ namespace Bokifa.Domain.DTOs.Book
         public ICollection<BookAndTagDto>? BookAndTags { get; set; }
         public string PrimaryLanguageType { get; set; }
         public ICollection<ReviewDto>? Comments { get; set; }
-
+        public ICollection<TVariantDto>? TVariants { get; set; }
+        public ICollection<BookAndVariantDto>? BookAndVariants { get; set; }
     }
 }

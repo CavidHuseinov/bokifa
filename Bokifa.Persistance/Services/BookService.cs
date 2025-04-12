@@ -3,7 +3,6 @@ using Bokifa.Application.IServices;
 using Bokifa.Domain.DTOs.Book;
 using Bokifa.Domain.Entities;
 using Bokifa.Domain.IRepositories;
-using Microsoft.Extensions.Caching.Memory;
 using Bookifa.Domain.IRepositories.Generics;
 using Bookifa.Persistance.UnitOfWorks;
 using Microsoft.EntityFrameworkCore;
@@ -16,15 +15,12 @@ namespace Bokifa.Persistance.Services
         private readonly IUnitOfWork _work;
         private readonly IBookRepo _command;
         private readonly IQueryRepository<Book> _query;
-        private readonly IMemoryCache _cache;
-        private readonly string cacheKey = "books";
-        public BookService(IUnitOfWork unitOfWork, IQueryRepository<Book> query, IBookRepo command, IMapper mapper, IMemoryCache cache)
+        public BookService(IUnitOfWork unitOfWork, IQueryRepository<Book> query, IBookRepo command, IMapper mapper)
         {
             _work = unitOfWork;
             _query = query;
             _command = command;
             _mapper = mapper;
-            _cache = cache;
         }
         public async Task<ICollection<BookDto>> GetAllAsync()
         {
@@ -33,7 +29,8 @@ namespace Bokifa.Persistance.Services
                 include: x => x
                 .Include(x => x.BookAndCategories).ThenInclude(x => x.Category)
                 .Include(x=>x.BookAndTags).ThenInclude(x=>x.Tag)
-                .Include(x=>x.Comments));
+                .Include(x=>x.Comments)
+                .Include(x=>x.BookAndVariants).ThenInclude(x=>x.Variant));
             return _mapper.Map<ICollection<BookDto>>(books);
         }
 
@@ -72,27 +69,20 @@ namespace Bokifa.Persistance.Services
                     });
                 }
             }
+            if (dto.VariantIds != null && dto.VariantIds.Any())
+            {
+                book.BookAndVariants = new List<BookAndVariant>();
+                foreach (var variantId in dto.VariantIds)
+                {
+                    book.BookAndVariants.Add(new BookAndVariant
+                    {
+                        VariantId = variantId
+                    });
+                }
+            }
             var newBook = await _command.CreateAsync(book);
 
             await _work.SaveChangeAsync();
-
-            if (_cache.TryGetValue(cacheKey, out Dictionary<Guid, Book> cachedDict))
-            {
-                var updatedCache = new Dictionary<Guid, Book>(cachedDict)
-                {
-                    [newBook.Id] = newBook
-                };
-                _cache.Set(cacheKey, updatedCache);
-            }
-            else
-            {
-                var newCache = new Dictionary<Guid, Book>
-                {
-                    [newBook.Id] = newBook
-                };
-                _cache.Set(cacheKey, newCache);
-            }
-
             return _mapper.Map<BookDto>(newBook);
         }
         public async Task UpdateAsync(UpdateBookDto dto)
@@ -106,16 +96,6 @@ namespace Bokifa.Persistance.Services
             _mapper.Map(dto, existingBook);
             await _command.UpdateAsync(existingBook);
             await _work.SaveChangeAsync();
-
-            if (_cache.TryGetValue(cacheKey, out Dictionary<Guid, Book> cachedDict) && cachedDict.ContainsKey(dto.Id))
-            {
-                var updatedCache = new Dictionary<Guid, Book>(cachedDict)
-                {
-                    [dto.Id] = existingBook
-                };
-
-                _cache.Set(cacheKey, updatedCache);
-            }
         }
         public async Task DeleteAsync(Guid id)
         {
@@ -126,12 +106,6 @@ namespace Bokifa.Persistance.Services
             }
             await _command.DeleteAsync(bookId);
             await _work.SaveChangeAsync();
-            if (_cache.TryGetValue(cacheKey, out Dictionary<Guid, Book> cachedDict) && cachedDict.ContainsKey(id))
-            {
-                var updatedCache = new Dictionary<Guid, Book>(cachedDict);
-                updatedCache.Remove(id);
-                _cache.Set(cacheKey, updatedCache);
-            }
         }
     }
 }

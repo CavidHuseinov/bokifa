@@ -9,7 +9,7 @@ namespace Bookifa.WebAPI.Configurations
 {
     public class PersistanceServiceInstaller : IServiceInstaller
     {
-        private const string sectionName = "Default";
+        private const string sectionName = "Deploy";
         public void InstallServices(IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<BookifaDbContext>(options =>
