@@ -6,8 +6,6 @@ namespace Bokifa.Domain.DTOs.BookAndCategory
 {
     public record BookAndCategoryDto
     {
-        public Guid BookId { get; set; }
-        public Guid CategoryId { get; set; }
         public CategoryDto? Category { get; set; }
     }
 }

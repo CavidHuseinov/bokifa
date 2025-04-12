@@ -17,6 +17,8 @@ namespace Bokifa.Domain.Entities
         public ICollection<BookAndCategory>? BookAndCategories { get; set; }
         public ICollection<TBook>? TBooks { get; set; }
         public PrimaryLanguageType PrimaryLanguageType { get; set; } = PrimaryLanguageType.English;
+        public ICollection<BookAndTag>? BookAndTags {  get; set; }
+        public ICollection<Review>? Comments { get; set; }
 
     }
 }

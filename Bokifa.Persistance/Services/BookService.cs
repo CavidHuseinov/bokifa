@@ -28,17 +28,12 @@ namespace Bokifa.Persistance.Services
         }
         public async Task<ICollection<BookDto>> GetAllAsync()
         {
-            if (_cache.TryGetValue(cacheKey, out Dictionary<Guid, Book>? cachedDict))
-            {
-                return _mapper.Map<ICollection<BookDto>>(cachedDict.Values);
-            }
 
             var books = await _query.GetAllAsync(
                 include: x => x
-                .Include(x => x.BookAndCategories)
-                .ThenInclude(x => x.Category));
-            var bookDict = books.ToDictionary(b => b.Id);
-            _cache.Set(cacheKey, bookDict);
+                .Include(x => x.BookAndCategories).ThenInclude(x => x.Category)
+                .Include(x=>x.BookAndTags).ThenInclude(x=>x.Tag)
+                .Include(x=>x.Comments));
             return _mapper.Map<ICollection<BookDto>>(books);
         }
 
@@ -63,6 +58,17 @@ namespace Bokifa.Persistance.Services
                     book.BookAndCategories.Add(new BookAndCategory
                     {
                         CategoryId = categoryId
+                    });
+                }
+            }
+            if(dto.TagIds != null && dto.TagIds.Any())
+            {
+                book.BookAndTags = new List<BookAndTag>();
+                foreach (var tagId in dto.TagIds)
+                {
+                    book.BookAndTags.Add(new BookAndTag
+                    {
+                        TagId = tagId
                     });
                 }
             }

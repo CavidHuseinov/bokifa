@@ -41,11 +41,17 @@ namespace Bookifa.Presentation.Controllers
             var token = await _userService.LoginAsync(dto);
             return Ok(token);
         }
-        [HttpPost("refresh-token")]
-        public async Task<IActionResult> RefreshToken([FromForm] string RefreshToken)
+        [Authorize]
+        [HttpGet("refresh-token")]
+        public async Task<IActionResult> RefreshToken()
         {
-            var token = await _userService.RefreshToken(RefreshToken);
-            return Ok(token);
+            if (Request.Cookies.TryGetValue("RefreshToken", out string refreshToken))
+            {
+                var token = await _userService.RefreshToken(refreshToken);
+                return Ok(token);
+            }
+
+            return BadRequest(new { message = "Refresh token not found" });
         }
         [HttpPost("forgot-password")]
         public async Task<IActionResult> ForgotPassword([FromForm] ForgotPasswordDto dto)
@@ -59,6 +65,13 @@ namespace Bookifa.Presentation.Controllers
         {
             await _userService.ResetPasswordAsync(dto);
             return Ok(new { message = "Your password has been successfully updated." });
+        }
+        [Authorize]
+        [HttpPost("logout")]
+        public async Task<IActionResult> Logout()
+        {
+            await _userService.LogOutAsync();
+            return Ok(new { message = "Logged out successfully" });
         }
 
     }

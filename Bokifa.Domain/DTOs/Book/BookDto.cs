@@ -1,4 +1,6 @@
 ﻿using Bokifa.Domain.DTOs.BookAndCategory;
+using Bokifa.Domain.DTOs.BookAndTag;
+using Bokifa.Domain.DTOs.Review;
 using Bokifa.Domain.ValueObjects;
 using Bookifa.Domain.Abstractions;
 
@@ -14,7 +16,9 @@ namespace Bokifa.Domain.DTOs.Book
         public FinalPriceVO? FinalPrice => new FinalPriceVO(Price, Discount);
         public string Description { get; set; }
         public ICollection<BookAndCategoryDto>? Categories { get; set; }
+        public ICollection<BookAndTagDto>? BookAndTags { get; set; }
         public string PrimaryLanguageType { get; set; }
+        public ICollection<ReviewDto>? Comments { get; set; }
 
     }
 }

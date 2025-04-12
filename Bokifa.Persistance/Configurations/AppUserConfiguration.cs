@@ -8,8 +8,6 @@ namespace Bookifa.Persistance.Configurations
     {
         public void Configure(EntityTypeBuilder<AppUser> builder)
         {
-
-
             builder.HasIndex(u => u.UserName)
                .IsUnique();
 

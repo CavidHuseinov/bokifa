@@ -30,8 +30,8 @@ using (var scope = app.Services.CreateScope())
     await ApplicationServiceInstaller.SeedDatabaseAsync(scope.ServiceProvider);
 }
 app.UseMiddleware<GlobalHandleException>();
-app.UseAuthorization();
 app.UseAuthentication();
+app.UseAuthorization();
 app.MapControllers();
 app.UseStaticFiles();
 app.Run();

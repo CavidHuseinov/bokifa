@@ -2,8 +2,9 @@
 
 namespace Bookifa.Domain.DTOs.User
 {
-    public record UserDto:BaseDto
+    public record UserDto
     {
+        public string Id { get; set; }
         public string Username { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }

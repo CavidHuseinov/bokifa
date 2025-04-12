@@ -2,12 +2,16 @@
 using Bokifa.Domain.DTOs.Banner;
 using Bokifa.Domain.DTOs.Book;
 using Bokifa.Domain.DTOs.BookAndCategory;
+using Bokifa.Domain.DTOs.BookAndTag;
 using Bokifa.Domain.DTOs.Category;
 using Bokifa.Domain.DTOs.HeadBanner;
+using Bokifa.Domain.DTOs.Review;
+using Bokifa.Domain.DTOs.Tag;
 using Bokifa.Domain.DTOs.TBanner;
 using Bokifa.Domain.DTOs.TBook;
 using Bokifa.Domain.DTOs.TCategory;
 using Bokifa.Domain.DTOs.THeadBanner;
+using Bokifa.Domain.DTOs.TTag;
 using Bokifa.Domain.Entities;
 using Bookifa.Domain.DTOs.Contact;
 using Bookifa.Domain.DTOs.FileUpload;
@@ -100,6 +104,27 @@ namespace Bookifa.Persistance.Mapping
             CreateMap<UpdateTBookDto, TBook>().ReverseMap();
             #endregion
 
+            #region Tag
+            CreateMap<TagDto, Tag>().ReverseMap();
+            CreateMap<CreateTagDto, Tag>().ReverseMap();
+            CreateMap<UpdateTagDto, Tag>().ReverseMap();
+            #endregion
+
+            #region TTag
+            CreateMap<TTagDto, TTag>().ReverseMap();
+            CreateMap<CreateTTagDto, TTag>().ReverseMap();
+            CreateMap<UpdateTTagDto, TTag>().ReverseMap();
+            #endregion
+
+            #region BookAndTag
+            CreateMap<BookAndTagDto, BookAndTag>().ReverseMap();
+            CreateMap<CreateBookAndTagDto, BookAndTag>().ReverseMap();
+            #endregion
+
+            #region Review
+            CreateMap<ReviewDto, Review>().ReverseMap();
+            CreateMap<CreateReviewDto, Review>().ReverseMap();
+            #endregion
         }
     }
 }

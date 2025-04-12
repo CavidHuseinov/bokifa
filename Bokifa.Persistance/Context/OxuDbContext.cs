@@ -19,7 +19,11 @@ namespace Bookifa.Persistance.Context
         public DbSet<Book> Books { get; set; }
         public DbSet<BookAndCategory> BookAndCategories { get; set; }
         public DbSet<TBook> TBooks { get; set; }
-
+        public DbSet<Tag> Tags { get; set; }
+        public DbSet<TTag> TTags {  get; set; }
+        public DbSet<BookAndTag> BookAndTags { get; set; }
+        public DbSet<Review> Reviews { get; set; }
+        public DbSet<AppUser> AppUsers { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

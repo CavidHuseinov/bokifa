@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Bokifa.Domain.Entities;
+using Microsoft.AspNetCore.Identity;
 
 
 namespace Bookifa.Domain.Entities.Identity
@@ -7,8 +8,8 @@ namespace Bookifa.Domain.Entities.Identity
     {
         public string Name {  get; set; }
         public string Surname { get; set; } 
-        public string RefreshToken { get; set; }
+        public string? RefreshToken { get; set; }
         public DateTime ExpirationRefreshTokenDate { get; set; } = DateTime.Now;
-
+        public ICollection<Review>? Comments { get; set; }
     }
 }

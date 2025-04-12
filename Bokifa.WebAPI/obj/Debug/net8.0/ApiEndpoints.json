@@ -170,6 +170,11 @@
         "Name": "CategoryIds",
         "Type": "System.Collections.Generic.ICollection\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
+      },
+      {
+        "Name": "TagIds",
+        "Type": "System.Collections.Generic.ICollection\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -261,6 +266,11 @@
       },
       {
         "Name": "CategoryIds",
+        "Type": "System.Collections.Generic.ICollection\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TagIds",
         "Type": "System.Collections.Generic.ICollection\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       }
@@ -508,6 +518,164 @@
       },
       {
         "Name": "Content",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.ReviewController",
+    "Method": "CreateReviewAsync",
+    "RelativePath": "api/Review",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Bokifa.Domain.DTOs.Review.CreateReviewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.ReviewController",
+    "Method": "GetReviewsByBookAsync",
+    "RelativePath": "api/Review/{bookId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.ReviewController",
+    "Method": "DeleteReviewAsync",
+    "RelativePath": "api/Review/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.ReviewController",
+    "Method": "GetAverageRating",
+    "RelativePath": "api/Review/{productId}/average",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "productId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.TagController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/Tag/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.TagController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Tag/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.TagController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Tag/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.TagController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Tag/get-by-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.TagController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Tag/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
         "Type": "System.String",
         "IsRequired": false
       }
@@ -951,6 +1119,105 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Bokifa.Presentation.Controllers.TTagController",
+    "Method": "CreateAsync",
+    "RelativePath": "api/TTag/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LanguageType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TagId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.TTagController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/TTag/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.TTagController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/TTag/get-all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.TTagController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/TTag/get-by-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.TTagController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/TTag/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LanguageType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TagId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Bookifa.Presentation.Controllers.UserController",
     "Method": "GetAllAsync",
     "RelativePath": "api/User",
@@ -1004,6 +1271,16 @@
   },
   {
     "ContainingType": "Bookifa.Presentation.Controllers.UserController",
+    "Method": "Logout",
+    "RelativePath": "api/User/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bookifa.Presentation.Controllers.UserController",
     "Method": "GetProfile",
     "RelativePath": "api/User/profile",
     "HttpMethod": "GET",
@@ -1016,16 +1293,10 @@
     "ContainingType": "Bookifa.Presentation.Controllers.UserController",
     "Method": "RefreshToken",
     "RelativePath": "api/User/refresh-token",
-    "HttpMethod": "POST",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "RefreshToken",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

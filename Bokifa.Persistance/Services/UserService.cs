@@ -140,11 +140,6 @@ namespace Bookifa.Persistance.Services
                 Expires = DateTime.Now.AddDays(7),
             });
 
-            _memoryCache.Set(accessToken, refreshToken, new MemoryCacheEntryOptions
-            {
-                AbsoluteExpiration = DateTime.Now.AddMinutes(20),
-                Priority = CacheItemPriority.Normal
-            });
 
             _memoryCache.Set(refreshToken, user, new MemoryCacheEntryOptions
             {
@@ -194,14 +189,24 @@ namespace Bookifa.Persistance.Services
 
         public async Task<TokenDto> RefreshToken(string refreshToken)
         {
+            var userId = _httpContextAccessor.HttpContext?.User?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId)) throw new InvalidOperationException("User not found");
+
             var user = await GetUserFromRefreshToken(refreshToken);
-            if ((DateTime.Now - user.ExpirationRefreshTokenDate).TotalDays > 7)
+            if (user == null || (DateTime.Now - user.ExpirationRefreshTokenDate).TotalDays > 7)
             {
                 throw new InvalidDataException("Invalid or expired refresh token");
             }
 
+            var oldAccessToken = _httpContextAccessor.HttpContext.Request.Headers["Authorization"]
+                .ToString().Replace("Bearer ", "");
+            if (!string.IsNullOrEmpty(oldAccessToken))
+            {
+                _memoryCache.Remove(oldAccessToken);
+            }
+
             var roles = await _userManager.GetRolesAsync(user);
-            var accessToken = GenerateAccessToken(user, roles);
+            var newAccessToken = GenerateAccessToken(user, roles);
 
             if (user.ExpirationRefreshTokenDate < DateTime.Now)
             {
@@ -221,6 +226,7 @@ namespace Bookifa.Persistance.Services
             }
 
             await _userManager.UpdateAsync(user);
+
             _memoryCache.Set(refreshToken, user, new MemoryCacheEntryOptions
             {
                 AbsoluteExpiration = DateTime.UtcNow.AddDays(7),
@@ -229,13 +235,33 @@ namespace Bookifa.Persistance.Services
 
             return new TokenDto
             {
-                AccessToken = accessToken,
+                AccessToken = newAccessToken,
                 RefreshToken = refreshToken
             };
         }
         private async Task<AppUser> GetUserFromRefreshToken(string refreshToken)
         {
             return await _userManager.Users.FirstOrDefaultAsync(u => u.RefreshToken == refreshToken);
+        }
+        public async Task LogOutAsync() 
+        {
+            var accessToken = _httpContextAccessor.HttpContext.Request.Headers["Authorization"]
+        .ToString().Replace("Bearer ", "");
+
+            _memoryCache.Remove(accessToken);
+
+            var userId = _httpContextAccessor.HttpContext?.User?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (!string.IsNullOrEmpty(userId))
+            {
+                var user = await _userManager.FindByIdAsync(userId);
+                if (user != null)
+                {
+                    user.RefreshToken = null;
+                    await _userManager.UpdateAsync(user);
+                }
+            }
+
+            _httpContextAccessor.HttpContext.Response.Cookies.Delete("RefreshToken");
         }
     }
 }

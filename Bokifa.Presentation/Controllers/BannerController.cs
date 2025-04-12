@@ -3,6 +3,7 @@ using Bokifa.Domain.DTOs.Banner;
 using Bokifa.Domain.DTOs.HeadBanner;
 using Microsoft.AspNetCore.Mvc;
 using Bookifa.Presentation.Abstraction;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Bokifa.Presentation.Controllers
 {
@@ -13,6 +14,7 @@ namespace Bokifa.Presentation.Controllers
         {
             _service = services;
         }
+        [Authorize]
         [HttpGet("get-all")]
         public async Task<IActionResult> GetAllAsync()
         {

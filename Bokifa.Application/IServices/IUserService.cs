@@ -11,5 +11,6 @@ namespace Bookifa.Application.IService
         Task<UserDto> GetByidAsync();
         Task<ICollection<UserDto>> GetAllAsync();
         Task<TokenDto> RefreshToken(string refreshToken);
+        Task LogOutAsync();
     }
 }
