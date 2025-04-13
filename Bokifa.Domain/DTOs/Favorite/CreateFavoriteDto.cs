@@ -2,6 +2,6 @@
 {
     public record CreateFavoriteDto
     {
-        public Guid BookId { get; set; }
+        public ICollection<Guid> BookIds { get; set; }
     }
 }

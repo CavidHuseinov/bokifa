@@ -21,8 +21,17 @@ namespace Bokifa.Presentation.Controllers
         [Authorize] 
         public async Task<IActionResult> AddToFavorites([FromBody] CreateFavoriteDto dto)
         {
+            if(!ModelState.IsValid)
+                return BadRequest(ModelState);
             await _service.AddToFavoritesAsync(dto);
             return Ok(new { message = "Book added to favorites successfully" });
+        }
+        [HttpDelete("delete-favorite/{id}")]
+        [Authorize]
+        public async Task<IActionResult> DeleteFavorite(Guid id)
+        {
+            await _service.DeleteAsync(id);
+            return Ok(new { message = "Book removed from favorites successfully" });
         }
     }
 }

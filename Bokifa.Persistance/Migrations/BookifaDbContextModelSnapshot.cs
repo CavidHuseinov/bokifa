@@ -142,6 +142,28 @@ namespace Bokifa.Persistance.Migrations
                     b.ToTable("BookAndVariants");
                 });
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.CartItem", b =>
+                {
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<Guid>("BookId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.HasKey("AppUserId", "BookId");
+
+                    b.HasIndex("BookId");
+
+                    b.ToTable("CartItems");
+                });
+
             modelBuilder.Entity("Bokifa.Domain.Entities.Category", b =>
                 {
                     b.Property<Guid>("Id")
@@ -740,6 +762,48 @@ namespace Bokifa.Persistance.Migrations
                     b.Navigation("Variant");
                 });
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.CartItem", b =>
+                {
+                    b.HasOne("Bookifa.Domain.Entities.Identity.AppUser", "AppUser")
+                        .WithMany("CartItems")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Bokifa.Domain.Entities.Book", "Book")
+                        .WithMany("CartItems")
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.OwnsOne("Bookifa.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<string>("CartItemAppUserId")
+                                .HasColumnType("nvarchar(450)");
+
+                            b1.Property<Guid>("CartItemBookId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("CartItemAppUserId", "CartItemBookId");
+
+                            b1.ToTable("CartItems");
+
+                            b1.WithOwner()
+                                .HasForeignKey("CartItemAppUserId", "CartItemBookId");
+                        });
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Book");
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Bokifa.Domain.Entities.Category", b =>
                 {
                     b.OwnsOne("Bookifa.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
@@ -1162,6 +1226,8 @@ namespace Bokifa.Persistance.Migrations
 
                     b.Navigation("BookAndVariants");
 
+                    b.Navigation("CartItems");
+
                     b.Navigation("Comments");
 
                     b.Navigation("Favorites");
@@ -1197,6 +1263,8 @@ namespace Bokifa.Persistance.Migrations
 
             modelBuilder.Entity("Bookifa.Domain.Entities.Identity.AppUser", b =>
                 {
+                    b.Navigation("CartItems");
+
                     b.Navigation("Comments");
 
                     b.Navigation("Favorites");

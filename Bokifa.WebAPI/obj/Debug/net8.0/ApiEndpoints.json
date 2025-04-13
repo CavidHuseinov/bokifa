@@ -288,6 +288,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Bokifa.Presentation.Controllers.CartItemController",
+    "Method": "AddToCart",
+    "RelativePath": "api/CartItem/AddToCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Bokifa.Domain.DTOs.CartItem.CreateCartItemDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.CartItemController",
+    "Method": "DeleteCartItem",
+    "RelativePath": "api/CartItem/DeleteCartItem/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.CartItemController",
+    "Method": "GetCartItems",
+    "RelativePath": "api/CartItem/GetCartItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Bokifa.Presentation.Controllers.CategoryController",
     "Method": "GetByIdAsync",
     "RelativePath": "api/Category/{id}",
@@ -403,6 +445,22 @@
       {
         "Name": "dto",
         "Type": "Bokifa.Domain.DTOs.Favorite.CreateFavoriteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.FavoriteController",
+    "Method": "DeleteFavorite",
+    "RelativePath": "api/Favorite/delete-favorite/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],

@@ -110,6 +110,7 @@ namespace Bookifa.Persistance.Services
                             Discount = f.Book.Discount,
                         }
                     }).ToList()
+
                 }).FirstOrDefaultAsync();
 
             if (user == null)

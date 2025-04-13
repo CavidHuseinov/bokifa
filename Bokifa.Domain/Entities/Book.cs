@@ -21,6 +21,7 @@ namespace Bokifa.Domain.Entities
         public ICollection<Review>? Comments { get; set; }
         public ICollection<BookAndVariant>? BookAndVariants { get; set; }
         public ICollection<Favorite>? Favorites { get; set; }
+        public ICollection<CartItem>? CartItems { get; set; }
 
     }
 }
