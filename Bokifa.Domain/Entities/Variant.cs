@@ -7,7 +7,7 @@ namespace Bokifa.Domain.Entities
     {
         public string Name { get; set; }
         public ICollection<TVariant> TVariants { get; set; }
-        public PrimaryLanguageType PrimaryLanugageType { get; set; } = PrimaryLanguageType.English;
+        public PrimaryLanguageType PrimaryLanguageType { get; set; } = PrimaryLanguageType.Eng;
         public ICollection<BookAndVariant>? BookAndVariants { get; set; }
     }
 }

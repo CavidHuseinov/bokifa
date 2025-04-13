@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Bokifa.Presentation.Controllers
 {
-    public class THeadBannerController:ApiController
+    public sealed class THeadBannerController:ApiController
     {
         private readonly ITHeadBannerService _service;
 

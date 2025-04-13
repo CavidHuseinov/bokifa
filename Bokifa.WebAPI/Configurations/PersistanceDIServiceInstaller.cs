@@ -37,6 +37,7 @@ namespace Bookifa.WebAPI.Configurations
             services.AddScoped<IReviewRepo, ReviewRepo>();
             services.AddScoped<IVariantRepo, VariantRepo>();
             services.AddScoped<ITVariantRepo, TVariantRepo>();
+            services.AddScoped<IFavoriteRepo, FavoriteRepo>();
             #endregion
 
             #region Services
@@ -56,6 +57,7 @@ namespace Bookifa.WebAPI.Configurations
             services.AddScoped<IReviewService, ReviewService>();
             services.AddScoped<IVariantService, VariantService>();
             services.AddScoped<ITVariantService, TVariantService>();
+            services.AddScoped<IFavoriteService, FavoriteService>();
             #endregion
 
         }

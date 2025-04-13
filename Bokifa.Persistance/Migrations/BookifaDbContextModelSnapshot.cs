@@ -160,6 +160,25 @@ namespace Bokifa.Persistance.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.Favorite", b =>
+                {
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<Guid>("BookId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("AppUserId", "BookId");
+
+                    b.HasIndex("BookId");
+
+                    b.ToTable("Favorites");
+                });
+
             modelBuilder.Entity("Bokifa.Domain.Entities.HeadBanner", b =>
                 {
                     b.Property<Guid>("Id")
@@ -388,7 +407,7 @@ namespace Bokifa.Persistance.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PrimaryLanugageType")
+                    b.Property<int>("PrimaryLanguageType")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -739,6 +758,48 @@ namespace Bokifa.Persistance.Migrations
                             b1.WithOwner()
                                 .HasForeignKey("CategoryId");
                         });
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.Favorite", b =>
+                {
+                    b.HasOne("Bookifa.Domain.Entities.Identity.AppUser", "AppUser")
+                        .WithMany("Favorites")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Bokifa.Domain.Entities.Book", "Book")
+                        .WithMany("Favorites")
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.OwnsOne("Bookifa.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<string>("FavoriteAppUserId")
+                                .HasColumnType("nvarchar(450)");
+
+                            b1.Property<Guid>("FavoriteBookId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("FavoriteAppUserId", "FavoriteBookId");
+
+                            b1.ToTable("Favorites");
+
+                            b1.WithOwner()
+                                .HasForeignKey("FavoriteAppUserId", "FavoriteBookId");
+                        });
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Book");
 
                     b.Navigation("CreatedAt")
                         .IsRequired();
@@ -1103,6 +1164,8 @@ namespace Bokifa.Persistance.Migrations
 
                     b.Navigation("Comments");
 
+                    b.Navigation("Favorites");
+
                     b.Navigation("TBooks");
                 });
 
@@ -1135,6 +1198,8 @@ namespace Bokifa.Persistance.Migrations
             modelBuilder.Entity("Bookifa.Domain.Entities.Identity.AppUser", b =>
                 {
                     b.Navigation("Comments");
+
+                    b.Navigation("Favorites");
                 });
 #pragma warning restore 612, 618
         }

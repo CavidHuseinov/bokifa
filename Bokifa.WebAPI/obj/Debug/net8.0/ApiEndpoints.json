@@ -393,6 +393,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Bokifa.Presentation.Controllers.FavoriteController",
+    "Method": "AddToFavorites",
+    "RelativePath": "api/Favorite/add-favorite",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Bokifa.Domain.DTOs.Favorite.CreateFavoriteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Bookifa.Presentation.Controllers.FIleUploadController",
     "Method": "UploadFileAsync",
     "RelativePath": "api/FIleUpload/file",

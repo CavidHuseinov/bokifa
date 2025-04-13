@@ -5,7 +5,7 @@ using Bookifa.Presentation.Abstraction;
 
 namespace Bokifa.Presentation.Controllers
 {
-    public class TBannerController:ApiController
+    public sealed class TBannerController:ApiController
     {
         private readonly ITBannerService _service;
         public TBannerController(ITBannerService service)

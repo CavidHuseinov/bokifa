@@ -1,4 +1,5 @@
-﻿using Bookifa.Domain.Abstractions;
+﻿using Bokifa.Domain.DTOs.Favorite;
+using Bookifa.Domain.Abstractions;
 
 namespace Bookifa.Domain.DTOs.User
 {
@@ -9,5 +10,6 @@ namespace Bookifa.Domain.DTOs.User
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Email { get; set; }
+        public ICollection<FavoriteDto>? Favorites { get; set; }
     }
 }

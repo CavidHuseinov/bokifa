@@ -14,6 +14,10 @@ using System.Net;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
+using Bokifa.Domain.DTOs.Favorite;
+using Bokifa.Domain.Entities;
+using Bokifa.Domain.DTOs.Book;
+using Bokifa.Domain.ValueObjects;
 
 namespace Bookifa.Persistance.Services
 {
@@ -85,12 +89,36 @@ namespace Bookifa.Persistance.Services
             if (string.IsNullOrEmpty(userId))
                 throw new InvalidOperationException("User not found");
 
-            var user = await _userManager.Users.FirstOrDefaultAsync(u => u.Id == userId);
+            var user = await _userManager.Users
+                .Where(x => x.Id == userId)
+                .Select(x => new UserDto
+                {
+                    Id = x.Id,
+                    Username = x.UserName,
+                    Name = x.Name,
+                    Surname = x.Surname,
+                    Email = x.Email,
+                    Favorites = x.Favorites.Select(f => new FavoriteDto
+                    {
+                        BookId = f.BookId,
+                        Book = new BookMiniDto
+                        {
+                            Title = f.Book.Title,
+                            Description = f.Book.Description,
+                            ImgUrl = f.Book.ImgUrl,
+                            Price = f.Book.Price,
+                            Discount = f.Book.Discount,
+                        }
+                    }).ToList()
+                }).FirstOrDefaultAsync();
+
             if (user == null)
                 throw new InvalidOperationException("User not found");
 
-            return _mapper.Map<UserDto>(user);
+            return user;
         }
+
+
 
         public async Task RegisterAsync(RegisterDto registerDto)
         {
@@ -222,7 +250,7 @@ namespace Bookifa.Persistance.Services
                     Expires = DateTime.UtcNow.AddDays(7),
                 });
 
-                refreshToken = newRefreshToken; 
+                refreshToken = newRefreshToken;
             }
 
             await _userManager.UpdateAsync(user);
@@ -243,7 +271,7 @@ namespace Bookifa.Persistance.Services
         {
             return await _userManager.Users.FirstOrDefaultAsync(u => u.RefreshToken == refreshToken);
         }
-        public async Task LogOutAsync() 
+        public async Task LogOutAsync()
         {
             var accessToken = _httpContextAccessor.HttpContext.Request.Headers["Authorization"]
         .ToString().Replace("Bearer ", "");

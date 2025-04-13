@@ -13,6 +13,5 @@ namespace Bokifa.Domain.DTOs.Book
         public ICollection<Guid> CategoryIds { get; set; } 
         public ICollection<Guid>? TagIds { get; set; }
         public ICollection<Guid>? VariantIds { get; set; }
-
     }
 }

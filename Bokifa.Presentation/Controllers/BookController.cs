@@ -5,7 +5,7 @@ using Bookifa.Presentation.Abstraction;
 
 namespace Bokifa.Presentation.Controllers
 {
-    public class BookController:ApiController
+    public sealed class BookController:ApiController
     {
         private readonly IBookService _service;
 

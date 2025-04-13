@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bokifa.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c20d32625d707d6ebe46b5087a4aaaf4c2ba7ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e9167e51e0f639d1ca0e50e6e538b2cce96f05c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bokifa.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bokifa.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

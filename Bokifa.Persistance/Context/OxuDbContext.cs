@@ -26,6 +26,7 @@ namespace Bookifa.Persistance.Context
         public DbSet<Variant> Variants { get; set; }
         public DbSet<TVariant> TVariants { get; set; }
         public DbSet<BookAndVariant> BookAndVariants { get; set; }
+        public DbSet<Favorite> Favorites { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

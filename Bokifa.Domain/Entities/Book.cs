@@ -16,10 +16,11 @@ namespace Bokifa.Domain.Entities
         public int Quantity { get; set; } = 1;
         public ICollection<BookAndCategory>? BookAndCategories { get; set; }
         public ICollection<TBook>? TBooks { get; set; }
-        public PrimaryLanguageType PrimaryLanguageType { get; set; } = PrimaryLanguageType.English;
+        public PrimaryLanguageType PrimaryLanguageType { get; set; } = PrimaryLanguageType.Eng;
         public ICollection<BookAndTag>? BookAndTags {  get; set; }
         public ICollection<Review>? Comments { get; set; }
         public ICollection<BookAndVariant>? BookAndVariants { get; set; }
+        public ICollection<Favorite>? Favorites { get; set; }
 
     }
 }

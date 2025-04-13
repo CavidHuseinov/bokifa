@@ -5,6 +5,7 @@ using Bokifa.Domain.DTOs.BookAndCategory;
 using Bokifa.Domain.DTOs.BookAndTag;
 using Bokifa.Domain.DTOs.BookAndVariant;
 using Bokifa.Domain.DTOs.Category;
+using Bokifa.Domain.DTOs.Favorite;
 using Bokifa.Domain.DTOs.HeadBanner;
 using Bokifa.Domain.DTOs.Review;
 using Bokifa.Domain.DTOs.Tag;
@@ -91,6 +92,7 @@ namespace Bookifa.Persistance.Mapping
                     opt => opt.MapFrom(src => src.BookAndCategories));
             CreateMap<CreateBookDto, Book>().ReverseMap();
             CreateMap<UpdateBookDto, Book>().ReverseMap();
+            CreateMap<BookMiniDto, Book>().ReverseMap().ReverseMap();
             #endregion
 
             #region BookAndCategory
@@ -144,6 +146,11 @@ namespace Bookifa.Persistance.Mapping
             #region BookAndVariant
             CreateMap<BookAndVariantDto, BookAndVariant>().ReverseMap();
             CreateMap<CreateBookAndVariantDto, BookAndVariant>().ReverseMap();
+            #endregion
+
+            #region Favorite
+            CreateMap<FavoriteDto, Favorite>().ReverseMap();
+            CreateMap<CreateFavoriteDto, Favorite>().ReverseMap();
             #endregion
         }
     }

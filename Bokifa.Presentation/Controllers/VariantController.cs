@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Bokifa.Presentation.Controllers
 {
-    public class VariantController: ApiController
+    public sealed class VariantController: ApiController
     {
         private readonly IVariantService _service;
         public VariantController(IVariantService variantService)

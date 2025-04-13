@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Bookifa.Domain.Entities.Identity;
-using Bokifa.Persistance;
-using Bookifa.Persistance.Context;
+﻿using Bokifa.Persistance;
 using Bokifa.WebAPI.Configurations;
+using Bookifa.Domain.Entities.Identity;
+using Bookifa.Persistance.Context;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace Bookifa.WebAPI.Configurations
 {

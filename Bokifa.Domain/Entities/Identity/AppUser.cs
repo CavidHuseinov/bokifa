@@ -11,5 +11,6 @@ namespace Bookifa.Domain.Entities.Identity
         public string? RefreshToken { get; set; }
         public DateTime ExpirationRefreshTokenDate { get; set; } = DateTime.Now;
         public ICollection<Review>? Comments { get; set; }
+        public ICollection<Favorite>? Favorites { get; set; }
     }
 }

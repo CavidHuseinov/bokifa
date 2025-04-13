@@ -5,7 +5,7 @@ using Bookifa.Presentation.Abstraction;
 
 namespace Bokifa.Presentation.Controllers
 {
-    public class CategoryController:ApiController
+    public sealed class CategoryController:ApiController
     {
         private readonly ICategoryService _service;
 

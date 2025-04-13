@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Bokifa.Presentation.Controllers
 {
-    public class TagController:ApiController
+    public sealed class TagController:ApiController
     {
         private readonly ITagService _service;
         public TagController(ITagService service)

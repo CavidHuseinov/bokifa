@@ -1,4 +1,5 @@
-﻿using Bookifa.Domain.DTOs.User;
+﻿using Bokifa.Domain.DTOs.Favorite;
+using Bookifa.Domain.DTOs.User;
 
 namespace Bookifa.Application.IService
 {

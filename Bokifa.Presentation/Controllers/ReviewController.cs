@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Bokifa.Presentation.Controllers
 {
-    public class ReviewController:ApiController
+    public sealed class ReviewController:ApiController
     {
         private readonly IReviewService _services;
         public ReviewController(IReviewService services)

@@ -2,7 +2,7 @@
 {
     public enum LanguageType
     {
-        Azerbaijan = 1,
-        Russian = 2,
+        Az = 1,
+        Ru = 2,
     }
 }

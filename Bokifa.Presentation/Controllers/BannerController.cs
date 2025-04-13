@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Bokifa.Presentation.Controllers
 {
-    public class BannerController:ApiController
+    public sealed class BannerController:ApiController
     {
         private readonly IBannerService _service;
         public BannerController(IBannerService services)

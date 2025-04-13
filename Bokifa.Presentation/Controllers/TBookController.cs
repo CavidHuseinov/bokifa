@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Bokifa.Presentation.Controllers
 {
-    public class TBookController:ApiController
+    public sealed class TBookController:ApiController
     {
         private readonly ITBookService _service;
 
