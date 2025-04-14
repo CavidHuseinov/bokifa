@@ -15,7 +15,22 @@ namespace Bookifa.Persistance.Services
             _config = config;
         }
 
-        public async Task SendEmailAsync(string toEmail, string subject, string body, List<IFormFile> attachments = null)
+        public async Task SendEmailsAsync(List<string> toEmails, string subject, string body, List<IFormFile> attachments = null)
+        {
+            var emailTasks = new List<Task>();
+
+            foreach (var toEmail in toEmails)
+            {
+                emailTasks.Add(Task.Run(async () =>
+                {
+                    await SendEmailAsync(toEmail, subject, body, attachments);
+                }));
+            }
+
+            await Task.WhenAll(emailTasks);
+        }
+
+        private async Task SendEmailAsync(string toEmail, string subject, string body, List<IFormFile> attachments = null)
         {
             using (var smtpClient = new SmtpClient(_config["Email:SmtpServer"]))
             {

@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Bookifa.Application.IServices
 {
     public interface IEmailService
     {
-        Task SendEmailAsync(string toEmail, string subject, string body, List<IFormFile> attachments = null);
+        Task SendEmailsAsync(List<string> toEmails, string subject, string body, List<IFormFile> attachments = null);
     }
 }

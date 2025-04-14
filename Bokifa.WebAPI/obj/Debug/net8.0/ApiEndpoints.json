@@ -435,6 +435,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Bokifa.Presentation.Controllers.ContactAdressController",
+    "Method": "GetContactAddress",
+    "RelativePath": "api/ContactAdress/get-contact-adress",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Bokifa.Presentation.Controllers.FavoriteController",
     "Method": "AddToFavorites",
     "RelativePath": "api/Favorite/add-favorite",
@@ -1507,6 +1517,11 @@
       },
       {
         "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
         "Type": "System.String",
         "IsRequired": false
       },

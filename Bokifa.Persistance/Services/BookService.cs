@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Bokifa.Application.IServices;
 using Bokifa.Domain.DTOs.Book;
+using Bokifa.Domain.DTOs.ContactAdress;
 using Bokifa.Domain.Entities;
 using Bokifa.Domain.IRepositories;
 using Bookifa.Domain.IRepositories.Generics;
@@ -15,12 +16,14 @@ namespace Bokifa.Persistance.Services
         private readonly IUnitOfWork _work;
         private readonly IBookRepo _command;
         private readonly IQueryRepository<Book> _query;
-        public BookService(IUnitOfWork unitOfWork, IQueryRepository<Book> query, IBookRepo command, IMapper mapper)
+        private readonly IContactAddressService _contactAddress;
+        public BookService(IUnitOfWork unitOfWork, IQueryRepository<Book> query, IBookRepo command, IMapper mapper, IContactAddressService contactAddress)
         {
             _work = unitOfWork;
             _query = query;
             _command = command;
             _mapper = mapper;
+            _contactAddress = contactAddress;
         }
         public async Task<ICollection<BookDto>> GetAllAsync()
         {
@@ -83,6 +86,11 @@ namespace Bokifa.Persistance.Services
             var newBook = await _command.CreateAsync(book);
 
             await _work.SaveChangeAsync();
+            var createNewNotification = new CreateContactAddressDto
+            {
+                SendNotification = true
+            };
+            var sendNotification = await _contactAddress.SendNotification(createNewNotification);
             return _mapper.Map<BookDto>(newBook);
         }
         public async Task UpdateAsync(UpdateBookDto dto)

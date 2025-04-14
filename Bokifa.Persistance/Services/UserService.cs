@@ -192,8 +192,8 @@ namespace Bookifa.Persistance.Services
             string resetToken = await _userManager.GeneratePasswordResetTokenAsync(user);
             string encodedToken = WebUtility.UrlEncode(resetToken);
             string resetUrl = $"{_config["Frontend:BaseUrl"]}/reset-password?email={forgotPasswordDto.Email}&token={encodedToken}";
-
-            await _emailService.SendEmailAsync(forgotPasswordDto.Email, "Reset Your Password",
+            var emailLists = new List<string> { forgotPasswordDto.Email };
+            await _emailService.SendEmailsAsync(emailLists, "Reset Your Password",
                 $"To reset your password, please <a href='{resetUrl}'>click here</a>");
         }
 

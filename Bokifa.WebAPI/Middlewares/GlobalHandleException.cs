@@ -25,7 +25,7 @@ namespace Bookifa.WebAPI.Middlewares
                 _logger.LogError(ex, "An unhandled exception occurred.");
                 await HandleExceptionAsync(context, ex);
             }
-        }
+            }
 
         private static async Task HandleExceptionAsync(HttpContext context, Exception exception)
         {

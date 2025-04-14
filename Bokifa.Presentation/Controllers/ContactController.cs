@@ -20,7 +20,11 @@ namespace Bookifa.Presentation.Controllers
             if (!ModelState.IsValid) return BadRequest("Your review was not submitted.");
 
             string body = $"User: {model.Name} ({model.Email})\n\nComment: {model.Comment}";
-            await _emailService.SendEmailAsync(model.Email, model.Name, model.Comment);
+            var emailLists = new List<string>
+            {
+                model.Email
+            };
+            await _emailService.SendEmailsAsync(emailLists, model.Name, model.Comment);
             return Ok("The review has been successfully submitted.");
         }
     }

@@ -60,6 +60,7 @@ namespace Bookifa.WebAPI.Configurations
             services.AddScoped<ITVariantService, TVariantService>();
             services.AddScoped<IFavoriteService, FavoriteService>();
             services.AddScoped<ICartItemService, CartItemService>();
+            services.AddScoped<IContactAddressService, ContactAddressService>();
             #endregion
 
         }

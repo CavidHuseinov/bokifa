@@ -676,6 +676,18 @@
         }
       }
     },
+    "/api/ContactAdress/get-contact-adress": {
+      "get": {
+        "tags": [
+          "ContactAdress"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Favorite/add-favorite": {
       "post": {
         "tags": [
@@ -2221,6 +2233,9 @@
                   "Email": {
                     "type": "string"
                   },
+                  "PhoneNumber": {
+                    "type": "string"
+                  },
                   "Password": {
                     "type": "string"
                   },
@@ -2240,6 +2255,9 @@
                   "style": "form"
                 },
                 "Email": {
+                  "style": "form"
+                },
+                "PhoneNumber": {
                   "style": "form"
                 },
                 "Password": {
