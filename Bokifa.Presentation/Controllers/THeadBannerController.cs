@@ -1,12 +1,4 @@
-﻿using Bokifa.Application.IServices;
-using Bokifa.Domain.DTOs.THeadBanner;
-using Microsoft.AspNetCore.Mvc;
-using Bookifa.Presentation.Abstraction;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Bokifa.Domain.DTOs.THeadBanner;
 
 namespace Bokifa.Presentation.Controllers
 {

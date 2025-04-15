@@ -1,6 +1,4 @@
-﻿using Bookifa.Persistance.Context;
-
-namespace Bookifa.Persistance.UnitOfWorks;
+﻿namespace Bookifa.Persistance.UnitOfWorks;
 
 public sealed class UnitOfWorks : IUnitOfWork
 {

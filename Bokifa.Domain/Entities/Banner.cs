@@ -1,14 +1,6 @@
-﻿using Bokifa.Domain.Enums;
-using Bookifa.Domain.Abstractions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Bokifa.Domain.Entities
+﻿namespace Bokifa.Domain.Entities
 {
-    public class Banner:BaseEntity
+    public class Banner : BaseEntity
     {
         public string Name { get; set; }
         public string Title { get; set; }
@@ -16,7 +8,7 @@ namespace Bokifa.Domain.Entities
         public Decimal? Discount { get; set; }
         public string BtnName { get; set; }
         public string ImgUrl { get; set; }
-        public PrimaryLanguageType PrimaryLanguageType { get; set; }= PrimaryLanguageType.Eng;
+        public PrimaryLanguageType PrimaryLanguageType { get; set; } = PrimaryLanguageType.Eng;
         public ICollection<TBanner>? TBanners { get; set; }
     }
 }

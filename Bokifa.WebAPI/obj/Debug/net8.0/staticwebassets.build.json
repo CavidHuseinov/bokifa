@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cpnli5C7OcHWiZLIZKC+Qh4Y5K+R0VQqpzVfuYdvsWE=",
+  "Hash": "5zNVcpyPZUZ2nKc6dEZLSfiXwiRUZrSr5DpVFmY6Zaw=",
   "Source": "Bokifa.WebAPI",
   "BasePath": "_content/Bokifa.WebAPI",
   "Mode": "Default",
@@ -62,7 +62,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 20:47:22 GMT"
+          "Value": "Tue, 15 Apr 2025 10:59:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -107,7 +107,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 20:47:22 GMT"
+          "Value": "Tue, 15 Apr 2025 10:59:12 GMT"
         },
         {
           "Name": "Cache-Control",

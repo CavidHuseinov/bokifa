@@ -1,10 +1,8 @@
 ﻿using Bokifa.Domain.DTOs.Banner;
-using Bokifa.Domain.Enums;
-using Bookifa.Domain.Abstractions;
 
 namespace Bokifa.Domain.DTOs.TBanner
 {
-    public record TBannerDto:BaseDto
+    public record TBannerDto : BaseDto
     {
         public string Name { get; set; }
         public string Title { get; set; }

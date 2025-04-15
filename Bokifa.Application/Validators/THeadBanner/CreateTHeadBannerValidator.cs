@@ -1,5 +1,4 @@
 ﻿using Bokifa.Domain.DTOs.THeadBanner;
-using FluentValidation;
 
 namespace Bokifa.Application.Validators.THeadBanner
 {

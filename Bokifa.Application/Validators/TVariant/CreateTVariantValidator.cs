@@ -1,5 +1,4 @@
 ﻿using Bokifa.Domain.DTOs.TVariant;
-using FluentValidation;
 
 namespace Bokifa.Application.Validators.TVariant
 {

@@ -1,12 +1,5 @@
-﻿using AutoMapper;
-using Bokifa.Application.IServices;
-using Bokifa.Domain.DTOs.Book;
+﻿using Bokifa.Domain.DTOs.Book;
 using Bokifa.Domain.DTOs.ContactAdress;
-using Bokifa.Domain.Entities;
-using Bokifa.Domain.IRepositories;
-using Bookifa.Domain.IRepositories.Generics;
-using Bookifa.Persistance.UnitOfWorks;
-using Microsoft.EntityFrameworkCore;
 
 namespace Bokifa.Persistance.Services
 {

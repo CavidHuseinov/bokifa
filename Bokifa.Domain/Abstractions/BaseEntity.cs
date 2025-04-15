@@ -1,6 +1,4 @@
-﻿using Bookifa.Domain.ValueObjects;
-
-namespace Bookifa.Domain.Abstractions
+﻿namespace Bookifa.Domain.Abstractions
 {
     public abstract class BaseEntity
     {
@@ -10,4 +8,3 @@ namespace Bookifa.Domain.Abstractions
 
     }
 }
-    

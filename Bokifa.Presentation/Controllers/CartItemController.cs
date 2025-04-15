@@ -1,8 +1,5 @@
-﻿using Bokifa.Application.IServices;
-using Bokifa.Domain.DTOs.CartItem;
-using Bookifa.Presentation.Abstraction;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Bokifa.Domain.DTOs.CartItem;
+
 
 namespace Bokifa.Presentation.Controllers
 {

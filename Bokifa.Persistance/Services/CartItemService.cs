@@ -1,18 +1,7 @@
-﻿using AutoMapper;
-using Bokifa.Application.IServices; 
-using Bokifa.Domain.DTOs.Book; 
-using Bokifa.Domain.DTOs.CartItem; 
-using Bokifa.Domain.DTOs.Favorite; 
-using Bokifa.Domain.Entities; 
-using Bokifa.Domain.IRepositories; 
-using Bookifa.Domain.DTOs.User; 
-using Bookifa.Domain.Entities.Identity; 
-using Bookifa.Domain.IRepositories.Generics; 
-using Bookifa.Persistance.UnitOfWorks; 
-using Microsoft.AspNetCore.Http; 
-using Microsoft.AspNetCore.Identity; 
-using Microsoft.EntityFrameworkCore; 
- 
+﻿using Bokifa.Domain.DTOs.Book;
+using Bokifa.Domain.DTOs.CartItem;
+
+
 namespace Bokifa.Persistance.Services 
 { 
     public class CartItemService : ICartItemService 

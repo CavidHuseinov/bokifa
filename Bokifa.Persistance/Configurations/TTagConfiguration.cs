@@ -1,8 +1,4 @@
-﻿using Bokifa.Domain.Entities;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-
-namespace Bokifa.Persistance.Configurations
+﻿namespace Bokifa.Persistance.Configurations
 {
     public class TTagConfiguration : IEntityTypeConfiguration<TTag>
     {

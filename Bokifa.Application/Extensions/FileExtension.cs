@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-
-namespace Bookifa.Application.Extensions
+﻿namespace Bookifa.Application.Extensions
 {
     public static class FileExtension
     {

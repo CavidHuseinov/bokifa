@@ -1,10 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Configuration;
-using Bookifa.Application.IServices;
-using System.Net;
-using System.Net.Mail;
-
-namespace Bookifa.Persistance.Services
+﻿namespace Bookifa.Persistance.Services
 {
     public class EmailService : IEmailService
     {

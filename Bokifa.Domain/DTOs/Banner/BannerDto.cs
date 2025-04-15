@@ -1,14 +1,6 @@
-﻿using Bokifa.Domain.DTOs.TBanner;
-using Bookifa.Domain.Abstractions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Bokifa.Domain.DTOs.Banner
+﻿namespace Bokifa.Domain.DTOs.Banner
 {
-    public record BannerDto:BaseDto
+    public record BannerDto : BaseDto
     {
         public string Name { get; set; }
         public string Title { get; set; }
@@ -16,6 +8,6 @@ namespace Bokifa.Domain.DTOs.Banner
         public string BtnName { get; set; }
         public string ImgUrl { get; set; }
         public decimal Discount { get; set; }
-        public string PrimaryLanguageType { get; set; } 
+        public string PrimaryLanguageType { get; set; }
     }
 }

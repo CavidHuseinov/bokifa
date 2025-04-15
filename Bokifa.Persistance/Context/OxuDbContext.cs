@@ -1,10 +1,4 @@
-﻿using Bokifa.Domain.Entities;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
-using Bookifa.Domain.Entities.Identity;
-using System.Reflection;
-
-namespace Bookifa.Persistance.Context
+﻿namespace Bookifa.Persistance.Context
 {
     public sealed class BookifaDbContext : IdentityDbContext<AppUser>
     {
@@ -28,6 +22,7 @@ namespace Bookifa.Persistance.Context
         public DbSet<BookAndVariant> BookAndVariants { get; set; }
         public DbSet<Favorite> Favorites { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
+        public DbSet<Author> Authors { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

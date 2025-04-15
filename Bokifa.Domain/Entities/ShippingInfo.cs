@@ -1,8 +1,6 @@
-﻿using Bookifa.Domain.Abstractions;
-
-namespace Bokifa.Domain.Entities
+﻿namespace Bokifa.Domain.Entities
 {
-    public class ShippingInfo:BaseEntity
+    public class ShippingInfo : BaseEntity
     {
         public string? Country { get; set; }
         public string Name { get; set; }

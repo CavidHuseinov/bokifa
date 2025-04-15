@@ -1,8 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Bookifa.Application.IService;
-using Bookifa.Domain.DTOs.User;
-using Bookifa.Presentation.Abstraction;
+﻿using Bookifa.Domain.DTOs.User;
 
 namespace Bookifa.Presentation.Controllers
 {

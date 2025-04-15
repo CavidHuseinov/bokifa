@@ -1,10 +1,5 @@
-﻿using Bokifa.Application.IServices;
-using Bokifa.Domain.DTOs.Favorite;
-using Bookifa.Presentation.Abstraction;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System.Security.Claims;
+﻿using Bokifa.Domain.DTOs.Favorite;
+
 
 namespace Bokifa.Presentation.Controllers
 {

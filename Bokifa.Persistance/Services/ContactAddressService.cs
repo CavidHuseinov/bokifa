@@ -1,11 +1,5 @@
-﻿using AutoMapper;
-using Bokifa.Application.IServices;
-using Bokifa.Domain.DTOs.ContactAdress;
-using Bookifa.Application.IServices;
+﻿using Bokifa.Domain.DTOs.ContactAdress;
 using Bookifa.Domain.DTOs.User;
-using Bookifa.Domain.Entities.Identity;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity;
 
 namespace Bokifa.Persistance.Services
 {

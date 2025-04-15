@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Bokifa.Domain.DTOs.Author;
 using Bokifa.Domain.DTOs.Banner;
 using Bokifa.Domain.DTOs.Book;
 using Bokifa.Domain.DTOs.BookAndCategory;
@@ -18,11 +19,9 @@ using Bokifa.Domain.DTOs.THeadBanner;
 using Bokifa.Domain.DTOs.TTag;
 using Bokifa.Domain.DTOs.TVariant;
 using Bokifa.Domain.DTOs.Variant;
-using Bokifa.Domain.Entities;
 using Bookifa.Domain.DTOs.Contact;
 using Bookifa.Domain.DTOs.FileUpload;
 using Bookifa.Domain.DTOs.User;
-using Bookifa.Domain.Entities.Identity;
 
 namespace Bookifa.Persistance.Mapping
 {
@@ -163,6 +162,12 @@ namespace Bookifa.Persistance.Mapping
             #region ContactAdress
             CreateMap<ContactAddressDto, AppUser>().ReverseMap();
             CreateMap<CreateContactAddressDto, string>().ReverseMap();
+            #endregion
+
+            #region Author
+            CreateMap<CreateAuthorDto, Author>().ReverseMap();
+            CreateMap<AuthorDto, Author>().ReverseMap();
+            CreateMap<UpdateAuthorDto, Author>().ReverseMap();
             #endregion
         }
     }

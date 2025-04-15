@@ -1,5 +1,4 @@
 ﻿using Bokifa.Domain.DTOs.TTag;
-using FluentValidation;
 
 namespace Bokifa.Application.Validators.TTag
 {

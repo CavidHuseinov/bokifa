@@ -1,7 +1,4 @@
-﻿using Bokifa.Application.IServices;
-using Bokifa.Domain.DTOs.TCategory;
-using Microsoft.AspNetCore.Mvc;
-using Bookifa.Presentation.Abstraction;
+﻿using Bokifa.Domain.DTOs.TCategory;
 
 namespace Bokifa.Presentation.Controllers
 {

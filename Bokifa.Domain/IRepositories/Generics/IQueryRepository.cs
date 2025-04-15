@@ -1,10 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore.Query;
-using Bookifa.Domain.Abstractions;
 using System.Linq.Expressions;
 
 namespace Bookifa.Domain.IRepositories.Generics
 {
-    public interface IQueryRepository<TEntity> where TEntity : BaseEntity , new()
+    public interface IQueryRepository<TEntity> where TEntity : BaseEntity, new()
     {
         Task<TEntity> GetByIdAsync(Guid id);
         Task<IEnumerable<TEntity>>? GetAllAsync(Expression<Func<TEntity, bool>>? predicate = null,

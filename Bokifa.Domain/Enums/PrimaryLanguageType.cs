@@ -2,6 +2,6 @@
 {
     public enum PrimaryLanguageType
     {
-        Eng = 1 
+        Eng = 1
     }
 }

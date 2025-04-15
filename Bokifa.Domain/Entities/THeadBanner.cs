@@ -1,9 +1,6 @@
-﻿using Bokifa.Domain.Enums;
-using Bookifa.Domain.Abstractions;
-
-namespace Bokifa.Domain.Entities
+﻿namespace Bokifa.Domain.Entities
 {
-    public class THeadBanner:BaseEntity
+    public class THeadBanner : BaseEntity
     {
         public LanguageType LanguageType { get; set; }
         public string Content { get; set; }

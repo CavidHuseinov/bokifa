@@ -1,6 +1,4 @@
-﻿using Bokifa.Domain.Enums;
-
-namespace Bokifa.Domain.DTOs.TCategory
+﻿namespace Bokifa.Domain.DTOs.TCategory
 {
     public record UpdateTCategoryDto
     {

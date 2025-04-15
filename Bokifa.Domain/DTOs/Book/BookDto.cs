@@ -3,12 +3,10 @@ using Bokifa.Domain.DTOs.BookAndTag;
 using Bokifa.Domain.DTOs.BookAndVariant;
 using Bokifa.Domain.DTOs.Review;
 using Bokifa.Domain.DTOs.TVariant;
-using Bokifa.Domain.ValueObjects;
-using Bookifa.Domain.Abstractions;
 
 namespace Bokifa.Domain.DTOs.Book
 {
-    public record BookDto:BaseDto
+    public record BookDto : BaseDto
     {
         public string ImgUrl { get; set; }
         public string Title { get; set; }

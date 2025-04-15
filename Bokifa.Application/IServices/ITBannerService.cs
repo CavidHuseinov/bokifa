@@ -1,5 +1,4 @@
-﻿using Bokifa.Domain.DTOs.Banner;
-using Bokifa.Domain.DTOs.TBanner;
+﻿using Bokifa.Domain.DTOs.TBanner;
 
 namespace Bokifa.Application.IServices
 {

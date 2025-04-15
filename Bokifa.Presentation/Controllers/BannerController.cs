@@ -1,9 +1,4 @@
-﻿using Bokifa.Application.IServices;
-using Bokifa.Domain.DTOs.Banner;
-using Bokifa.Domain.DTOs.HeadBanner;
-using Microsoft.AspNetCore.Mvc;
-using Bookifa.Presentation.Abstraction;
-using Microsoft.AspNetCore.Authorization;
+﻿
 
 namespace Bokifa.Presentation.Controllers
 {

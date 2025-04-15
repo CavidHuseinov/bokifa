@@ -1,9 +1,6 @@
-﻿using Bokifa.Domain.Enums;
-using Bookifa.Domain.Abstractions;
-
-namespace Bokifa.Domain.Entities
+﻿namespace Bokifa.Domain.Entities
 {
-    public class Variant:BaseEntity
+    public class Variant : BaseEntity
     {
         public string Name { get; set; }
         public ICollection<TVariant> TVariants { get; set; }

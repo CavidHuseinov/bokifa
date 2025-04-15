@@ -1,6 +1,4 @@
-﻿using Bokifa.Domain.Enums;
-
-namespace Bokifa.Domain.DTOs.TVariant
+﻿namespace Bokifa.Domain.DTOs.TVariant
 {
     public record CreateTVariantDto
     {

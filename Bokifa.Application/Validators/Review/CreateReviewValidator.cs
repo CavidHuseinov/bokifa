@@ -1,5 +1,4 @@
 ﻿using Bokifa.Domain.DTOs.Review;
-using FluentValidation;
 
 namespace Bokifa.Application.Validators.Review
 {

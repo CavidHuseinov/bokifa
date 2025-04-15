@@ -1,5 +1,4 @@
 ﻿using Bokifa.Domain.DTOs.TCategory;
-using FluentValidation;
 
 namespace Bokifa.Application.Validators.TCategory
 {

@@ -1,8 +1,4 @@
-﻿using Bokifa.Application.IServices;
-using Bookifa.Presentation.Abstraction;
-using Microsoft.AspNetCore.Mvc;
-
-namespace Bokifa.Presentation.Controllers
+﻿namespace Bokifa.Presentation.Controllers
 {
     public class ContactAdressController:ApiController
     {

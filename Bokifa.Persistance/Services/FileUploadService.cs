@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNetCore.Hosting;
-using Bookifa.Application.Extensions;
-using Bookifa.Application.IServices;
+﻿using Bookifa.Application.Extensions;
 using Bookifa.Domain.DTOs.FileUpload;
+using Microsoft.AspNetCore.Hosting;
 
 namespace Bookifa.Persistance.Services
 {

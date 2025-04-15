@@ -1,6 +1,4 @@
-﻿using System.Reflection;
-
-namespace Bokifa.Application
+﻿namespace Bokifa.Application
 {
     public static class AssemblyReference
     {

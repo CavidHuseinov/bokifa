@@ -4,6 +4,6 @@ namespace Bokifa.Domain.DTOs.BookAndTag
 {
     public record BookAndTagDto
     {
-        public TagDto Tag {  get; set; }
+        public TagDto Tag { get; set; }
     }
 }

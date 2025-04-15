@@ -1,6 +1,4 @@
-﻿using Bokifa.Domain.ValueObjects;
-
-namespace Bokifa.Domain.DTOs.Book
+﻿namespace Bokifa.Domain.DTOs.Book
 {
     public record CreateBookDto
     {
@@ -10,7 +8,7 @@ namespace Bokifa.Domain.DTOs.Book
         public decimal Price { get; set; }
         public decimal Discount { get; set; }
         public string Description { get; set; }
-        public ICollection<Guid> CategoryIds { get; set; } 
+        public ICollection<Guid> CategoryIds { get; set; }
         public ICollection<Guid>? TagIds { get; set; }
         public ICollection<Guid>? VariantIds { get; set; }
     }

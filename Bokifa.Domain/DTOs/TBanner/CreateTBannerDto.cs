@@ -1,6 +1,4 @@
-﻿using Bokifa.Domain.Enums;
-
-namespace Bokifa.Domain.DTOs.TBanner
+﻿namespace Bokifa.Domain.DTOs.TBanner
 {
     public record CreateTBannerDto
     {

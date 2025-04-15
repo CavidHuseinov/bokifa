@@ -1,5 +1,4 @@
-﻿using FluentValidation;
-using Bookifa.Domain.DTOs.User;
+﻿using Bookifa.Domain.DTOs.User;
 
 namespace Bookifa.Application.Validators.UserValidators
 {

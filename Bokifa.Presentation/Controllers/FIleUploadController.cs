@@ -1,7 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Bookifa.Application.IServices;
-using Bookifa.Domain.DTOs.FileUpload;
-using Bookifa.Presentation.Abstraction;
+﻿using Bookifa.Domain.DTOs.FileUpload;
 
 namespace Bookifa.Presentation.Controllers
 {

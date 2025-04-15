@@ -1,7 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Bookifa.Domain.Entities.Identity;
-
+﻿
 namespace Bookifa.Persistance.Configurations
 {
     public class AppUserConfiguration : IEntityTypeConfiguration<AppUser>

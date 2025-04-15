@@ -1,9 +1,6 @@
-﻿using Bokifa.Domain.Enums;
-using Bookifa.Domain.Abstractions;
-
-namespace Bokifa.Domain.Entities
+﻿namespace Bokifa.Domain.Entities
 {
-    public class TVariant:BaseEntity
+    public class TVariant : BaseEntity
     {
         public LanguageType LanguageType { get; set; }
         public string Name { get; set; }

@@ -1,6 +1,4 @@
-﻿using Bokifa.Domain.Enums;
-
-namespace Bokifa.Domain.DTOs.TTag
+﻿namespace Bokifa.Domain.DTOs.TTag
 {
     public record UpdateTTagDto
     {

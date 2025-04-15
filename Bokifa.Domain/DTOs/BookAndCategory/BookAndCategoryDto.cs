@@ -1,6 +1,4 @@
-﻿using Bokifa.Domain.DTOs.Book;
-using Bokifa.Domain.DTOs.Category;
-using Bookifa.Domain.Abstractions;
+﻿using Bokifa.Domain.DTOs.Category;
 
 namespace Bokifa.Domain.DTOs.BookAndCategory
 {

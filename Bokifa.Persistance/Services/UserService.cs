@@ -1,23 +1,11 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Caching.Memory;
-using Microsoft.Extensions.Configuration;
-using Microsoft.IdentityModel.Tokens;
-using Bookifa.Application.IService;
-using Bookifa.Application.IServices;
+﻿using Bokifa.Domain.DTOs.Book;
+using Bokifa.Domain.DTOs.Favorite;
 using Bookifa.Domain.DTOs.User;
-using Bookifa.Domain.Entities.Identity;
+using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
-using System.Net;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
-using Bokifa.Domain.DTOs.Favorite;
-using Bokifa.Domain.Entities;
-using Bokifa.Domain.DTOs.Book;
-using Bokifa.Domain.ValueObjects;
 
 namespace Bookifa.Persistance.Services
 {

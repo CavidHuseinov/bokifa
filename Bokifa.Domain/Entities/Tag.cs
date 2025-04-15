@@ -1,9 +1,6 @@
-﻿using Bokifa.Domain.Enums;
-using Bookifa.Domain.Abstractions;
-
-namespace Bokifa.Domain.Entities
+﻿namespace Bokifa.Domain.Entities
 {
-    public class Tag:BaseEntity
+    public class Tag : BaseEntity
     {
         public string Name { get; set; }
         public ICollection<TTag>? TTags { get; set; }

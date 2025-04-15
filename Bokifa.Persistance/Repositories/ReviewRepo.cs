@@ -1,10 +1,4 @@
-﻿using Bokifa.Domain.Entities;
-using Bokifa.Domain.IRepositories;
-using Bookifa.Persistance.Context;
-using Bookifa.Persistance.Repositories.Generics;
-using Microsoft.EntityFrameworkCore;
-
-namespace Bokifa.Persistance.Repositories
+﻿namespace Bokifa.Persistance.Repositories
 {
     public class ReviewRepo : CommandRepository<Review>, IReviewRepo
     {

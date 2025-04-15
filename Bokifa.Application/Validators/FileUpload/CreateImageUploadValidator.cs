@@ -1,6 +1,4 @@
-﻿using FluentValidation;
-using Microsoft.AspNetCore.Http;
-using Bookifa.Domain.DTOs.FileUpload;
+﻿using Bookifa.Domain.DTOs.FileUpload;
 
 namespace Bookifa.Application.Validators.FileUpload
 {

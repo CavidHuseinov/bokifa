@@ -1,7 +1,4 @@
-﻿using Bokifa.Domain.Enums;
-using Bokifa.Domain.ValueObjects;
-
-namespace Bokifa.Domain.DTOs.TBook
+﻿namespace Bokifa.Domain.DTOs.TBook
 {
     public record UpdateTBookDto
     {

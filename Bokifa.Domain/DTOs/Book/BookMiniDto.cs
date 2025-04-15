@@ -1,9 +1,6 @@
-﻿using Bokifa.Domain.ValueObjects;
-using Bookifa.Domain.Abstractions;
-
-namespace Bokifa.Domain.DTOs.Book
+﻿namespace Bokifa.Domain.DTOs.Book
 {
-    public record BookMiniDto:BaseDto
+    public record BookMiniDto : BaseDto
     {
         public string Title { get; set; }
         public string Description { get; set; }

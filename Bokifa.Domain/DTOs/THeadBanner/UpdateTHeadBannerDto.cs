@@ -1,6 +1,4 @@
-﻿using Bokifa.Domain.Enums;
-
-namespace Bokifa.Domain.DTOs.THeadBanner
+﻿namespace Bokifa.Domain.DTOs.THeadBanner
 {
     public record UpdateTHeadBannerDto
     {
