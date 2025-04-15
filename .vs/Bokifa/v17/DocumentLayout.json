@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\Cavid\\Desktop\\bokifa\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250415141820_asjkhdakhjsdhkjasdasdk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bokifa.Persistance\\Migrations\\20250415141820_asjkhdakhjsdhkjasdasdk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\services\\cartitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\services\\cartitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\dtos\\book\\bookminidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\dtos\\book\\bookminidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\dtos\\book\\updatebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\dtos\\book\\updatebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\dtos\\book\\createbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\dtos\\book\\createbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\dtos\\book\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\dtos\\book\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\valueobjects\\finalpricevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\valueobjects\\finalpricevo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Bokifa.Application\\Bokifa.Application.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.application\\validators\\book\\createbookvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Bokifa.Application\\Bokifa.Application.csproj|solutionrelative:bokifa.application\\validators\\book\\createbookvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\configurations\\bookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\configurations\\bookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\dtos\\blog\\blogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\dtos\\blog\\blogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250415132335_akljsdjlkasd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bokifa.Persistance\\Migrations\\20250415132335_akljsdjlkasd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\configurations\\blogandtagconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,20 +87,12 @@
       "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\dtos\\blogandtag\\blogandtagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\dtos\\book\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\dtos\\book\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\dtos\\blog\\updateblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\dtos\\blog\\updateblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\dtos\\blog\\createblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\dtos\\blog\\createblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250415131652_jahksdhjasdsads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bokifa.Persistance\\Migrations\\20250415131652_jahksdhjasdsads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,16 +111,8 @@
       "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\dtos\\book\\createbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\dtos\\book\\createbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\dtos\\blogandtag\\createblogandtagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\dtos\\blogandtag\\createblogandtagdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250415130940_jahksdhjasds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bokifa.Persistance\\Migrations\\20250415130940_jahksdhjasds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\configurations\\bookandtagconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -199,10 +219,6 @@
       "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Bokifa.Application\\Bokifa.Application.csproj|solutionrelative:bokifa.application\\validators\\book\\updatebookvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Bokifa.Application\\Bokifa.Application.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.application\\validators\\book\\createbookvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Bokifa.Application\\Bokifa.Application.csproj|solutionrelative:bokifa.application\\validators\\book\\createbookvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Bokifa.Application\\Bokifa.Application.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.application\\validators\\banner\\createbannervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Bokifa.Application\\Bokifa.Application.csproj|solutionrelative:bokifa.application\\validators\\banner\\createbannervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -215,10 +231,6 @@
       "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Bokifa.Application\\Bokifa.Application.csproj|solutionrelative:bokifa.application\\validators\\author\\createauthorvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250415123143_asjhdjhasdjhadssdg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bokifa.Persistance\\Migrations\\20250415123143_asjhdjhasdjhadssdg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\dtos\\tblog\\createtblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\dtos\\tblog\\createtblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -227,16 +239,8 @@
       "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\entities\\tbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250415122636_asjhdjhasdjhadssd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bokifa.Persistance\\Migrations\\20250415122636_asjhdjhasdjhadssd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\services\\tbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\services\\tbookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250415122406_asjhdjhasdjhads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bokifa.Persistance\\Migrations\\20250415122406_asjhdjhasdjhads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB724636-DCC9-4CB3-980F-1FA23EDA6AA0}|Bokifa.Presentation\\Bokifa.Presentation.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.presentation\\controllers\\tblogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -271,10 +275,6 @@
       "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\entities\\tcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250415121357_asjhdjhasdjh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bokifa.Persistance\\Migrations\\20250415121357_asjhdjhasdjh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\repositories\\tblogrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\repositories\\tblogrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -289,6 +289,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\configurations\\tbannerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\configurations\\tbannerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\migrations\\20250415132335_akljsdjlkasd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\migrations\\20250415132335_akljsdjlkasd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\migrations\\20250415131652_jahksdhjasdsads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\migrations\\20250415131652_jahksdhjasdsads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\migrations\\20250415130940_jahksdhjasds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\migrations\\20250415130940_jahksdhjasds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\migrations\\20250415123143_asjhdjhasdjhadssdg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\migrations\\20250415123143_asjhdjhasdjhadssdg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\migrations\\20250415122636_asjhdjhasdjhadssd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\migrations\\20250415122636_asjhdjhasdjhadssd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\migrations\\20250415122406_asjhdjhasdjhads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\migrations\\20250415122406_asjhdjhasdjhads.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\migrations\\20250415121357_asjhdjhasdjh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\migrations\\20250415121357_asjhdjhasdjh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -298,15 +326,106 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250415141820_asjkhdakhjsdhkjasdasdk.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250415141820_asjkhdakhjsdhkjasdasdk.cs",
+              "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250415141820_asjkhdakhjsdhkjasdasdk.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250415141820_asjkhdakhjsdhkjasdasdk.cs",
+              "RelativeToolTip": "Bokifa.Persistance\\Migrations\\20250415141820_asjkhdakhjsdhkjasdasdk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:18:21.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookMiniDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Book\\BookMiniDto.cs",
+              "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Book\\BookMiniDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Book\\BookMiniDto.cs",
+              "RelativeToolTip": "Bokifa.Domain\\DTOs\\Book\\BookMiniDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:17:57.117Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "CartItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\CartItemService.cs",
+              "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\CartItemService.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\CartItemService.cs",
+              "RelativeToolTip": "Bokifa.Persistance\\Services\\CartItemService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwD4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:14:26.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FinalPriceVO.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\ValueObjects\\FinalPriceVO.cs",
+              "RelativeDocumentMoniker": "Bokifa.Domain\\ValueObjects\\FinalPriceVO.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\ValueObjects\\FinalPriceVO.cs",
+              "RelativeToolTip": "Bokifa.Domain\\ValueObjects\\FinalPriceVO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:07:26.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateBookDto.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Book\\UpdateBookDto.cs",
+              "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Book\\UpdateBookDto.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Book\\UpdateBookDto.cs",
+              "RelativeToolTip": "Bokifa.Domain\\DTOs\\Book\\UpdateBookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:06:24.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\BookConfiguration.cs",
+              "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\BookConfiguration.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\BookConfiguration.cs",
+              "RelativeToolTip": "Bokifa.Persistance\\Configurations\\BookConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:05:50.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\Book.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\Book.cs",
+              "RelativeToolTip": "Bokifa.Domain\\Entities\\Book.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:04:23.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
               "Title": "20250415132335_akljsdjlkasd.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250415132335_akljsdjlkasd.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250415132335_akljsdjlkasd.cs",
@@ -314,12 +433,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Migrations\\20250415132335_akljsdjlkasd.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:23:35.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:23:35.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "BookAndCategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\BookAndCategory\\BookAndCategoryDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\BookAndCategory\\BookAndCategoryDto.cs",
@@ -327,25 +445,24 @@
               "RelativeToolTip": "Bokifa.Domain\\DTOs\\BookAndCategory\\BookAndCategoryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:18:59.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:18:59.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "BookDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Book\\BookDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Book\\BookDto.cs",
               "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Book\\BookDto.cs",
               "RelativeToolTip": "Bokifa.Domain\\DTOs\\Book\\BookDto.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T13:18:33.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 73,
               "Title": "20250415131652_jahksdhjasdsads.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250415131652_jahksdhjasdsads.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250415131652_jahksdhjasdsads.cs",
@@ -353,12 +470,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Migrations\\20250415131652_jahksdhjasdsads.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:16:52.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:16:52.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "BookService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\BookService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\BookService.cs",
@@ -366,12 +482,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Services\\BookService.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAA4wDQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:29:43.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:29:43.507Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "UpdateTagDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Tag\\UpdateTagDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Tag\\UpdateTagDto.cs",
@@ -379,12 +494,11 @@
               "RelativeToolTip": "Bokifa.Domain\\DTOs\\Tag\\UpdateTagDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:12:47.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:12:47.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "TagDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Tag\\TagDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Tag\\TagDto.cs",
@@ -392,12 +506,11 @@
               "RelativeToolTip": "Bokifa.Domain\\DTOs\\Tag\\TagDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:12:47.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:12:47.171Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "CreateTagDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Tag\\CreateTagDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Tag\\CreateTagDto.cs",
@@ -405,12 +518,11 @@
               "RelativeToolTip": "Bokifa.Domain\\DTOs\\Tag\\CreateTagDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:12:44.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:12:44.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "UpdateBlogDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Blog\\UpdateBlogDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Blog\\UpdateBlogDto.cs",
@@ -418,25 +530,24 @@
               "RelativeToolTip": "Bokifa.Domain\\DTOs\\Blog\\UpdateBlogDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:11:47.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:11:47.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 4,
               "Title": "CreateBookDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Book\\CreateBookDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Book\\CreateBookDto.cs",
               "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Book\\CreateBookDto.cs",
               "RelativeToolTip": "Bokifa.Domain\\DTOs\\Book\\CreateBookDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T13:11:30.834Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "BlogAndTagDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\BlogAndTag\\BlogAndTagDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\BlogAndTag\\BlogAndTagDto.cs",
@@ -444,12 +555,11 @@
               "RelativeToolTip": "Bokifa.Domain\\DTOs\\BlogAndTag\\BlogAndTagDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:10:44.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:10:44.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "CreateBlogAndTagDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\BlogAndTag\\CreateBlogAndTagDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\BlogAndTag\\CreateBlogAndTagDto.cs",
@@ -457,12 +567,11 @@
               "RelativeToolTip": "Bokifa.Domain\\DTOs\\BlogAndTag\\CreateBlogAndTagDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:10:38.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:10:38.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 74,
               "Title": "20250415130940_jahksdhjasds.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250415130940_jahksdhjasds.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250415130940_jahksdhjasds.cs",
@@ -470,12 +579,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Migrations\\20250415130940_jahksdhjasds.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:09:40.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:09:40.743Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "BookAndTagConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\BookAndTagConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\BookAndTagConfiguration.cs",
@@ -483,12 +591,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Configurations\\BookAndTagConfiguration.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAIwAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:08:44.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:08:44.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "IBlogRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\IRepositories\\IBlogRepo.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\IRepositories\\IBlogRepo.cs",
@@ -496,12 +603,11 @@
               "RelativeToolTip": "Bokifa.Domain\\IRepositories\\IBlogRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:08:09.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:08:09.223Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "BlogRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Repositories\\BlogRepo.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Repositories\\BlogRepo.cs",
@@ -509,12 +615,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Repositories\\BlogRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:07:48.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:07:48.29Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "BlogAndTagConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\BlogAndTagConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\BlogAndTagConfiguration.cs",
@@ -522,12 +627,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Configurations\\BlogAndTagConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAmwBIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:06:28.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:06:28.488Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "BookAndTag.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\BookAndTag.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\BookAndTag.cs",
@@ -535,12 +639,11 @@
               "RelativeToolTip": "Bokifa.Domain\\Entities\\BookAndTag.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:05:28.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:05:28.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "BookAndCategory.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\BookAndCategory.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\BookAndCategory.cs",
@@ -548,12 +651,11 @@
               "RelativeToolTip": "Bokifa.Domain\\Entities\\BookAndCategory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:05:27.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:05:27.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "BlogAndTag.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\BlogAndTag.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\BlogAndTag.cs",
@@ -561,12 +663,11 @@
               "RelativeToolTip": "Bokifa.Domain\\Entities\\BlogAndTag.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:05:17.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:05:17.578Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\Tag.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\Tag.cs",
@@ -579,7 +680,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "CreateVariantValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Variant\\CreateVariantValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Variant\\CreateVariantValidator.cs",
@@ -587,12 +688,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\Variant\\CreateVariantValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:38:06.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:38:06.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "ResetPassword.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\UserValidators\\ResetPassword.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\UserValidators\\ResetPassword.cs",
@@ -600,12 +700,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\UserValidators\\ResetPassword.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:38:00.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:38:00.189Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "RegisterValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\UserValidators\\RegisterValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\UserValidators\\RegisterValidator.cs",
@@ -613,12 +712,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\UserValidators\\RegisterValidator.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:37:53.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:37:53.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "LoginValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\UserValidators\\LoginValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\UserValidators\\LoginValidator.cs",
@@ -626,12 +724,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\UserValidators\\LoginValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:37:50.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:37:50.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "ForgetPassword.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\UserValidators\\ForgetPassword.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\UserValidators\\ForgetPassword.cs",
@@ -639,12 +736,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\UserValidators\\ForgetPassword.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:37:45.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:37:45.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "CreateTVariantValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\TVariant\\CreateTVariantValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\TVariant\\CreateTVariantValidator.cs",
@@ -652,12 +748,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\TVariant\\CreateTVariantValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:37:39.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:37:39.051Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "CreateTTagValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\TTag\\CreateTTagValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\TTag\\CreateTTagValidator.cs",
@@ -665,12 +760,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\TTag\\CreateTTagValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:37:33.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:37:33.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "CreateTHeadBannerValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\THeadBanner\\CreateTHeadBannerValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\THeadBanner\\CreateTHeadBannerValidator.cs",
@@ -678,12 +772,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\THeadBanner\\CreateTHeadBannerValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:37:28.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:37:28.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "CreateTCategoryValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\TCategory\\CreateTCategoryValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\TCategory\\CreateTCategoryValidator.cs",
@@ -691,12 +784,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\TCategory\\CreateTCategoryValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:37:22.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:37:22.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "CreateTagValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Tag\\CreateTagValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Tag\\CreateTagValidator.cs",
@@ -704,12 +796,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\Tag\\CreateTagValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:37:03.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:37:03.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "CreateReviewValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Review\\CreateReviewValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Review\\CreateReviewValidator.cs",
@@ -717,12 +808,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\Review\\CreateReviewValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:36:58.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:36:58.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "CreateHeadBannerValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\HeadBanner\\CreateHeadBannerValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\HeadBanner\\CreateHeadBannerValidator.cs",
@@ -730,12 +820,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\HeadBanner\\CreateHeadBannerValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:36:52.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:36:52.421Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "CreateVideoUploadValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\FileUpload\\CreateVideoUploadValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\FileUpload\\CreateVideoUploadValidator.cs",
@@ -743,12 +832,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\FileUpload\\CreateVideoUploadValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:36:46.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:36:46.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "CreateImageUploadValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\FileUpload\\CreateImageUploadValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\FileUpload\\CreateImageUploadValidator.cs",
@@ -756,12 +844,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\FileUpload\\CreateImageUploadValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:36:41.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:36:41.317Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 51,
               "Title": "CreateFileUploadValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\FileUpload\\CreateFileUploadValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\FileUpload\\CreateFileUploadValidator.cs",
@@ -769,12 +856,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\FileUpload\\CreateFileUploadValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:36:34.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:36:34.276Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 52,
               "Title": "CreateCategoryValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Category\\CreateCategoryValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Category\\CreateCategoryValidator.cs",
@@ -782,12 +868,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\Category\\CreateCategoryValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:36:09.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:36:09.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 53,
               "Title": "UpdateBookValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Book\\UpdateBookValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Book\\UpdateBookValidator.cs",
@@ -795,25 +880,24 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\Book\\UpdateBookValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:36:07.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:36:07.244Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 8,
               "Title": "CreateBookValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Book\\CreateBookValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Book\\CreateBookValidator.cs",
               "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Book\\CreateBookValidator.cs",
               "RelativeToolTip": "Bokifa.Application\\Validators\\Book\\CreateBookValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T12:35:59.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 55,
               "Title": "UpdateBannerValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Banner\\UpdateBannerValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Banner\\UpdateBannerValidator.cs",
@@ -821,12 +905,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\Banner\\UpdateBannerValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:35:35.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:35:35.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 54,
               "Title": "CreateBannerValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Banner\\CreateBannerValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Banner\\CreateBannerValidator.cs",
@@ -834,12 +917,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\Banner\\CreateBannerValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:35:33.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:35:33.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 56,
               "Title": "CreateAuthorValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Author\\CreateAuthorValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Author\\CreateAuthorValidator.cs",
@@ -847,12 +929,11 @@
               "RelativeToolTip": "Bokifa.Application\\Validators\\Author\\CreateAuthorValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:35:13.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:35:13.284Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 75,
               "Title": "20250415123143_asjhdjhasdjhadssdg.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250415123143_asjhdjhasdjhadssdg.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250415123143_asjhdjhasdjhadssdg.cs",
@@ -860,12 +941,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Migrations\\20250415123143_asjhdjhasdjhadssdg.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:31:44.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:31:44.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 76,
               "Title": "20250415122636_asjhdjhasdjhadssd.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250415122636_asjhdjhasdjhadssd.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250415122636_asjhdjhasdjhadssd.cs",
@@ -873,12 +953,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Migrations\\20250415122636_asjhdjhasdjhadssd.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:26:36.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:26:36.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "TBlog.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\TBlog.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\TBlog.cs",
@@ -886,12 +965,11 @@
               "RelativeToolTip": "Bokifa.Domain\\Entities\\TBlog.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:26:16.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:26:16.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "TBookService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\TBookService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\TBookService.cs",
@@ -899,12 +977,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Services\\TBookService.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:25:06.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:25:06.387Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 77,
               "Title": "20250415122406_asjhdjhasdjhads.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250415122406_asjhdjhasdjhads.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250415122406_asjhdjhasdjhads.cs",
@@ -912,12 +989,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Migrations\\20250415122406_asjhdjhasdjhads.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:24:06.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:24:06.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "BannerController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Presentation\\Controllers\\BannerController.cs",
               "RelativeDocumentMoniker": "Bokifa.Presentation\\Controllers\\BannerController.cs",
@@ -925,12 +1001,11 @@
               "RelativeToolTip": "Bokifa.Presentation\\Controllers\\BannerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:23:31.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:23:31.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "TBlogController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Presentation\\Controllers\\TBlogController.cs",
               "RelativeDocumentMoniker": "Bokifa.Presentation\\Controllers\\TBlogController.cs",
@@ -938,12 +1013,11 @@
               "RelativeToolTip": "Bokifa.Presentation\\Controllers\\TBlogController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowBAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:23:14.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:23:14.262Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "BannerService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\BannerService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\BannerService.cs",
@@ -951,12 +1025,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Services\\BannerService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:19:54.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:19:54.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "BlogDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Blog\\BlogDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Blog\\BlogDto.cs",
@@ -964,12 +1037,11 @@
               "RelativeToolTip": "Bokifa.Domain\\DTOs\\Blog\\BlogDto.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:18:44.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:18:44.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "CreateBlogDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Blog\\CreateBlogDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Blog\\CreateBlogDto.cs",
@@ -977,12 +1049,11 @@
               "RelativeToolTip": "Bokifa.Domain\\DTOs\\Blog\\CreateBlogDto.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:18:43.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:18:43.956Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "BlogService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\BlogService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\BlogService.cs",
@@ -990,12 +1061,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Services\\BlogService.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAQwBMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:18:01.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:18:01.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "TBlogService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\TBlogService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\TBlogService.cs",
@@ -1003,12 +1073,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Services\\TBlogService.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAwwCUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:17:48.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:17:48.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "ITBookService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\ITBookService.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\IServices\\ITBookService.cs",
@@ -1016,12 +1085,11 @@
               "RelativeToolTip": "Bokifa.Application\\IServices\\ITBookService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:17:12.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:17:12.523Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "IBlogService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\IBlogService.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\IServices\\IBlogService.cs",
@@ -1029,12 +1097,11 @@
               "RelativeToolTip": "Bokifa.Application\\IServices\\IBlogService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:17:08.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:17:08.589Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "ITBlogService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\ITBlogService.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\IServices\\ITBlogService.cs",
@@ -1042,12 +1109,11 @@
               "RelativeToolTip": "Bokifa.Application\\IServices\\ITBlogService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:17:03.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:17:03.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Mapping\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Mapping\\MappingProfile.cs",
@@ -1055,12 +1121,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Mapping\\MappingProfile.cs",
               "ViewState": "AgIAAJQAAAAAAAAAAAAgwLkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:16:06.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:16:06.62Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 58,
               "Title": "TBook.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\TBook.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\TBook.cs",
@@ -1068,12 +1133,11 @@
               "RelativeToolTip": "Bokifa.Domain\\Entities\\TBook.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:15:10.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:15:10.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "TCategory.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\TCategory.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\TCategory.cs",
@@ -1081,12 +1145,11 @@
               "RelativeToolTip": "Bokifa.Domain\\Entities\\TCategory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:15:09.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:15:09.612Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "UpdateTBlogDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\TBlog\\UpdateTBlogDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\TBlog\\UpdateTBlogDto.cs",
@@ -1094,12 +1157,11 @@
               "RelativeToolTip": "Bokifa.Domain\\DTOs\\TBlog\\UpdateTBlogDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:14:35.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:14:35.124Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 57,
               "Title": "CreateTBlogDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\TBlog\\CreateTBlogDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\TBlog\\CreateTBlogDto.cs",
@@ -1107,12 +1169,11 @@
               "RelativeToolTip": "Bokifa.Domain\\DTOs\\TBlog\\CreateTBlogDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:14:29.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:14:29.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "TBlogDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\TBlog\\TBlogDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\TBlog\\TBlogDto.cs",
@@ -1120,12 +1181,11 @@
               "RelativeToolTip": "Bokifa.Domain\\DTOs\\TBlog\\TBlogDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:14:24.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:14:24.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 78,
               "Title": "20250415121357_asjhdjhasdjh.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250415121357_asjhdjhasdjh.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250415121357_asjhdjhasdjh.cs",
@@ -1133,12 +1193,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Migrations\\20250415121357_asjhdjhasdjh.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:13:57.199Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:13:57.199Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "OxuDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Context\\OxuDbContext.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Context\\OxuDbContext.cs",
@@ -1146,12 +1205,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Context\\OxuDbContext.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAA2wBoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:13:27.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:13:27.1Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "PersistanceDIServiceInstaller.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
               "RelativeDocumentMoniker": "Bokifa.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
@@ -1159,8 +1217,7 @@
               "RelativeToolTip": "Bokifa.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAswCoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:13:12.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:13:12.372Z"
             },
             {
               "$type": "Document",
@@ -1172,8 +1229,7 @@
               "RelativeToolTip": "Bokifa.Persistance\\Repositories\\TBlogRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:12:08.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:12:08.626Z"
             },
             {
               "$type": "Document",
@@ -1185,12 +1241,11 @@
               "RelativeToolTip": "Bokifa.Domain\\IRepositories\\ITBlogRepo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:11:51.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:11:51.049Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "BlogConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\BlogConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\BlogConfiguration.cs",
@@ -1198,8 +1253,7 @@
               "RelativeToolTip": "Bokifa.Persistance\\Configurations\\BlogConfiguration.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:11:04.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:11:04.253Z"
             },
             {
               "$type": "Document",
@@ -1211,8 +1265,7 @@
               "RelativeToolTip": "Bokifa.Persistance\\Configurations\\TBannerConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:10:54.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:10:54.781Z"
             },
             {
               "$type": "Document",
@@ -1224,12 +1277,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Configurations\\TBlogConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:10:38.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:10:38.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "Blog.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\Blog.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\Blog.cs",
@@ -1237,8 +1289,7 @@
               "RelativeToolTip": "Bokifa.Domain\\Entities\\Blog.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAA5wAcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:10:09.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:10:09.141Z"
             }
           ]
         },

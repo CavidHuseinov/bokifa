@@ -6,7 +6,7 @@
         public string Description { get; set; }
         public string ImgUrl { get; set; }
         public decimal Price { get; set; }
-        public decimal Discount { get; set; }
+        public decimal? Discount { get; set; }
         public FinalPriceVO? FinalPrice => new FinalPriceVO(Price, Discount);
     }
 }

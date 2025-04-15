@@ -12,7 +12,6 @@ namespace Bokifa.Application.Validators.Book
                 .NotEmpty().WithMessage("Price is required")
                 .GreaterThan(0).WithMessage("Price must be greater than 0");
             RuleFor(x => x.Discount)
-                .NotEmpty().WithMessage("Discount is required")
                 .GreaterThanOrEqualTo(0).WithMessage("Discount must be greater than or equal to 0")
                 .LessThanOrEqualTo(100).WithMessage("Discount must be less than or equal to 100");
             RuleFor(x => x.Description).NotEmpty().WithMessage("Description is required");
