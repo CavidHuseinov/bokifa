@@ -6,7 +6,7 @@ namespace Bokifa.Application.Validators.Tag
     {
         public CreateTagValidator()
         {
-            RuleFor(x => x.Name).NotEmpty();
+            RuleFor(x => x.Name).NotEmpty().WithMessage("Name is required");
         }
     }
 }

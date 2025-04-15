@@ -78,6 +78,52 @@ namespace Bokifa.Persistance.Migrations
                     b.ToTable("Banners");
                 });
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.Blog", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("AuthorId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImgUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PrimaryLanguageType")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AuthorId");
+
+                    b.ToTable("Blogs");
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.BlogAndTag", b =>
+                {
+                    b.Property<Guid>("BlogId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("TagId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("BlogId", "TagId");
+
+                    b.HasIndex("TagId");
+
+                    b.ToTable("BlogAndTags");
+                });
+
             modelBuilder.Entity("Bokifa.Domain.Entities.Book", b =>
                 {
                     b.Property<Guid>("Id")
@@ -299,6 +345,33 @@ namespace Bokifa.Persistance.Migrations
                     b.HasIndex("BannerId");
 
                     b.ToTable("TBanners");
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.TBlog", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("BlogId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("LanguageType")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BlogId");
+
+                    b.ToTable("TBlogs");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.TBook", b =>
@@ -724,6 +797,56 @@ namespace Bokifa.Persistance.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.Blog", b =>
+                {
+                    b.HasOne("Bokifa.Domain.Entities.Author", "Author")
+                        .WithMany("Blogs")
+                        .HasForeignKey("AuthorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.OwnsOne("Bookifa.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<Guid>("BlogId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("BlogId");
+
+                            b1.ToTable("Blogs");
+
+                            b1.WithOwner()
+                                .HasForeignKey("BlogId");
+                        });
+
+                    b.Navigation("Author");
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.BlogAndTag", b =>
+                {
+                    b.HasOne("Bokifa.Domain.Entities.Blog", "Blog")
+                        .WithMany("BlogAndTags")
+                        .HasForeignKey("BlogId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Bokifa.Domain.Entities.Tag", "Tag")
+                        .WithMany("BlogAndTags")
+                        .HasForeignKey("TagId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Blog");
+
+                    b.Navigation("Tag");
+                });
+
             modelBuilder.Entity("Bokifa.Domain.Entities.Book", b =>
                 {
                     b.OwnsOne("Bookifa.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
@@ -1004,6 +1127,37 @@ namespace Bokifa.Persistance.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.TBlog", b =>
+                {
+                    b.HasOne("Bokifa.Domain.Entities.Blog", "Blog")
+                        .WithMany("TBlogs")
+                        .HasForeignKey("BlogId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.OwnsOne("Bookifa.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<Guid>("TBlogId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("TBlogId");
+
+                            b1.ToTable("TBlogs");
+
+                            b1.WithOwner()
+                                .HasForeignKey("TBlogId");
+                        });
+
+                    b.Navigation("Blog");
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Bokifa.Domain.Entities.TBook", b =>
                 {
                     b.HasOne("Bokifa.Domain.Entities.Book", "Book")
@@ -1255,9 +1409,21 @@ namespace Bokifa.Persistance.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.Author", b =>
+                {
+                    b.Navigation("Blogs");
+                });
+
             modelBuilder.Entity("Bokifa.Domain.Entities.Banner", b =>
                 {
                     b.Navigation("TBanners");
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.Blog", b =>
+                {
+                    b.Navigation("BlogAndTags");
+
+                    b.Navigation("TBlogs");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.Book", b =>
@@ -1291,6 +1457,8 @@ namespace Bokifa.Persistance.Migrations
 
             modelBuilder.Entity("Bokifa.Domain.Entities.Tag", b =>
                 {
+                    b.Navigation("BlogAndTags");
+
                     b.Navigation("BookAndTags");
 
                     b.Navigation("TTags");

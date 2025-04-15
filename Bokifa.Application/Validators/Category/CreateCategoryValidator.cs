@@ -6,7 +6,7 @@ namespace Bokifa.Application.Validators.Category
     {
         public CreateCategoryValidator()
         {
-            RuleFor(x => x.Name).NotEmpty();
+            RuleFor(x => x.Name).NotEmpty().WithMessage("Category Name is required.");
         }
     }
 }

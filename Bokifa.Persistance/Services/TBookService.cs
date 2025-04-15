@@ -9,7 +9,7 @@ namespace Bokifa.Persistance.Services
         private readonly ITBookRepo _command;
         private readonly IQueryRepository<TBook> _query;
         private readonly IMemoryCache _cache;
-        private readonly string cacheKey = "TTBooks";
+        private readonly string cacheKey = "TBooks";
 
         public TBookService(IMemoryCache cache, IQueryRepository<TBook> query, ITBookRepo command, IUnitOfWork work, IMapper mapper)
         {

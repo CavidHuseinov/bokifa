@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using Bokifa.Domain.DTOs.Author;
 using Bokifa.Domain.DTOs.Banner;
+using Bokifa.Domain.DTOs.Blog;
+using Bokifa.Domain.DTOs.BlogAndTag;
 using Bokifa.Domain.DTOs.Book;
 using Bokifa.Domain.DTOs.BookAndCategory;
 using Bokifa.Domain.DTOs.BookAndTag;
@@ -13,6 +15,7 @@ using Bokifa.Domain.DTOs.HeadBanner;
 using Bokifa.Domain.DTOs.Review;
 using Bokifa.Domain.DTOs.Tag;
 using Bokifa.Domain.DTOs.TBanner;
+using Bokifa.Domain.DTOs.TBlog;
 using Bokifa.Domain.DTOs.TBook;
 using Bokifa.Domain.DTOs.TCategory;
 using Bokifa.Domain.DTOs.THeadBanner;
@@ -168,6 +171,23 @@ namespace Bookifa.Persistance.Mapping
             CreateMap<CreateAuthorDto, Author>().ReverseMap();
             CreateMap<AuthorDto, Author>().ReverseMap();
             CreateMap<UpdateAuthorDto, Author>().ReverseMap();
+            #endregion
+
+            #region Blog
+            CreateMap<BlogDto, Blog>().ReverseMap();
+            CreateMap<CreateBlogDto, Blog>().ReverseMap();
+            CreateMap<UpdateBlogDto, Blog>().ReverseMap();
+            #endregion
+
+            #region TBlog
+            CreateMap<TBlogDto, TBlog>().ReverseMap();
+            CreateMap<CreateTBlogDto, TBlog>().ReverseMap();
+            CreateMap<UpdateTBlogDto, TBlog>().ReverseMap();
+            #endregion
+
+            #region BlogAndTag
+            CreateMap<BlogAndTagDto, BlogAndTag>().ReverseMap();
+            CreateMap<CreateBlogAndTagDto, BlogAndTag>().ReverseMap();
             #endregion
         }
     }

@@ -23,6 +23,9 @@
         public DbSet<Favorite> Favorites { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
         public DbSet<Author> Authors { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
+        public DbSet<TBlog> TBlogs { get; set; }
+        public DbSet<BlogAndTag> BlogAndTags { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
