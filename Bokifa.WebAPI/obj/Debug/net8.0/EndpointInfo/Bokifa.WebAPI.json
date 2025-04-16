@@ -996,10 +996,128 @@
         }
       }
     },
-    "/api/ContactAdress/get-contact-adress": {
+    "/api/ContactAddress/get-contact-adress": {
       "get": {
         "tags": [
-          "ContactAdress"
+          "ContactAddress"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ContactAddress/create-contact-adress": {
+      "post": {
+        "tags": [
+          "ContactAddress"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateContactAddressDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateContactAddressDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateContactAddressDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ContactAddress/update-contact-adress": {
+      "put": {
+        "tags": [
+          "ContactAddress"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateContactAddressDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateContactAddressDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateContactAddressDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ContactAddress/delete-contact-adress": {
+      "delete": {
+        "tags": [
+          "ContactAddress"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Currency/GetByCode/{code}": {
+      "get": {
+        "tags": [
+          "Currency"
+        ],
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Currency/GetAll": {
+      "get": {
+        "tags": [
+          "Currency"
         ],
         "responses": {
           "200": {
@@ -3035,6 +3153,19 @@
         },
         "additionalProperties": false
       },
+      "CreateContactAddressDto": {
+        "type": "object",
+        "properties": {
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "sendNotification": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
       "CreateFavoriteDto": {
         "type": "object",
         "properties": {
@@ -3091,6 +3222,20 @@
             "nullable": true
           },
           "confirmPassword": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateContactAddressDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "newPhoneNumber": {
             "type": "string",
             "nullable": true
           }

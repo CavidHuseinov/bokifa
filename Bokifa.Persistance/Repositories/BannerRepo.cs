@@ -2,7 +2,7 @@
 {
     public class BannerRepo : CommandRepository<Banner>, IBannerRepo
     {
-        public BannerRepo(BookifaDbContext context) : base(context)
+        public BannerRepo(BokifaDbContext context) : base(context)
         {
         }
     }

@@ -18,6 +18,8 @@
         public ICollection<BookAndVariant>? BookAndVariants { get; set; }
         public ICollection<Favorite>? Favorites { get; set; }
         public ICollection<CartItem>? CartItems { get; set; }
+        public Guid CurrencyId { get; set; }
+        public Currency Currency { get; set; } = default!;
 
     }
 }

@@ -27,7 +27,8 @@ app.UseHttpsRedirection();
 app.UseCors("AllowAll");
 using (var scope = app.Services.CreateScope())
 {
-    await ApplicationServiceInstaller.SeedDatabaseAsync(scope.ServiceProvider);
+    await PersistanceServiceInstaller.SeedDatabaseAsync(scope.ServiceProvider);
+    await PersistanceServiceInstaller.CurrencyDatabaseAsync(scope.ServiceProvider);
 }
 app.UseMiddleware<GlobalHandleException>();
 app.UseAuthentication();

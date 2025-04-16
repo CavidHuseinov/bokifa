@@ -10,6 +10,7 @@ using Bokifa.Domain.DTOs.BookAndVariant;
 using Bokifa.Domain.DTOs.CartItem;
 using Bokifa.Domain.DTOs.Category;
 using Bokifa.Domain.DTOs.ContactAdress;
+using Bokifa.Domain.DTOs.Currency;
 using Bokifa.Domain.DTOs.Favorite;
 using Bokifa.Domain.DTOs.HeadBanner;
 using Bokifa.Domain.DTOs.Review;
@@ -93,10 +94,12 @@ namespace Bookifa.Persistance.Mapping
             #region Book
             CreateMap<BookDto, Book>().ReverseMap()
                 .ForMember(dest => dest.Categories,
-                    opt => opt.MapFrom(src => src.BookAndCategories));
+                    opt => opt.MapFrom(src => src.BookAndCategories))
+                .ForMember(dest => dest.CurrencySymbol, opt => opt.Ignore());
             CreateMap<CreateBookDto, Book>().ReverseMap();
             CreateMap<UpdateBookDto, Book>().ReverseMap();
-            CreateMap<BookMiniDto, Book>().ReverseMap().ReverseMap();
+            CreateMap<BookMiniDto, Book>().ReverseMap()
+                .ForMember(dest => dest.CurrencySymbol, opt => opt.Ignore());
             #endregion
 
             #region BookAndCategory
@@ -163,8 +166,9 @@ namespace Bookifa.Persistance.Mapping
             #endregion
 
             #region ContactAdress
-            CreateMap<ContactAddressDto, AppUser>().ReverseMap();
-            CreateMap<CreateContactAddressDto, string>().ReverseMap();
+            CreateMap<ContactAddressDto, ContactAddress>().ReverseMap();
+            CreateMap<CreateContactAddressDto, ContactAddress>().ReverseMap();
+            CreateMap<UpdateContactAddressDto, ContactAddress>().ReverseMap();
             #endregion
 
             #region Author
@@ -188,6 +192,10 @@ namespace Bookifa.Persistance.Mapping
             #region BlogAndTag
             CreateMap<BlogAndTagDto, BlogAndTag>().ReverseMap();
             CreateMap<CreateBlogAndTagDto, BlogAndTag>().ReverseMap();
+            #endregion
+
+            #region Currency
+            CreateMap<CurrencyDto, Currency>().ReverseMap();
             #endregion
         }
     }

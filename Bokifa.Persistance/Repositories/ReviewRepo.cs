@@ -2,8 +2,8 @@
 {
     public class ReviewRepo : CommandRepository<Review>, IReviewRepo
     {
-        private readonly BookifaDbContext _context;
-        public ReviewRepo(BookifaDbContext context) : base(context)
+        private readonly BokifaDbContext _context;
+        public ReviewRepo(BokifaDbContext context) : base(context)
         {
             _context = context;
         }

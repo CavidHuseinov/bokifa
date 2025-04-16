@@ -17,5 +17,7 @@ namespace Bookifa.Domain.IRepositories.Generics
                                                     bool enableTracking = true,
                                                     int pageIndex = 1,
                                                     int pageSize = 10);
+        Task<TEntity?> GetAsync(Expression<Func<TEntity, bool>> predicate);
+
     }
 }

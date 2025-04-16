@@ -2,7 +2,7 @@
 {
     public class CartItemRepo:CommandRepository<CartItem>, ICartItemRepo
     {
-        public CartItemRepo(BookifaDbContext context) : base(context)
+        public CartItemRepo(BokifaDbContext context) : base(context)
         {
         }
     }

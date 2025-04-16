@@ -2,7 +2,7 @@
 {
     public class BookRepo:CommandRepository<Book>, IBookRepo
     {
-        public BookRepo(BookifaDbContext context) : base(context)
+        public BookRepo(BokifaDbContext context) : base(context)
         {
         }
     }

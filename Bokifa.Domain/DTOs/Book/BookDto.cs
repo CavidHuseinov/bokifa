@@ -21,5 +21,6 @@ namespace Bokifa.Domain.DTOs.Book
         public ICollection<ReviewDto>? Comments { get; set; }
         public ICollection<TVariantDto>? TVariants { get; set; }
         public ICollection<BookAndVariantDto>? BookAndVariants { get; set; }
+        public string CurrencySymbol { get; set; } = default!;
     }
 }

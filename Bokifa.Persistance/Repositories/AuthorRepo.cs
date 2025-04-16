@@ -2,7 +2,7 @@
 {
     public class AuthorRepo : CommandRepository<Author>, IAuthorRepo
     {
-        public AuthorRepo(BookifaDbContext context) : base(context)
+        public AuthorRepo(BokifaDbContext context) : base(context)
         {
         }
     }

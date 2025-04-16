@@ -9,5 +9,6 @@
         public ICollection<Review>? Comments { get; set; }
         public ICollection<Favorite>? Favorites { get; set; }
         public ICollection<CartItem>? CartItems { get; set; }
+        public ContactAddress ContactAddress { get; set; }
     }
 }

@@ -2,7 +2,7 @@
 {
     public class THeadBannerRepo : CommandRepository<THeadBanner>, ITHeadBannerRepo
     {
-        public THeadBannerRepo(BookifaDbContext context) : base(context)
+        public THeadBannerRepo(BokifaDbContext context) : base(context)
         {
         }
     }

@@ -9,8 +9,8 @@ namespace Bookifa.Persistance.Repositories.Generics
 {
     public class QueryRepository<TEntity>: IQueryRepository<TEntity> where TEntity : BaseEntity,new()
     {
-        private readonly BookifaDbContext _context;
-        public QueryRepository(BookifaDbContext context)
+        private readonly BokifaDbContext _context;
+        public QueryRepository(BokifaDbContext context)
         {
             _context = context;
         }
@@ -88,5 +88,11 @@ namespace Bookifa.Persistance.Repositories.Generics
                               .ToListAsync();
 
         }
+
+        public async Task<TEntity?> GetAsync(Expression<Func<TEntity, bool>> predicate)
+        {
+            return await Table.FirstOrDefaultAsync(predicate);
+        }
+
     }
 }

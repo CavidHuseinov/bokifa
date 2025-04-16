@@ -2,7 +2,7 @@
 {
     public class TTagRepo:CommandRepository<TTag>, ITTagRepo
     {
-        public TTagRepo(BookifaDbContext context) : base(context)
+        public TTagRepo(BokifaDbContext context) : base(context)
         {
         }
     }

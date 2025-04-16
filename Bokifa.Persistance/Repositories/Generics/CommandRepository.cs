@@ -7,10 +7,10 @@ namespace Bookifa.Persistance.Repositories.Generics
 {
     public class CommandRepository<TEntity> : ICommandRepository<TEntity> where TEntity : BaseEntity, new()
     {
-        private readonly BookifaDbContext _context;
+        private readonly BokifaDbContext _context;
 
 
-        public CommandRepository(BookifaDbContext context)
+        public CommandRepository(BokifaDbContext context)
         {
             _context = context;
         }

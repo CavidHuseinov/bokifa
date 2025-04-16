@@ -2,7 +2,7 @@
 {
     public class CategoryRepo : CommandRepository<Category>, ICategoryRepo
     {
-        public CategoryRepo(BookifaDbContext context) : base(context)
+        public CategoryRepo(BokifaDbContext context) : base(context)
         {
         }
     }

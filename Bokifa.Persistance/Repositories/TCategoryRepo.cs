@@ -2,7 +2,7 @@
 {
     public class TCategoryRepo : CommandRepository<TCategory>, ITCategoryRepo
     {
-        public TCategoryRepo(BookifaDbContext context) : base(context)
+        public TCategoryRepo(BokifaDbContext context) : base(context)
         {
         }
     }

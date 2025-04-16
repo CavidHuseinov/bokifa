@@ -2,8 +2,8 @@
 
 public sealed class UnitOfWorks : IUnitOfWork
 {
-    private readonly BookifaDbContext _context;
-    public UnitOfWorks(BookifaDbContext context)
+    private readonly BokifaDbContext _context;
+    public UnitOfWorks(BokifaDbContext context)
     {
         _context = context;
     }

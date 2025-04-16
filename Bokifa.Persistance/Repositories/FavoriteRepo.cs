@@ -2,7 +2,7 @@
 {
     public class FavoriteRepo : CommandRepository<Favorite>, IFavoriteRepo
     {
-        public FavoriteRepo(BookifaDbContext context) : base(context)
+        public FavoriteRepo(BokifaDbContext context) : base(context)
         {
         }
     }

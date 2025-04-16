@@ -2,7 +2,7 @@
 {
     public class TVariantRepo:CommandRepository<TVariant>, ITVariantRepo
     {
-        public TVariantRepo(BookifaDbContext context) : base(context)
+        public TVariantRepo(BokifaDbContext context) : base(context)
         {
         }
     }
