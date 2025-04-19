@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Bokifa.Domain.DTOs.AppUserAndPromocode;
 using Bokifa.Domain.DTOs.Author;
 using Bokifa.Domain.DTOs.Banner;
 using Bokifa.Domain.DTOs.Blog;
@@ -11,9 +12,13 @@ using Bokifa.Domain.DTOs.CartItem;
 using Bokifa.Domain.DTOs.Category;
 using Bokifa.Domain.DTOs.ContactAdress;
 using Bokifa.Domain.DTOs.Currency;
+using Bokifa.Domain.DTOs.EmailQueueDto;
 using Bokifa.Domain.DTOs.Favorite;
 using Bokifa.Domain.DTOs.HeadBanner;
+using Bokifa.Domain.DTOs.NotificationModel;
+using Bokifa.Domain.DTOs.Promocode;
 using Bokifa.Domain.DTOs.Review;
+using Bokifa.Domain.DTOs.ShippingInfo;
 using Bokifa.Domain.DTOs.Tag;
 using Bokifa.Domain.DTOs.TBanner;
 using Bokifa.Domain.DTOs.TBlog;
@@ -196,6 +201,31 @@ namespace Bookifa.Persistance.Mapping
 
             #region Currency
             CreateMap<CurrencyDto, Currency>().ReverseMap();
+            #endregion
+
+            #region ShippingInfo
+            CreateMap<ShippingInfoDto, ShippingInfo>().ReverseMap();
+            CreateMap<CreateShippingInfoDto, ShippingInfo>().ReverseMap();
+            #endregion
+
+            #region NoitificationModel
+            CreateMap<CreateNotificationModelDto, NotificationModel>().ReverseMap();
+            CreateMap<NotificationModelDto, NotificationModel>().ReverseMap();
+            #endregion
+
+            #region EmailQueue
+            CreateMap<EmailQueueDto, string>().ReverseMap();
+            #endregion
+
+            #region Promocode 
+            CreateMap<PromocodeDto, Promocode>().ReverseMap();
+            CreateMap<CreatePromocodeDto, Promocode>().ReverseMap();
+            CreateMap<UpdatePromocodeDto, Promocode>().ReverseMap();
+            #endregion
+
+            #region AppUserAndPromocode
+            CreateMap<AppUserAndPromocodeDto, AppUserAndPromocode>().ReverseMap();
+            CreateMap<CreateAppUserAndPromocodeDto, AppUserAndPromocode>().ReverseMap();
             #endregion
         }
     }

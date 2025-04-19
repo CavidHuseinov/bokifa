@@ -1,4 +1,5 @@
 ﻿using Bokifa.Domain.DTOs.ContactAdress;
+using Bokifa.Domain.DTOs.NotificationModel;
 
 namespace Bokifa.Presentation.Controllers
 {

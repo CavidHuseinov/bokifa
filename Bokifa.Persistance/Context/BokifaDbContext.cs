@@ -28,6 +28,10 @@
         public DbSet<BlogAndTag> BlogAndTags { get; set; }
         public DbSet<Currency> Currencies { get; set; }
         public DbSet<ContactAddress> ContactAddresses { get; set; }
+        public DbSet<ShippingInfo> ShippingInfos { get; set; }
+        public DbSet<NotificationModel> NotificationModels { get; set; }
+        public DbSet<Promocode> Promocodes { get; set; }
+        public DbSet<AppUserAndPromocode> AppUserAndPromocodes { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

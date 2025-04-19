@@ -1,5 +1,6 @@
 ﻿using Bokifa.Domain.DTOs.Book;
 using Bokifa.Domain.DTOs.ContactAdress;
+using Bokifa.Domain.DTOs.NotificationModel;
 
 namespace Bokifa.Persistance.Services
 {
@@ -79,11 +80,6 @@ namespace Bokifa.Persistance.Services
             var newBook = await _command.CreateAsync(book);
 
             await _work.SaveChangeAsync();
-            var createNewNotification = new CreateContactAddressDto
-            {
-                SendNotification = true
-            };
-            var sendNotification = await _contactAddress.SendNotification(createNewNotification);
             return _mapper.Map<BookDto>(newBook);
         }
         public async Task UpdateAsync(UpdateBookDto dto)

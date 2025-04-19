@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Bokifa.Domain.DTOs.EmailQueueDto;
 
 namespace Bookifa.Application.IServices
 {
     public interface IEmailService
     {
-        Task SendEmailsAsync(List<string> toEmails, string subject, string body, List<IFormFile> attachments = null);
+        Task SendEmailsAsync(EmailQueueDto dto);
     }
 }

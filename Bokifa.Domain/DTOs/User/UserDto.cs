@@ -1,4 +1,5 @@
-﻿using Bokifa.Domain.DTOs.Favorite;
+﻿using Bokifa.Domain.DTOs.AppUserAndPromocode;
+using Bokifa.Domain.DTOs.Favorite;
 
 namespace Bookifa.Domain.DTOs.User
 {
@@ -11,5 +12,6 @@ namespace Bookifa.Domain.DTOs.User
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
         public ICollection<FavoriteDto>? Favorites { get; set; }
+        public ICollection<AppUserAndPromocodeDto>? AppUserAndPromocodes { get; set; }
     }
 }

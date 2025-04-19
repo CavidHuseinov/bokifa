@@ -18,6 +18,7 @@ builder.Services.AddFluentValidationAutoValidation()
        .AddFluentValidationClientsideAdapters()
        .AddValidatorsFromAssemblyContaining<CreateBookValidator>();
 
+
 var app = builder.Build();
 
 app.UseSwagger();

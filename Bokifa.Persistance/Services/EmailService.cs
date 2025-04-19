@@ -1,4 +1,6 @@
-﻿namespace Bookifa.Persistance.Services
+﻿using Bokifa.Domain.DTOs.EmailQueueDto;
+
+namespace Bookifa.Persistance.Services
 {
     public class EmailService : IEmailService
     {
@@ -9,56 +11,52 @@
             _config = config;
         }
 
-        public async Task SendEmailsAsync(List<string> toEmails, string subject, string body, List<IFormFile> attachments = null)
+        public async Task SendEmailsAsync(EmailQueueDto dto)
         {
-            var emailTasks = new List<Task>();
-
-            foreach (var toEmail in toEmails)
+            var emailTasks = dto.ToEmails.Select(toEmail => Task.Run(async () =>
             {
-                emailTasks.Add(Task.Run(async () =>
-                {
-                    await SendEmailAsync(toEmail, subject, body, attachments);
-                }));
-            }
+                await SendEmailAsync(toEmail, dto.Subject, dto.Body, dto.Attachments);
+            }));
 
             await Task.WhenAll(emailTasks);
         }
 
-        private async Task SendEmailAsync(string toEmail, string subject, string body, List<IFormFile> attachments = null)
+        private async Task SendEmailAsync(string toEmail, string subject, string body, List<IFormFile>? attachments)
         {
-            using (var smtpClient = new SmtpClient(_config["Email:SmtpServer"]))
+            using var smtpClient = new SmtpClient(_config["Email:SmtpServer"])
             {
-                smtpClient.Port = int.Parse(_config["Email:Port"]);
-                smtpClient.Credentials = new NetworkCredential(_config["Email:Username"], _config["Email:Password"]);
-                smtpClient.EnableSsl = true;
+                Port = int.Parse(_config["Email:Port"]),
+                Credentials = new NetworkCredential(_config["Email:Username"], _config["Email:Password"]),
+                EnableSsl = true
+            };
 
-                using (var mailMessage = new MailMessage())
+            using var mailMessage = new MailMessage
+            {
+                From = new MailAddress(_config["Email:From"]),
+                Subject = subject,
+                Body = body,
+                IsBodyHtml = true
+            };
+
+            mailMessage.To.Add(toEmail);
+
+            if (attachments != null && attachments.Any())
+            {
+                foreach (var file in attachments)
                 {
-                    mailMessage.From = new MailAddress(_config["Email:From"]);
-                    mailMessage.To.Add(toEmail);
-                    mailMessage.Subject = subject;
-                    mailMessage.Body = body;
-                    mailMessage.IsBodyHtml = true;
-
-                    if (attachments != null)
+                    if (file.Length > 0)
                     {
-                        foreach (var file in attachments)
-                        {
-                            if (file.Length > 0)
-                            {
-                                using (var stream = new MemoryStream())
-                                {
-                                    await file.CopyToAsync(stream);
-                                    var attachment = new Attachment(new MemoryStream(stream.ToArray()), file.FileName);
-                                    mailMessage.Attachments.Add(attachment);
-                                }
-                            }
-                        }
-                    }
+                        using var memoryStream = new MemoryStream();
+                        await file.CopyToAsync(memoryStream);
+                        memoryStream.Position = 0;
 
-                    await smtpClient.SendMailAsync(mailMessage);
+                        var attachment = new Attachment(memoryStream, file.FileName);
+                        mailMessage.Attachments.Add(attachment);
+                    }
                 }
             }
+
+            await smtpClient.SendMailAsync(mailMessage);
         }
     }
 }

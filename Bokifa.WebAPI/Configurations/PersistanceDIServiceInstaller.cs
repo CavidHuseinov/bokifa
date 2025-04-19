@@ -44,6 +44,9 @@ namespace Bookifa.WebAPI.Configurations
             services.AddScoped<ITBlogRepo, TBlogRepo>();
             services.AddScoped<ICurrencyRepo, CurrencyRepo>();
             services.AddScoped<IContactAddressRepo,ContactAddressRepo>();
+            services.AddScoped<IShippingInfoRepo, ShippingInfoRepo>();
+            services.AddScoped<INotificationModelRepo, NotificationModelRepo>();
+            services.AddScoped<IPromocodeRepo, PromocodeRepo>();
             #endregion
 
             #region Services
@@ -68,8 +71,12 @@ namespace Bookifa.WebAPI.Configurations
             services.AddScoped<IContactAddressService, ContactAddressService>();
             services.AddScoped<IAuthorService, AuthorService>();
             services.AddScoped<IBlogService, BlogService>();
-            services.AddScoped<ITBlogService, TBlogService>();
+            services.AddScoped<ITBlogService, TBlogService>();  
             services.AddScoped<ICurrencyService, CurrencyService>();
+            services.AddScoped<IShippingInfoService, ShippingInfoService>();
+            services.AddScoped<INotficationModelService, NotificationModelService>();
+            //services.AddSingleton<IEmailQueueService,EmailQueueService>();
+            services.AddScoped<IPromocodeService, PromocodeService>();
             #endregion
 
         }

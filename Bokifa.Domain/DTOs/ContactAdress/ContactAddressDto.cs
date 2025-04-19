@@ -6,5 +6,6 @@
         public string PhoneNumber { get; set; } = default!;
         public bool IsConfirmed { get; set; }
         public DateTime? ConfirmedAt { get; set; }
+        public string SendNotification { get; set; } = default!;
     }
 }

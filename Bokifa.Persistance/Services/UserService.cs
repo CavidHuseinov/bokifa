@@ -1,5 +1,8 @@
-﻿using Bokifa.Domain.DTOs.Book;
+﻿using Bokifa.Domain.DTOs.AppUserAndPromocode;
+using Bokifa.Domain.DTOs.Book;
+using Bokifa.Domain.DTOs.EmailQueueDto;
 using Bokifa.Domain.DTOs.Favorite;
+using Bokifa.Domain.DTOs.Promocode;
 using Bookifa.Domain.DTOs.User;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -59,7 +62,7 @@ namespace Bookifa.Persistance.Services
                issuer: _config["JWT:Issuer"],
                audience: _config["JWT:Audience"],
                claims: claims,
-               expires: DateTime.Now.AddMinutes(20),
+               expires: DateTime.UtcNow.AddMinutes(20),
                signingCredentials: creds
             );
             return new JwtSecurityTokenHandler().WriteToken(token);
@@ -97,8 +100,19 @@ namespace Bookifa.Persistance.Services
                             Price = f.Book.Price,
                             Discount = f.Book.Discount,
                         }
+                    }).ToList(),
+                    AppUserAndPromocodes = x.AppUserAndPromocodes.Select(up => new AppUserAndPromocodeDto
+                    {
+                        PromocodeId = up.PromocodeId,
+                        Promocode = new PromocodeDto
+                        {
+                            Code = up.Promocode.Code,
+                            Discount = up.Promocode.Discount,
+                            ExpirationDate = up.Promocode.ExpirationDate.ToString("yyyy-MM-dd"),
+                            IsUsed = up.Promocode.IsUsed,
+                            CreatedAt = up.Promocode.CreatedAt.Date.ToString("yyyy-MM-dd"),
+                        }
                     }).ToList()
-
                 }).FirstOrDefaultAsync();
 
             if (user == null)
@@ -146,7 +160,7 @@ namespace Bookifa.Persistance.Services
 
             var refreshToken = GenerateRefreshToken();
             user.RefreshToken = refreshToken;
-            user.ExpirationRefreshTokenDate = DateTime.Now.AddDays(7);
+            user.ExpirationRefreshTokenDate = DateTime.UtcNow.AddDays(7);
             await _userManager.UpdateAsync(user);
 
             Response.Cookies.Append("RefreshToken", refreshToken, new CookieOptions
@@ -154,13 +168,13 @@ namespace Bookifa.Persistance.Services
                 HttpOnly = true,
                 Secure = true,
                 SameSite = SameSiteMode.Strict,
-                Expires = DateTime.Now.AddDays(7),
+                Expires = DateTime.UtcNow.AddDays(7),
             });
 
 
             _memoryCache.Set(refreshToken, user, new MemoryCacheEntryOptions
             {
-                AbsoluteExpiration = DateTime.Now.AddDays(7),
+                AbsoluteExpiration = DateTime.UtcNow.AddDays(7),
                 Priority = CacheItemPriority.Normal
             });
 
@@ -180,9 +194,14 @@ namespace Bookifa.Persistance.Services
             string resetToken = await _userManager.GeneratePasswordResetTokenAsync(user);
             string encodedToken = WebUtility.UrlEncode(resetToken);
             string resetUrl = $"{_config["Frontend:BaseUrl"]}/reset-password?email={forgotPasswordDto.Email}&token={encodedToken}";
-            var emailLists = new List<string> { forgotPasswordDto.Email };
-            await _emailService.SendEmailsAsync(emailLists, "Reset Your Password",
-                $"To reset your password, please <a href='{resetUrl}'>click here</a>");
+            var emailDto = new EmailQueueDto
+            {
+                ToEmails = new List<string> { forgotPasswordDto.Email },
+                Subject = "Reset Your Password",
+                Body = $"To reset your password, please <a href='{resetUrl}'>click here</a>",
+            };
+
+            await _emailService.SendEmailsAsync(emailDto);
         }
 
         public async Task ResetPasswordAsync(ResetPasswordDto resetPasswordDto)
@@ -210,7 +229,7 @@ namespace Bookifa.Persistance.Services
             if (string.IsNullOrEmpty(userId)) throw new InvalidOperationException("User not found");
 
             var user = await GetUserFromRefreshToken(refreshToken);
-            if (user == null || (DateTime.Now - user.ExpirationRefreshTokenDate).TotalDays > 7)
+            if (user == null || (DateTime.UtcNow - user.ExpirationRefreshTokenDate).TotalDays > 7)
             {
                 throw new InvalidDataException("Invalid or expired refresh token");
             }
@@ -225,7 +244,7 @@ namespace Bookifa.Persistance.Services
             var roles = await _userManager.GetRolesAsync(user);
             var newAccessToken = GenerateAccessToken(user, roles);
 
-            if (user.ExpirationRefreshTokenDate < DateTime.Now)
+            if (user.ExpirationRefreshTokenDate < DateTime.UtcNow)
             {
                 var newRefreshToken = GenerateRefreshToken();
                 user.RefreshToken = newRefreshToken;

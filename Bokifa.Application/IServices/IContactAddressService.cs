@@ -1,4 +1,5 @@
 ﻿using Bokifa.Domain.DTOs.ContactAdress;
+using Bokifa.Domain.DTOs.NotificationModel;
 
 namespace Bokifa.Application.IServices
 {
@@ -7,7 +8,6 @@ namespace Bokifa.Application.IServices
         Task<ContactAddressDto> GetAsync();
         Task<ContactAddressDto> CreateAsync(CreateContactAddressDto dto);
         Task<ContactAddressDto> UpdateAsync(UpdateContactAddressDto dto);
-        Task<bool> SendNotification(CreateContactAddressDto dto);
         Task DeleteAsync(Guid id);
     }
 }

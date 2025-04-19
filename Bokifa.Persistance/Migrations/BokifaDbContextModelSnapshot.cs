@@ -22,6 +22,21 @@ namespace Bokifa.Persistance.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.AppUserAndPromocode", b =>
+                {
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<Guid>("PromocodeId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("AppUserId", "PromocodeId");
+
+                    b.HasIndex("PromocodeId");
+
+                    b.ToTable("AppUserAndPromocodes");
+                });
+
             modelBuilder.Entity("Bokifa.Domain.Entities.Author", b =>
                 {
                     b.Property<Guid>("Id")
@@ -272,6 +287,9 @@ namespace Bokifa.Persistance.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("SendNotification")
+                        .HasColumnType("bit");
+
                     b.HasKey("Id");
 
                     b.HasIndex("AppUserId")
@@ -339,6 +357,45 @@ namespace Bokifa.Persistance.Migrations
                     b.ToTable("HeadBanners");
                 });
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.NotificationModel", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("NotificationModels");
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.Promocode", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Discount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<DateTime>("ExpirationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsUsed")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Promocodes");
+                });
+
             modelBuilder.Entity("Bokifa.Domain.Entities.Review", b =>
                 {
                     b.Property<Guid>("Id")
@@ -365,6 +422,55 @@ namespace Bokifa.Persistance.Migrations
                     b.HasIndex("BookId");
 
                     b.ToTable("Reviews");
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.ShippingInfo", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Apartment")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Country")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PostalCode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("SaveInformation")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("State")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Surname")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.ToTable("ShippingInfos");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.TBanner", b =>
@@ -806,6 +912,25 @@ namespace Bokifa.Persistance.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.AppUserAndPromocode", b =>
+                {
+                    b.HasOne("Bookifa.Domain.Entities.Identity.AppUser", "AppUser")
+                        .WithMany("AppUserAndPromocodes")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Bokifa.Domain.Entities.Promocode", "Promocode")
+                        .WithMany("AppUserAndPromocodes")
+                        .HasForeignKey("PromocodeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Promocode");
+                });
+
             modelBuilder.Entity("Bokifa.Domain.Entities.Author", b =>
                 {
                     b.OwnsOne("Bookifa.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
@@ -1174,6 +1299,52 @@ namespace Bokifa.Persistance.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.NotificationModel", b =>
+                {
+                    b.OwnsOne("Bookifa.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<Guid>("NotificationModelId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("NotificationModelId");
+
+                            b1.ToTable("NotificationModels");
+
+                            b1.WithOwner()
+                                .HasForeignKey("NotificationModelId");
+                        });
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.Promocode", b =>
+                {
+                    b.OwnsOne("Bookifa.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<Guid>("PromocodeId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("PromocodeId");
+
+                            b1.ToTable("Promocodes");
+
+                            b1.WithOwner()
+                                .HasForeignKey("PromocodeId");
+                        });
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Bokifa.Domain.Entities.Review", b =>
                 {
                     b.HasOne("Bookifa.Domain.Entities.Identity.AppUser", "AppUser")
@@ -1208,6 +1379,37 @@ namespace Bokifa.Persistance.Migrations
                     b.Navigation("AppUser");
 
                     b.Navigation("Book");
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Bokifa.Domain.Entities.ShippingInfo", b =>
+                {
+                    b.HasOne("Bookifa.Domain.Entities.Identity.AppUser", "AppUser")
+                        .WithMany("ShippingInfos")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.OwnsOne("Bookifa.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<Guid>("ShippingInfoId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("ShippingInfoId");
+
+                            b1.ToTable("ShippingInfos");
+
+                            b1.WithOwner()
+                                .HasForeignKey("ShippingInfoId");
+                        });
+
+                    b.Navigation("AppUser");
 
                     b.Navigation("CreatedAt")
                         .IsRequired();
@@ -1577,6 +1779,11 @@ namespace Bokifa.Persistance.Migrations
                     b.Navigation("THeadBanners");
                 });
 
+            modelBuilder.Entity("Bokifa.Domain.Entities.Promocode", b =>
+                {
+                    b.Navigation("AppUserAndPromocodes");
+                });
+
             modelBuilder.Entity("Bokifa.Domain.Entities.Tag", b =>
                 {
                     b.Navigation("BlogAndTags");
@@ -1595,6 +1802,8 @@ namespace Bokifa.Persistance.Migrations
 
             modelBuilder.Entity("Bookifa.Domain.Entities.Identity.AppUser", b =>
                 {
+                    b.Navigation("AppUserAndPromocodes");
+
                     b.Navigation("CartItems");
 
                     b.Navigation("Comments");
@@ -1603,6 +1812,8 @@ namespace Bokifa.Persistance.Migrations
                         .IsRequired();
 
                     b.Navigation("Favorites");
+
+                    b.Navigation("ShippingInfos");
                 });
 #pragma warning restore 612, 618
         }
