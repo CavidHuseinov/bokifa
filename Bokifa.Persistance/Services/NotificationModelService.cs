@@ -34,7 +34,7 @@ namespace Bokifa.Persistance.Services
 
         public async Task<ICollection<NotificationModelDto>> GetAllAsync()
         {
-            var notifications = await _query.GetAllAsync();
+            var notifications = await _query.GetAllAsync().ToListAsync();
             if (notifications == null)
             {
                 throw new Exception("No notifications found");

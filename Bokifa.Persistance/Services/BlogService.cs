@@ -21,7 +21,7 @@ namespace Bokifa.Persistance.Services
         {
             var blogs = await _query.GetAllAsync(
                 include: q => q.Include(x => x.Author).Include(x => x.TBlogs)
-                .Include(x => x.BlogAndTags).ThenInclude(x=>x.Tag));
+                .Include(x => x.BlogAndTags).ThenInclude(x=>x.Tag)).ToListAsync();
             return _mapper.Map<ICollection<BlogDto>>(blogs);
         }
 

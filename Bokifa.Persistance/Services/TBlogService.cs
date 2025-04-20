@@ -18,7 +18,7 @@ namespace Bokifa.Persistance.Services
         }
         public async Task<ICollection<TBlogDto>> GetAllAsync()
         {
-            var tblogs = await _query.GetAllAsync();
+            var tblogs = await _query.GetAllAsync().ToListAsync();
             return _mapper.Map<ICollection<TBlogDto>>(tblogs);
         }
 

@@ -27,7 +27,7 @@ namespace Bokifa.Persistance.Services
                 .Include(x => x.BookAndCategories).ThenInclude(x => x.Category)
                 .Include(x=>x.BookAndTags).ThenInclude(x=>x.Tag)
                 .Include(x=>x.Comments)
-                .Include(x=>x.BookAndVariants).ThenInclude(x=>x.Variant));
+                .Include(x=>x.BookAndVariants).ThenInclude(x=>x.Variant)).ToListAsync();
             return _mapper.Map<ICollection<BookDto>>(books);
         }
 

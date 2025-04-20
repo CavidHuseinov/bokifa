@@ -26,7 +26,7 @@ namespace Bokifa.Persistance.Services
                 return _mapper.Map<ICollection<TVariantDto>>(cachedDict.Values);
             }
 
-            var tVariants = await _query.GetAllAsync();
+            var tVariants = await _query.GetAllAsync().ToListAsync();
             var tVariantDict = tVariants.ToDictionary(b => b.Id);
             _cache.Set(cacheKey, tVariantDict);
             return _mapper.Map<ICollection<TVariantDto>>(tVariants);

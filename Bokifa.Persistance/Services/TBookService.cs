@@ -28,7 +28,7 @@ namespace Bokifa.Persistance.Services
 
             var tBooks = await _query.GetAllAsync(
                 include: x => x
-                .Include(x => x.Book));
+                .Include(x => x.Book)).ToListAsync();
             var tBookDict = tBooks.ToDictionary(b => b.Id);
             _cache.Set(cacheKey, tBookDict);
             return _mapper.Map<ICollection<TBookDto>>(tBooks);

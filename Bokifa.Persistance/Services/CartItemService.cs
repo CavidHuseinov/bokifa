@@ -1,5 +1,8 @@
 ﻿using Bokifa.Domain.DTOs.Book;
 using Bokifa.Domain.DTOs.CartItem;
+using Bokifa.Domain.DTOs.Promocode;
+using Bokifa.Domain.ValueObjects;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Bokifa.Persistance.Services 
@@ -11,17 +14,19 @@ namespace Bokifa.Persistance.Services
         private readonly IUnitOfWork _work; 
         private readonly IMapper _mapper; 
         private readonly SignInManager<AppUser> _sign; 
-        private readonly IHttpContextAccessor _http; 
-        public CartItemService(ICartItemRepo command, IQueryRepository<CartItem> query, IUnitOfWork work, IMapper mapper, SignInManager<AppUser> sign, IHttpContextAccessor http) 
-        { 
-            _command = command; 
-            _query = query; 
-            _work = work; 
-            _mapper = mapper; 
-            _sign = sign; 
-            _http = http; 
-        } 
- 
+        private readonly IHttpContextAccessor _http;
+        private readonly IQueryRepository<Promocode> _promoCodeQuery;
+        public CartItemService(ICartItemRepo command, IQueryRepository<CartItem> query, IUnitOfWork work, IMapper mapper, SignInManager<AppUser> sign, IHttpContextAccessor http, IQueryRepository<Promocode> promoCodeQuery)
+        {
+            _command = command;
+            _query = query;
+            _work = work;
+            _mapper = mapper;
+            _sign = sign;
+            _http = http;
+            _promoCodeQuery = promoCodeQuery;
+        }
+
         public async Task AddToCartAsync(CreateCartItemDto dto) 
         { 
             var userId = _sign.UserManager.GetUserId(_http.HttpContext.User); 
@@ -67,11 +72,38 @@ namespace Bokifa.Persistance.Services
                         Description = ci.Book.Description, 
                         ImgUrl = ci.Book.ImgUrl, 
                         Price = ci.Book.Price, 
-                        Discount = ci.Book.Discount 
+                        Discount = ci.Book.Discount,
                     } 
                 }).ToListAsync(); 
  
             return cartItems; 
-        } 
-    } 
+        }
+        public async Task<PromocodeDto> ApplyPromoCode(CartItemQueryDto dto)
+        {
+            var AppUserId = _sign.UserManager.GetUserId(_http.HttpContext.User);
+            var promoCode = await _promoCodeQuery.GetByIdAsync(dto.PromocodeId);
+            if (promoCode == null)
+            {
+                throw new Exception("Promocode not found");
+            }
+
+            var cartItem = await _query.GetAsync(c => c.AppUserId == AppUserId && c.BookId == dto.BookId);
+
+            if (cartItem == null)
+            {
+                throw new Exception("Cart item not found");
+            }
+
+            cartItem.PromocodeId = promoCode.Id;
+            await _command.UpdateAsync(cartItem);
+            await _work.SaveChangeAsync();
+
+            return _mapper.Map<PromocodeDto>(promoCode);
+        }
+
+
+
+
+
+    }
 }

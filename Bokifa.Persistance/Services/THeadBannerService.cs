@@ -26,7 +26,7 @@ namespace Bokifa.Persistance.Services
                 return _mapper.Map<ICollection<THeadBannerDto>>(cachedDict.Values);
             }
 
-            var banners = await _query.GetAllAsync(include:q=>q.Include(x=>x.HeadBanner));
+            var banners = await _query.GetAllAsync(include: q => q.Include(x => x.HeadBanner)).ToListAsync();
             var bannerDict = banners.ToDictionary(b => b.Id);
             _cache.Set(cacheKey, bannerDict);
             return _mapper.Map<ICollection<THeadBannerDto>>(banners);

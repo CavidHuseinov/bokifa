@@ -26,7 +26,7 @@ namespace Bokifa.Persistance.Services
                 return _mapper.Map<ICollection<CategoryDto>>(cachedDict.Values);
             }
 
-            var categories = await _query.GetAllAsync(include: q => q.Include(x => x.BookAndCategories).ThenInclude(x => x.Book));
+            var categories = await _query.GetAllAsync(include: q => q.Include(x => x.BookAndCategories).ThenInclude(x => x.Book)).ToListAsync();
             var categoryDict = categories.ToDictionary(b => b.Id);
             _cache.Set(cacheKey, categoryDict);
             return _mapper.Map<ICollection<CategoryDto>>(categories);

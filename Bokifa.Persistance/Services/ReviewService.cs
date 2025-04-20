@@ -39,13 +39,13 @@ namespace Bokifa.Persistance.Services
 
         public async Task<IEnumerable<ReviewDto>> GetReviewsByBookAsync(Guid bookId, int pageIndex, int pageSize)
         {
-            var reviews = await _query.GetByPagingAsync(
+            var reviews = await _query.GetByPagedAsync(
                 predicate: r => r.BookId == bookId,
                 include: x => x.Include(x => x.AppUser),
                 orderBy: q => q.OrderByDescending(r => r.CreatedAt.Date),
                 enableTracking: false,
                 pageIndex: pageIndex,
-                pageSize: pageSize);
+                pageSize: pageSize).ToListAsync();
 
             return _mapper.Map<IEnumerable<ReviewDto>>(reviews);
         }

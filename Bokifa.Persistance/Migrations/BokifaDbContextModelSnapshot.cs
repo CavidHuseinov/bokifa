@@ -81,8 +81,8 @@ namespace Bokifa.Persistance.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PrimaryLanguageType")
-                        .HasColumnType("int");
+                    b.Property<byte>("PrimaryLanguageType")
+                        .HasColumnType("tinyint");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -110,8 +110,8 @@ namespace Bokifa.Persistance.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PrimaryLanguageType")
-                        .HasColumnType("int");
+                    b.Property<byte>("PrimaryLanguageType")
+                        .HasColumnType("tinyint");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -145,7 +145,7 @@ namespace Bokifa.Persistance.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("CurrencyId")
+                    b.Property<Guid?>("CurrencyId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Description")
@@ -165,8 +165,8 @@ namespace Bokifa.Persistance.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("PrimaryLanguageType")
-                        .HasColumnType("int");
+                    b.Property<byte>("PrimaryLanguageType")
+                        .HasColumnType("tinyint");
 
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
@@ -239,12 +239,17 @@ namespace Bokifa.Persistance.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid?>("PromocodeId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
                     b.HasKey("AppUserId", "BookId");
 
                     b.HasIndex("BookId");
+
+                    b.HasIndex("PromocodeId");
 
                     b.ToTable("CartItems");
                 });
@@ -259,8 +264,8 @@ namespace Bokifa.Persistance.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PrimaryLanguageType")
-                        .HasColumnType("int");
+                    b.Property<byte>("PrimaryLanguageType")
+                        .HasColumnType("tinyint");
 
                     b.HasKey("Id");
 
@@ -349,8 +354,8 @@ namespace Bokifa.Persistance.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("LanguageType")
-                        .HasColumnType("int");
+                    b.Property<byte>("LanguageType")
+                        .HasColumnType("tinyint");
 
                     b.HasKey("Id");
 
@@ -490,8 +495,8 @@ namespace Bokifa.Persistance.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("LanguageType")
-                        .HasColumnType("int");
+                    b.Property<byte>("LanguageType")
+                        .HasColumnType("tinyint");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -521,8 +526,8 @@ namespace Bokifa.Persistance.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("LanguageType")
-                        .HasColumnType("int");
+                    b.Property<byte>("LanguageType")
+                        .HasColumnType("tinyint");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -548,8 +553,8 @@ namespace Bokifa.Persistance.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("LanguageType")
-                        .HasColumnType("int");
+                    b.Property<byte>("LanguageType")
+                        .HasColumnType("tinyint");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -571,8 +576,8 @@ namespace Bokifa.Persistance.Migrations
                     b.Property<Guid>("CategoryId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("LanguageType")
-                        .HasColumnType("int");
+                    b.Property<byte>("LanguageType")
+                        .HasColumnType("tinyint");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -598,8 +603,8 @@ namespace Bokifa.Persistance.Migrations
                     b.Property<Guid?>("HeadBannerId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("LanguageType")
-                        .HasColumnType("int");
+                    b.Property<byte>("LanguageType")
+                        .HasColumnType("tinyint");
 
                     b.HasKey("Id");
 
@@ -614,8 +619,8 @@ namespace Bokifa.Persistance.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("LanguageType")
-                        .HasColumnType("int");
+                    b.Property<byte>("LanguageType")
+                        .HasColumnType("tinyint");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -637,8 +642,8 @@ namespace Bokifa.Persistance.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("LanguageType")
-                        .HasColumnType("int");
+                    b.Property<byte>("LanguageType")
+                        .HasColumnType("tinyint");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -664,8 +669,8 @@ namespace Bokifa.Persistance.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PrimaryLanguageType")
-                        .HasColumnType("int");
+                    b.Property<byte>("PrimaryLanguageType")
+                        .HasColumnType("tinyint");
 
                     b.HasKey("Id");
 
@@ -682,8 +687,8 @@ namespace Bokifa.Persistance.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PrimaryLanguageType")
-                        .HasColumnType("int");
+                    b.Property<byte>("PrimaryLanguageType")
+                        .HasColumnType("tinyint");
 
                     b.HasKey("Id");
 
@@ -1032,8 +1037,7 @@ namespace Bokifa.Persistance.Migrations
                     b.HasOne("Bokifa.Domain.Entities.Currency", "Currency")
                         .WithMany("Books")
                         .HasForeignKey("CurrencyId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.OwnsOne("Bookifa.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
                         {
@@ -1129,6 +1133,11 @@ namespace Bokifa.Persistance.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Bokifa.Domain.Entities.Promocode", "Promocode")
+                        .WithMany()
+                        .HasForeignKey("PromocodeId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
                     b.OwnsOne("Bookifa.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
                         {
                             b1.Property<string>("CartItemAppUserId")
@@ -1155,6 +1164,8 @@ namespace Bokifa.Persistance.Migrations
 
                     b.Navigation("CreatedAt")
                         .IsRequired();
+
+                    b.Navigation("Promocode");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.Category", b =>

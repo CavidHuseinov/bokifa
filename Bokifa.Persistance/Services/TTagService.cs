@@ -25,7 +25,7 @@ namespace Bokifa.Persistance.Services
                 return _mapper.Map<ICollection<TTagDto>>(cachedDict.Values);
             }
 
-            var tTags = await _query.GetAllAsync();
+            var tTags = await _query.GetAllAsync().ToListAsync();
             var tTagDict = tTags.ToDictionary(b => b.Id);
             _cache.Set(cacheKey, tTagDict);
             return _mapper.Map<ICollection<TTagDto>>(tTags);

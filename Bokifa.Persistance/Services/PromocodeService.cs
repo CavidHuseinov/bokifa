@@ -56,7 +56,7 @@ namespace Bokifa.Persistance.Services
 
         public async Task<ICollection<PromocodeDto>> GetAllAsync()
         {
-            var promocodes = await _query.GetAllAsync();
+            var promocodes = await _query.GetAllAsync().ToListAsync();
             return _mapper.Map<ICollection<PromocodeDto>>(promocodes);
         }
 

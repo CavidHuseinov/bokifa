@@ -1,6 +1,6 @@
 ﻿namespace Bokifa.Domain.Enums
 {
-    public enum PrimaryLanguageType
+    public enum PrimaryLanguageType:byte
     {
         Eng = 1
     }

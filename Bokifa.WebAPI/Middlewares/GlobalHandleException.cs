@@ -19,7 +19,7 @@ namespace Bookifa.WebAPI.Middlewares
             try
             {
                 await _next(context);
-            }
+            }   
             catch (Exception ex)
             {
                 _logger.LogError(ex, "An unhandled exception occurred.");

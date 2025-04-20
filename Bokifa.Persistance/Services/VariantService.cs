@@ -27,7 +27,7 @@ namespace Bokifa.Persistance.Services
 
             var variants = await _query.GetAllAsync(
                 include:q=>q.Include(x=>x.TVariants)
-                );
+                ).ToListAsync();
             var variantDtos = _mapper.Map<List<VariantDto>>(variants);
 
             _cache.Set(cacheKey, variantDtos);

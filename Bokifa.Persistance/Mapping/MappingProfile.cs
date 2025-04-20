@@ -168,6 +168,7 @@ namespace Bookifa.Persistance.Mapping
             #region CartItem
             CreateMap<CartItemDto, CartItem>().ReverseMap();
             CreateMap<CreateCartItemDto, CartItem>().ReverseMap();
+            CreateMap<CartItemQueryDto, CartItem>().ReverseMap();
             #endregion
 
             #region ContactAdress

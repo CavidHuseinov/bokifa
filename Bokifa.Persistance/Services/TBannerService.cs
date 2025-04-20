@@ -27,7 +27,7 @@ namespace Bokifa.Persistance.Services
             }
 
             var banners = await _query.GetAllAsync(
-                include:q=>q.Include(x=>x.Banner));
+                include:q=>q.Include(x=>x.Banner)).ToListAsync();
             var bannerDict = banners.ToDictionary(b => b.Id);
             _cache.Set(cacheKey, bannerDict);
             return _mapper.Map<ICollection<TBannerDto>>(banners);

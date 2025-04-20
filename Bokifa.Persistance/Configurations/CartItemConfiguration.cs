@@ -23,6 +23,12 @@
                 .WithMany(b => b.CartItems)
                 .HasForeignKey(ci => ci.BookId)
                 .OnDelete(DeleteBehavior.Cascade);
+
+            builder
+                .HasOne(x => x.Promocode)
+                .WithMany()
+                .HasForeignKey(x => x.PromocodeId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

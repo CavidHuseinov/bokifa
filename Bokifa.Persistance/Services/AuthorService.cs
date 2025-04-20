@@ -25,7 +25,7 @@ namespace Bokifa.Persistance.Services
                 return _mapper.Map<ICollection<AuthorDto>>(cachedDict.Values);
             }
 
-            var authors = await _query.GetAllAsync();
+            var authors = await _query.GetAllAsync().ToListAsync();
             var authorDict = authors.ToDictionary(b => b.Id);
             _cache.Set(cacheKey, authorDict);
             return _mapper.Map<ICollection<AuthorDto>>(authors);

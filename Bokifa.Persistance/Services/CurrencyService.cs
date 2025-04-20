@@ -17,8 +17,8 @@ namespace Bokifa.Persistance.Services
 
         public async Task<CurrencyDto> GetByCodeAsync(string code)
         {
-            var currencies = await _query.GetAllAsync();
-            var currency = currencies.FirstOrDefault(x => x.Code == code.ToUpper());
+            var currency = await _query.GetAllAsync(x => x.Code == code.ToUpper())
+                                       .FirstOrDefaultAsync();
 
             if (currency is null)
                 throw new KeyNotFoundException("Currency not found");
@@ -29,7 +29,7 @@ namespace Bokifa.Persistance.Services
 
         public async Task<List<CurrencyDto>> GetAllAsync()
         {
-            var currencies = await _query.GetAllAsync();
+            var currencies = await _query.GetAllAsync().ToListAsync();
             return _mapper.Map<List<CurrencyDto>>(currencies);
         }
     }

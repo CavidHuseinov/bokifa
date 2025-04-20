@@ -29,7 +29,13 @@ namespace Bookifa.Persistance.Repositories.Generics
 
         public async Task UpdateAsync(TEntity entity)
         {
-            Table.Update(entity);
+            var existingEntity = await Table.FindAsync(entity.Id);
+            if (existingEntity == null)
+            {
+                throw new Exception($"{entity} not found");
+            }
+            _context.Entry(existingEntity).CurrentValues.SetValues(entity);
+
         }
     }
 }
