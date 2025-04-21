@@ -338,6 +338,66 @@
   },
   {
     "ContainingType": "Bokifa.Presentation.Controllers.BookController",
+    "Method": "GetAllFilterCounts",
+    "RelativePath": "api/Book/all-filter-counts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.BookController",
+    "Method": "GetBookCountsByAvailability",
+    "RelativePath": "api/Book/counts-by-availability",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.BookController",
+    "Method": "GetBookCountsByCategory",
+    "RelativePath": "api/Book/counts-by-category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.BookController",
+    "Method": "GetBookCountsByFormat",
+    "RelativePath": "api/Book/counts-by-format",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.BookController",
+    "Method": "GetBookCountsByRating",
+    "RelativePath": "api/Book/counts-by-rating",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.BookController",
+    "Method": "GetSpecialCategoriesCount",
+    "RelativePath": "api/Book/counts-by-special-categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.BookController",
     "Method": "CreateAsync",
     "RelativePath": "api/Book/create",
     "HttpMethod": "POST",

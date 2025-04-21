@@ -1,108 +1,224 @@
-﻿using Bokifa.Domain.DTOs.Book;
-using Bokifa.Domain.DTOs.ContactAdress;
-using Bokifa.Domain.DTOs.NotificationModel;
+﻿using Microsoft.EntityFrameworkCore;
+using AutoMapper;
+using Bokifa.Domain.DTOs.Book;
 
 namespace Bokifa.Persistance.Services
 {
     public class BookService : IBookService
     {
         private readonly IMapper _mapper;
-        private readonly IUnitOfWork _work;
-        private readonly IBookRepo _command;
-        private readonly IQueryRepository<Book> _query;
-        private readonly IContactAddressService _contactAddress;
-        public BookService(IUnitOfWork unitOfWork, IQueryRepository<Book> query, IBookRepo command, IMapper mapper, IContactAddressService contactAddress)
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly IBookRepo _bookCommandRepo;
+        private readonly IQueryRepository<Book> _bookQueryRepo;
+        private readonly IQueryRepository<Variant> _variantQueryRepo;
+        private readonly IQueryRepository<Category> _categoryQueryRepo;
+        private readonly IContactAddressService _contactAddressService;
+
+        public BookService(
+            IUnitOfWork unitOfWork,
+            IQueryRepository<Book> bookQueryRepo,
+            IBookRepo bookCommandRepo,
+            IMapper mapper,
+            IContactAddressService contactAddressService,
+            IQueryRepository<Variant> variantQueryRepo,
+            IQueryRepository<Category> categoryQueryRepo)
         {
-            _work = unitOfWork;
-            _query = query;
-            _command = command;
+            _unitOfWork = unitOfWork;
+            _bookQueryRepo = bookQueryRepo;
+            _bookCommandRepo = bookCommandRepo;
             _mapper = mapper;
-            _contactAddress = contactAddress;
+            _contactAddressService = contactAddressService;
+            _variantQueryRepo = variantQueryRepo;
+            _categoryQueryRepo = categoryQueryRepo;
         }
+
         public async Task<ICollection<BookDto>> GetAllAsync()
         {
+            var books = await _bookQueryRepo.GetAllAsync(
+                include: q => q
+                    .Include(b => b.BookAndCategories).ThenInclude(bc => bc.Category)
+                    .Include(b => b.BookAndTags).ThenInclude(bt => bt.Tag)
+                    .Include(b => b.Comments)
+                    .Include(b => b.BookAndVariants).ThenInclude(bv => bv.Variant),
+                enableTracking: false)
+                .ToListAsync();
 
-            var books = await _query.GetAllAsync(
-                include: x => x
-                .Include(x => x.BookAndCategories).ThenInclude(x => x.Category)
-                .Include(x=>x.BookAndTags).ThenInclude(x=>x.Tag)
-                .Include(x=>x.Comments)
-                .Include(x=>x.BookAndVariants).ThenInclude(x=>x.Variant)).ToListAsync();
             return _mapper.Map<ICollection<BookDto>>(books);
         }
 
         public async Task<BookDto> GetByIdAsync(Guid id)
         {
-            var bookId = await _query.GetByIdAsync(id);
-            if (bookId == null)
+            var book = await _bookQueryRepo.GetByIdAsync(id);
+            if (book == null)
             {
-                throw new Exception("Book not found");
+                throw new KeyNotFoundException($"Book with ID {id} not found.");
             }
-            return _mapper.Map<BookDto>(bookId);
+            return _mapper.Map<BookDto>(book);
         }
+
         public async Task<BookDto> CreateAsync(CreateBookDto dto)
         {
+            if (dto == null) throw new ArgumentNullException(nameof(dto));
+
             var book = _mapper.Map<Book>(dto);
 
-            if (dto.CategoryIds != null && dto.CategoryIds.Any())
+            book.BookAndCategories = new List<BookAndCategory>();
+            book.BookAndTags = new List<BookAndTag>();
+            book.BookAndVariants = new List<BookAndVariant>();
+
+            if (dto.CategoryIds?.Any() == true)
             {
-                book.BookAndCategories = new List<BookAndCategory>();
                 foreach (var categoryId in dto.CategoryIds)
                 {
-                    book.BookAndCategories.Add(new BookAndCategory
-                    {
-                        CategoryId = categoryId
-                    });
+                    book.BookAndCategories.Add(new BookAndCategory { CategoryId = categoryId });
                 }
             }
-            if(dto.TagIds != null && dto.TagIds.Any())
+
+            if (dto.TagIds?.Any() == true)
             {
-                book.BookAndTags = new List<BookAndTag>();
                 foreach (var tagId in dto.TagIds)
                 {
-                    book.BookAndTags.Add(new BookAndTag
-                    {
-                        TagId = tagId
-                    });
+                    book.BookAndTags.Add(new BookAndTag { TagId = tagId });
                 }
             }
-            if (dto.VariantIds != null && dto.VariantIds.Any())
+
+            if (dto.VariantIds?.Any() == true)
             {
-                book.BookAndVariants = new List<BookAndVariant>();
                 foreach (var variantId in dto.VariantIds)
                 {
-                    book.BookAndVariants.Add(new BookAndVariant
-                    {
-                        VariantId = variantId
-                    });
+                    book.BookAndVariants.Add(new BookAndVariant { VariantId = variantId });
                 }
             }
-            var newBook = await _command.CreateAsync(book);
 
-            await _work.SaveChangeAsync();
-            return _mapper.Map<BookDto>(newBook);
+            var createdBook = await _bookCommandRepo.CreateAsync(book);
+            await _unitOfWork.SaveChangeAsync();
+
+            return _mapper.Map<BookDto>(createdBook);
         }
+
         public async Task UpdateAsync(UpdateBookDto dto)
         {
-            var existingBook = await _query.GetByIdAsync(dto.Id);
+            if (dto == null) throw new ArgumentNullException(nameof(dto));
+
+            var existingBook = await _bookQueryRepo.GetByIdAsync(dto.Id);
             if (existingBook == null)
             {
-                throw new KeyNotFoundException("Book not found");
+                throw new KeyNotFoundException($"Book with ID {dto.Id} not found.");
             }
 
             _mapper.Map(dto, existingBook);
-            await _command.UpdateAsync(existingBook);
-            await _work.SaveChangeAsync();
+            await _bookCommandRepo.UpdateAsync(existingBook);
+            await _unitOfWork.SaveChangeAsync();
         }
+
         public async Task DeleteAsync(Guid id)
         {
-            var bookId = await _query.GetByIdAsync(id);
-            if (bookId == null)
+            var book = await _bookQueryRepo.GetByIdAsync(id);
+            if (book == null)
             {
-                throw new KeyNotFoundException("Book not found");
+                throw new KeyNotFoundException($"Book with ID {id} not found.");
             }
-            await _command.DeleteAsync(bookId);
-            await _work.SaveChangeAsync();
+
+            await _bookCommandRepo.DeleteAsync(book);
+            await _unitOfWork.SaveChangeAsync();
+        }
+
+
+        public async Task<Dictionary<string, int>> GetBookCountsByFormatAsync()
+        {
+            var counts = new Dictionary<string, int>();
+
+            var books = await _bookQueryRepo.GetAllAsync(
+                include: q => q.Include(b => b.BookAndVariants).ThenInclude(bv => bv.Variant),
+                enableTracking: false)
+                .ToListAsync();
+
+            var formatBooks = books
+                .SelectMany(b => b.BookAndVariants.Select(bv => new { bv.Variant.Name, b.Id }))
+                .GroupBy(item => item.Name)
+                .ToDictionary(g => g.Key, g => g.Select(x => x.Id).Distinct().Count());
+
+            foreach (var format in formatBooks)
+            {
+                counts.Add(format.Key, format.Value);
+            }
+
+            return counts;
+        }
+
+        public async Task<Dictionary<string, int>> GetSpecialCategoriesCountAsync()
+        {
+            var counts = new Dictionary<string, int>();
+
+            var books = await _bookQueryRepo.GetAllAsync(
+                include: q => q
+                    .Include(b => b.BookAndVariants).ThenInclude(bv => bv.Variant)
+                    .Include(b => b.BookAndCategories).ThenInclude(bc => bc.Category),
+                enableTracking: false)
+                .ToListAsync();
+
+            var variants = await _variantQueryRepo.GetAllAsync(
+                enableTracking: false)
+                .ToListAsync();
+            foreach (var variant in variants)
+            {
+                var variantCount = books.Count(b => b.BookAndVariants.Any(bv => bv.VariantId == variant.Id));
+                counts.Add(variant.Name, variantCount);
+            }
+
+            var categories = await _categoryQueryRepo.GetAllAsync(
+                enableTracking: false)
+                .ToListAsync();
+            foreach (var category in categories)
+            {
+                var categoryCount = books.Count(b => b.BookAndCategories.Any(bc => bc.CategoryId == category.Id));
+                counts.Add(category.Name, categoryCount);
+            }
+
+            return counts;
+        }
+
+        public async Task<Dictionary<string, int>> GetBookCountsByRatingAsync()
+        {
+            var counts = new Dictionary<string, int>();
+
+            var books = await _bookQueryRepo.GetAllAsync(
+                include: q => q.Include(b => b.Comments),
+                enableTracking: false)
+                .ToListAsync();
+
+            for (int rating = 1; rating <= 5; rating++)
+            {
+                var ratingCount = books.Count(b => b.Comments.Any() &&
+                    Math.Round(b.Comments.Average(c => c.Rating)) == rating);
+                counts.Add(rating.ToString(), ratingCount);
+            }
+
+            return counts;
+        }
+
+        public async Task<Dictionary<string, int>> GetBookCountsByAvailabilityAsync()
+        {
+            var counts = new Dictionary<string, int>();
+
+            var books = await _bookQueryRepo.GetAllAsync(enableTracking: false).ToListAsync();
+
+            counts.Add("Available", books.Count(b => b.InStock));
+            counts.Add("Unavailable", books.Count(b => !b.InStock));
+
+            return counts;
+        }
+
+        public async Task<Dictionary<string, Dictionary<string, int>>> GetAllFilterCountsAsync()
+        {
+            return new Dictionary<string, Dictionary<string, int>>
+            {
+                { "categories", await GetBookCountsByCategoryAsync() },
+                { "availability", await GetBookCountsByAvailabilityAsync() },
+                { "format", await GetBookCountsByFormatAsync() },
+                { "category", await GetSpecialCategoriesCountAsync() },
+                { "rating", await GetBookCountsByRatingAsync() }
+            };
         }
     }
 }

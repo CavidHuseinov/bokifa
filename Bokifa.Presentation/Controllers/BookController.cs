@@ -42,5 +42,40 @@ namespace Bokifa.Presentation.Controllers
             await _service.DeleteAsync(id);
             return NoContent();
         }
+
+        [HttpGet("counts-by-format")]
+        public async Task<IActionResult> GetBookCountsByFormat()
+        {
+            var result = await _service.GetBookCountsByFormatAsync();
+            return Ok(result);
+        }
+
+        [HttpGet("counts-by-special-categories")]
+        public async Task<IActionResult> GetSpecialCategoriesCount()
+        {
+            var result = await _service.GetSpecialCategoriesCountAsync();
+            return Ok(result);
+        }
+
+        [HttpGet("counts-by-rating")]
+        public async Task<IActionResult> GetBookCountsByRating()
+        {
+            var result = await _service.GetBookCountsByRatingAsync();
+            return Ok(result);
+        }
+
+        [HttpGet("counts-by-availability")]
+        public async Task<IActionResult> GetBookCountsByAvailability()
+        {
+            var result = await _service.GetBookCountsByAvailabilityAsync();
+            return Ok(result);
+        }
+
+        [HttpGet("all-filter-counts")]
+        public async Task<IActionResult> GetAllFilterCounts()
+        {
+            var result = await _service.GetAllFilterCountsAsync();
+            return Ok(result);
+        }
     }
 }

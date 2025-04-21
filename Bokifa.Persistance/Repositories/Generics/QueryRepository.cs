@@ -1,8 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Bookifa.Domain.Abstractions;
 using Microsoft.EntityFrameworkCore.Query;
-using Bookifa.Domain.Abstractions;
-using Bookifa.Domain.IRepositories.Generics;
-using Bookifa.Persistance.Context;
 using System.Linq.Expressions;
 
 namespace Bookifa.Persistance.Repositories.Generics

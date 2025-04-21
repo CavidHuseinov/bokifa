@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "C:\\Users\\Cavid\\Desktop\\bokifa\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Bokifa.Application\\Bokifa.Application.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.application\\iservices\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3397A9-CA30-4DF9-8814-3220B9AD9A12}|Bokifa.Application\\Bokifa.Application.csproj|solutionrelative:bokifa.application\\iservices\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB724636-DCC9-4CB3-980F-1FA23EDA6AA0}|Bokifa.Presentation\\Bokifa.Presentation.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.presentation\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB724636-DCC9-4CB3-980F-1FA23EDA6AA0}|Bokifa.Presentation\\Bokifa.Presentation.csproj|solutionrelative:bokifa.presentation\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\entities\\variant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\entities\\variant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\entities\\tvariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\entities\\tvariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\irepositories\\generics\\iqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\irepositories\\generics\\iqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\repositories\\generics\\queryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\repositories\\generics\\queryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\repositories\\generics\\commandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\repositories\\generics\\commandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\context\\bokifadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\context\\bokifadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6AA8F729-557E-4BA3-A4B9-907CDBB076C4}|Bokifa.WebAPI\\Bokifa.WebAPI.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6AA8F729-557E-4BA3-A4B9-907CDBB076C4}|Bokifa.WebAPI\\Bokifa.WebAPI.csproj|solutionrelative:bokifa.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250421114846_aksldadkadslkalkdsasdadsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bokifa.Persistance\\Migrations\\20250421114846_aksldadkadslkalkdsasdadsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,10 +155,6 @@
       "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\services\\notificationmodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\repositories\\generics\\queryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\repositories\\generics\\queryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6AA8F729-557E-4BA3-A4B9-907CDBB076C4}|Bokifa.WebAPI\\Bokifa.WebAPI.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.webapi\\configurations\\presentationserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6AA8F729-557E-4BA3-A4B9-907CDBB076C4}|Bokifa.WebAPI\\Bokifa.WebAPI.csproj|solutionrelative:bokifa.webapi\\configurations\\presentationserviceinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -218,14 +246,6 @@
       "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\irepositories\\generics\\iqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\irepositories\\generics\\iqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\repositories\\generics\\commandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\repositories\\generics\\commandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\enums\\languagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\enums\\languagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -284,10 +304,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\services\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\services\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\services\\bannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -560,10 +576,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250416105850_ajdsjadkj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bokifa.Persistance\\Migrations\\20250416105850_ajdsjadkj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8F47C4F-AB9A-420E-9297-15F7FA2F7966}|Bokifa.Domain\\Bokifa.Domain.csproj|solutionrelative:bokifa.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250416102436_asdkasdkllllkjjjjjjll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -876,6 +888,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\migrations\\20250420191640_ajksdasjklhd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\migrations\\20250420191640_ajksdasjklhd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|c:\\users\\cavid\\desktop\\bokifa\\bokifa.persistance\\migrations\\20250421114846_aksldadkadslkalkdsasdadsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEA8CF0E-AFFE-4E64-8FE9-0DECF7B899F0}|Bokifa.Persistance\\Bokifa.Persistance.csproj|solutionrelative:bokifa.persistance\\migrations\\20250421114846_aksldadkadslkalkdsasdadsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -885,7 +901,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -893,20 +909,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PersistanceDIServiceInstaller.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
-              "RelativeDocumentMoniker": "Bokifa.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
-              "RelativeToolTip": "Bokifa.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC0AAABJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Presentation\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Bokifa.Presentation\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Presentation\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Bokifa.Presentation\\Controllers\\BookController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:13:12.372Z",
+              "WhenOpened": "2025-04-21T12:55:59.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "Variant.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\Variant.cs",
+              "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\Variant.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\Variant.cs",
+              "RelativeToolTip": "Bokifa.Domain\\Entities\\Variant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T12:51:45.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TVariant.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\TVariant.cs",
+              "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\TVariant.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\TVariant.cs",
+              "RelativeToolTip": "Bokifa.Domain\\Entities\\TVariant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T12:51:44.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\BookService.cs",
+              "RelativeToolTip": "Bokifa.Persistance\\Services\\BookService.cs",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAcwPYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T12:29:43.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "Bokifa.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T10:39:36.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\IBookService.cs",
+              "RelativeDocumentMoniker": "Bokifa.Application\\IServices\\IBookService.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\IBookService.cs",
+              "RelativeToolTip": "Bokifa.Application\\IServices\\IBookService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T12:31:10.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QueryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Repositories\\Generics\\QueryRepository.cs",
+              "RelativeDocumentMoniker": "Bokifa.Persistance\\Repositories\\Generics\\QueryRepository.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Repositories\\Generics\\QueryRepository.cs",
+              "RelativeToolTip": "Bokifa.Persistance\\Repositories\\Generics\\QueryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T11:54:52.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CommandRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Repositories\\Generics\\CommandRepository.cs",
+              "RelativeDocumentMoniker": "Bokifa.Persistance\\Repositories\\Generics\\CommandRepository.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Repositories\\Generics\\CommandRepository.cs",
+              "RelativeToolTip": "Bokifa.Persistance\\Repositories\\Generics\\CommandRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T13:15:10.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IQueryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\IRepositories\\Generics\\IQueryRepository.cs",
+              "RelativeDocumentMoniker": "Bokifa.Domain\\IRepositories\\Generics\\IQueryRepository.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\IRepositories\\Generics\\IQueryRepository.cs",
+              "RelativeToolTip": "Bokifa.Domain\\IRepositories\\Generics\\IQueryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T11:54:38.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "PersistanceServiceInstaller.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\Configurations\\PersistanceServiceInstaller.cs",
               "RelativeDocumentMoniker": "Bokifa.WebAPI\\Configurations\\PersistanceServiceInstaller.cs",
@@ -914,25 +1034,23 @@
               "RelativeToolTip": "Bokifa.WebAPI\\Configurations\\PersistanceServiceInstaller.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T14:53:24.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T14:53:24.94Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Bokifa.WebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\Program.cs",
-              "RelativeToolTip": "Bokifa.WebAPI\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "BokifaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Context\\BokifaDbContext.cs",
+              "RelativeDocumentMoniker": "Bokifa.Persistance\\Context\\BokifaDbContext.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Context\\BokifaDbContext.cs",
+              "RelativeToolTip": "Bokifa.Persistance\\Context\\BokifaDbContext.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA4wCcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T14:58:36.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T12:13:27.1Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "IServiceInstaller.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\Configurations\\IServiceInstaller.cs",
               "RelativeDocumentMoniker": "Bokifa.WebAPI\\Configurations\\IServiceInstaller.cs",
@@ -940,25 +1058,35 @@
               "RelativeToolTip": "Bokifa.WebAPI\\Configurations\\IServiceInstaller.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T11:47:02.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T11:47:02.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BokifaDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Context\\BokifaDbContext.cs",
-              "RelativeDocumentMoniker": "Bokifa.Persistance\\Context\\BokifaDbContext.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Context\\BokifaDbContext.cs",
-              "RelativeToolTip": "Bokifa.Persistance\\Context\\BokifaDbContext.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAiwCUAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Bokifa.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\Program.cs",
+              "RelativeToolTip": "Bokifa.WebAPI\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:13:27.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T14:58:36.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
+              "Title": "PersistanceDIServiceInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
+              "RelativeDocumentMoniker": "Bokifa.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
+              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
+              "RelativeToolTip": "Bokifa.WebAPI\\Configurations\\PersistanceDIServiceInstaller.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T12:13:12.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "Bokifa.WebAPI\\appsettings.json",
@@ -966,12 +1094,11 @@
               "RelativeToolTip": "Bokifa.WebAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-20T19:18:09.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T19:18:09.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 222,
               "Title": "20250421114846_aksldadkadslkalkdsasdadsa.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250421114846_aksldadkadslkalkdsasdadsa.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250421114846_aksldadkadslkalkdsasdadsa.cs",
@@ -979,12 +1106,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Migrations\\20250421114846_aksldadkadslkalkdsasdadsa.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAmwAkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T11:48:46.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T11:48:46.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\UserService.cs",
@@ -992,12 +1118,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Services\\UserService.cs",
               "ViewState": "AgIAAGgAAAAAAAAAAAAnwHAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T07:15:30.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T07:15:30.825Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "AppUserAndPromocodeDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\AppUserAndPromocode\\AppUserAndPromocodeDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\AppUserAndPromocode\\AppUserAndPromocodeDto.cs",
@@ -1005,12 +1130,11 @@
               "RelativeToolTip": "Bokifa.Domain\\DTOs\\AppUserAndPromocode\\AppUserAndPromocodeDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T09:19:24.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T09:19:24.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "CreatePromocodeDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Promocode\\CreatePromocodeDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Promocode\\CreatePromocodeDto.cs",
@@ -1018,12 +1142,11 @@
               "RelativeToolTip": "Bokifa.Domain\\DTOs\\Promocode\\CreatePromocodeDto.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAA1wAUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T08:09:55.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T08:09:55.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "PromocodeService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\PromocodeService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\PromocodeService.cs",
@@ -1031,12 +1154,11 @@
               "RelativeToolTip": "Bokifa.Persistance\\Services\\PromocodeService.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAD4v0MAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T08:15:52.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T08:15:52.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "PromocodeDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Promocode\\PromocodeDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Promocode\\PromocodeDto.cs",
@@ -1044,12 +1166,11 @@
               "RelativeToolTip": "Bokifa.Domain\\DTOs\\Promocode\\PromocodeDto.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T08:09:47.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T08:09:47.136Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "AppUserAndPromocode.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\AppUserAndPromocode.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\AppUserAndPromocode.cs",
@@ -1057,12 +1178,11 @@
               "RelativeToolTip": "Bokifa.Domain\\Entities\\AppUserAndPromocode.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T09:17:05.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T09:17:05.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "PromcodeController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Presentation\\Controllers\\PromcodeController.cs",
               "RelativeDocumentMoniker": "Bokifa.Presentation\\Controllers\\PromcodeController.cs",
@@ -1074,7 +1194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "CreatePromocodeForAllUserDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Promocode\\CreatePromocodeForAllUserDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Promocode\\CreatePromocodeForAllUserDto.cs",
@@ -1086,7 +1206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "IPromocodeService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\IPromocodeService.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\IServices\\IPromocodeService.cs",
@@ -1098,7 +1218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Mapping\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Mapping\\MappingProfile.cs",
@@ -1110,7 +1230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "Review.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\Review.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\Review.cs",
@@ -1122,7 +1242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\Identity\\AppUser.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\Identity\\AppUser.cs",
@@ -1134,7 +1254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "Bokifa.Persistance.csproj",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Bokifa.Persistance.csproj",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Bokifa.Persistance.csproj",
@@ -1146,7 +1266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "NotificationModel.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\NotificationModel.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\NotificationModel.cs",
@@ -1158,7 +1278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "PromocodeRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Repositories\\PromocodeRepo.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Repositories\\PromocodeRepo.cs",
@@ -1170,7 +1290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "Bokifa.WebAPI.csproj",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\Bokifa.WebAPI.csproj",
               "RelativeDocumentMoniker": "Bokifa.WebAPI\\Bokifa.WebAPI.csproj",
@@ -1182,7 +1302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 218,
+              "DocumentIndex": 221,
               "Title": "20250420191640_ajksdasjklhd.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250420191640_ajksdasjklhd.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250420191640_ajksdasjklhd.cs",
@@ -1194,7 +1314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "GlobalHandleException.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\Middlewares\\GlobalHandleException.cs",
               "RelativeDocumentMoniker": "Bokifa.WebAPI\\Middlewares\\GlobalHandleException.cs",
@@ -1206,7 +1326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "Promocode.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\Promocode.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\Promocode.cs",
@@ -1218,7 +1338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "IPromocodeRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\IRepositories\\IPromocodeRepo.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\IRepositories\\IPromocodeRepo.cs",
@@ -1230,7 +1350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "CreatePromocodeValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Promocode\\CreatePromocodeValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Promocode\\CreatePromocodeValidator.cs",
@@ -1242,7 +1362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "Bokifa.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Bokifa.Domain.csproj",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Bokifa.Domain.csproj",
@@ -1254,7 +1374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "CreateHeadBannerValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\HeadBanner\\CreateHeadBannerValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\HeadBanner\\CreateHeadBannerValidator.cs",
@@ -1266,7 +1386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "NotificationModelService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\NotificationModelService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\NotificationModelService.cs",
@@ -1278,19 +1398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "QueryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Repositories\\Generics\\QueryRepository.cs",
-              "RelativeDocumentMoniker": "Bokifa.Persistance\\Repositories\\Generics\\QueryRepository.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Repositories\\Generics\\QueryRepository.cs",
-              "RelativeToolTip": "Bokifa.Persistance\\Repositories\\Generics\\QueryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T11:54:52.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 38,
               "Title": "PresentationServiceInstaller.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\Configurations\\PresentationServiceInstaller.cs",
               "RelativeDocumentMoniker": "Bokifa.WebAPI\\Configurations\\PresentationServiceInstaller.cs",
@@ -1302,7 +1410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 39,
               "Title": "RegisterValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\UserValidators\\RegisterValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\UserValidators\\RegisterValidator.cs",
@@ -1314,7 +1422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "Bokifa.Application.csproj",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Bokifa.Application.csproj",
               "RelativeDocumentMoniker": "Bokifa.Application\\Bokifa.Application.csproj",
@@ -1326,7 +1434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "UsePromocodeRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Promocode\\UsePromocodeRequestDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Promocode\\UsePromocodeRequestDto.cs",
@@ -1338,7 +1446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 40,
               "Title": "ForgetPassword.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\UserValidators\\ForgetPassword.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\UserValidators\\ForgetPassword.cs",
@@ -1350,7 +1458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 44,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Presentation\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Bokifa.Presentation\\Controllers\\UserController.cs",
@@ -1362,7 +1470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 43,
               "Title": "PromcodeController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\AppData\\Local\\SourceServer\\0c077280e5c6ea18623b8d7e3ae8d8c9f3e8062231c54d4b65d4559b072aba41\\Bokifa.Presentation\\Controllers\\PromcodeController.cs",
               "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\SourceServer\\0c077280e5c6ea18623b8d7e3ae8d8c9f3e8062231c54d4b65d4559b072aba41\\Bokifa.Presentation\\Controllers\\PromcodeController.cs",
@@ -1375,7 +1483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 46,
               "Title": "ShippingInfoService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\ShippingInfoService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\ShippingInfoService.cs",
@@ -1387,7 +1495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 47,
               "Title": "AuthorService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\AuthorService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\AuthorService.cs",
@@ -1399,7 +1507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 48,
               "Title": "FavoriteService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\FavoriteService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\FavoriteService.cs",
@@ -1411,7 +1519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 45,
               "Title": "CartItemService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\CartItemService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\CartItemService.cs",
@@ -1423,7 +1531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 49,
               "Title": "CartItemController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Presentation\\Controllers\\CartItemController.cs",
               "RelativeDocumentMoniker": "Bokifa.Presentation\\Controllers\\CartItemController.cs",
@@ -1435,7 +1543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 51,
               "Title": "InfrastructureDIServiceInstaller.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\Configurations\\InfrastructureDIServiceInstaller.cs",
               "RelativeDocumentMoniker": "Bokifa.WebAPI\\Configurations\\InfrastructureDIServiceInstaller.cs",
@@ -1447,7 +1555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 50,
               "Title": "IAppUserAndPromocodeRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\IRepositories\\IAppUserAndPromocodeRepo.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\IRepositories\\IAppUserAndPromocodeRepo.cs",
@@ -1459,7 +1567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 52,
               "Title": "AppUserAndPromocodeRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Repositories\\AppUserAndPromocodeRepo.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Repositories\\AppUserAndPromocodeRepo.cs",
@@ -1471,7 +1579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 55,
               "Title": "ICartItemService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\ICartItemService.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\IServices\\ICartItemService.cs",
@@ -1483,7 +1591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 53,
               "Title": "AppUserAndPromocodeConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\AppUserAndPromocodeConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\AppUserAndPromocodeConfiguration.cs",
@@ -1495,7 +1603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 54,
               "Title": "BannerConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\BannerConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\BannerConfiguration.cs",
@@ -1507,7 +1615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 60,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\CartItem.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\CartItem.cs",
@@ -1519,7 +1627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 59,
               "Title": "CreateCartItemDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\CartItem\\CreateCartItemDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\CartItem\\CreateCartItemDto.cs",
@@ -1531,7 +1639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 56,
               "Title": "CartItemDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\CartItem\\CartItemDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\CartItem\\CartItemDto.cs",
@@ -1543,7 +1651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 57,
               "Title": "20250420153033_aksldlas.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250420153033_aksldlas.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250420153033_aksldlas.cs",
@@ -1555,7 +1663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 58,
               "Title": "CartItemConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\CartItemConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\CartItemConfiguration.cs",
@@ -1567,31 +1675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "IQueryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\IRepositories\\Generics\\IQueryRepository.cs",
-              "RelativeDocumentMoniker": "Bokifa.Domain\\IRepositories\\Generics\\IQueryRepository.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\IRepositories\\Generics\\IQueryRepository.cs",
-              "RelativeToolTip": "Bokifa.Domain\\IRepositories\\Generics\\IQueryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T11:54:38.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "CommandRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Repositories\\Generics\\CommandRepository.cs",
-              "RelativeDocumentMoniker": "Bokifa.Persistance\\Repositories\\Generics\\CommandRepository.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Repositories\\Generics\\CommandRepository.cs",
-              "RelativeToolTip": "Bokifa.Persistance\\Repositories\\Generics\\CommandRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T13:15:10.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 61,
               "Title": "LanguageType.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Enums\\LanguageType.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Enums\\LanguageType.cs",
@@ -1603,7 +1687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 62,
               "Title": "PrimaryLanguageType.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Enums\\PrimaryLanguageType.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Enums\\PrimaryLanguageType.cs",
@@ -1615,7 +1699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 63,
               "Title": "ReviewService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\ReviewService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\ReviewService.cs",
@@ -1627,7 +1711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 64,
               "Title": "TBannerService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\TBannerService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\TBannerService.cs",
@@ -1639,7 +1723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 65,
               "Title": "TBookService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\TBookService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\TBookService.cs",
@@ -1651,7 +1735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 66,
               "Title": "THeadBannerService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\THeadBannerService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\THeadBannerService.cs",
@@ -1663,7 +1747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 67,
               "Title": "VariantService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\VariantService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\VariantService.cs",
@@ -1675,7 +1759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 69,
               "Title": "TTagService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\TTagService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\TTagService.cs",
@@ -1687,7 +1771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 70,
               "Title": "TCategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\TCategoryService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\TCategoryService.cs",
@@ -1699,7 +1783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 72,
               "Title": "TagService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\TagService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\TagService.cs",
@@ -1711,7 +1795,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 73,
               "Title": "HeadBannerService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\HeadBannerService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\HeadBannerService.cs",
@@ -1723,7 +1807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 75,
               "Title": "CurrencyService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\CurrencyService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\CurrencyService.cs",
@@ -1735,7 +1819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 68,
               "Title": "TVariantService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\TVariantService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\TVariantService.cs",
@@ -1747,7 +1831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 76,
               "Title": "BannerService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\BannerService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\BannerService.cs",
@@ -1759,7 +1843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 71,
               "Title": "TBlogService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\TBlogService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\TBlogService.cs",
@@ -1771,7 +1855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 77,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\CategoryService.cs",
@@ -1783,19 +1867,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\BookService.cs",
-              "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\BookService.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\BookService.cs",
-              "RelativeToolTip": "Bokifa.Persistance\\Services\\BookService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwB0AAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T12:29:43.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 74,
               "Title": "BlogService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\BlogService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\BlogService.cs",
@@ -1807,7 +1879,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 78,
               "Title": "BookAndTag.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\BookAndTag.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\BookAndTag.cs",
@@ -1819,7 +1891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 79,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\EmailService.cs",
@@ -1831,7 +1903,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 82,
               "Title": "FinalPriceVO.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\ValueObjects\\FinalPriceVO.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\ValueObjects\\FinalPriceVO.cs",
@@ -1843,7 +1915,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 80,
               "Title": "BookMiniDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Book\\BookMiniDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Book\\BookMiniDto.cs",
@@ -1855,7 +1927,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 81,
               "Title": "BookDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Book\\BookDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Book\\BookDto.cs",
@@ -1867,7 +1939,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 83,
               "Title": "BaseDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Abstractions\\BaseDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Abstractions\\BaseDto.cs",
@@ -1879,7 +1951,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 84,
               "Title": "BookAndCategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\BookAndCategory\\BookAndCategoryDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\BookAndCategory\\BookAndCategoryDto.cs",
@@ -1891,7 +1963,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 216,
+              "DocumentIndex": 219,
               "Title": "20250420120423_ikasdjlasd.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250420120423_ikasdjlasd.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250420120423_ikasdjlasd.cs",
@@ -1903,7 +1975,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 86,
               "Title": "CreateBookDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Book\\CreateBookDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Book\\CreateBookDto.cs",
@@ -1915,7 +1987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 85,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\Book.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\Book.cs",
@@ -1927,7 +1999,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 217,
+              "DocumentIndex": 220,
               "Title": "20250420105056_ajksdhjlasdlhj.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250420105056_ajksdhjlasdlhj.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250420105056_ajksdhjlasdlhj.cs",
@@ -1939,7 +2011,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 87,
               "Title": "CreateFavoriteDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Favorite\\CreateFavoriteDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Favorite\\CreateFavoriteDto.cs",
@@ -1951,7 +2023,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 88,
               "Title": "UpdatePromocodeDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Promocode\\UpdatePromocodeDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Promocode\\UpdatePromocodeDto.cs",
@@ -1963,7 +2035,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 89,
               "Title": "CreateAppUserAndPromocodeDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\AppUserAndPromocode\\CreateAppUserAndPromocodeDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\AppUserAndPromocode\\CreateAppUserAndPromocodeDto.cs",
@@ -1975,7 +2047,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 212,
+              "DocumentIndex": 215,
               "Title": "20250419092809_askljdjklasd.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250419092809_askljdjklasd.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250419092809_askljdjklasd.cs",
@@ -1987,7 +2059,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 90,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\User\\UserDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\User\\UserDto.cs",
@@ -1999,7 +2071,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 91,
               "Title": "Author.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\Author.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\Author.cs",
@@ -2011,7 +2083,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 93,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Abstractions\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Abstractions\\BaseEntity.cs",
@@ -2023,7 +2095,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 213,
+              "DocumentIndex": 216,
               "Title": "20250419084258_jaksdhjasdjh.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250419084258_jaksdhjasdjh.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250419084258_jaksdhjasdjh.cs",
@@ -2035,7 +2107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 92,
               "Title": "CreatedAtVO.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\ValueObjects\\CreatedAtVO.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\ValueObjects\\CreatedAtVO.cs",
@@ -2047,7 +2119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 214,
+              "DocumentIndex": 217,
               "Title": "20250419082500_asjkdhkajsdhjkasdhjkasd.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250419082500_asjkdhkajsdhjkasdhjkasd.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250419082500_asjkdhkajsdhjkasdhjkasd.cs",
@@ -2059,7 +2131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 215,
+              "DocumentIndex": 218,
               "Title": "20250419080914_asjkdhkajsdhjkasdhjkA.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250419080914_asjkdhkajsdhjkasdhjkA.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250419080914_asjkdhkajsdhjkasdhjkA.cs",
@@ -2071,7 +2143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 94,
               "Title": "PromocodeConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\PromocodeConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\PromocodeConfiguration.cs",
@@ -2083,7 +2155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 97,
               "Title": "BannerController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Presentation\\Controllers\\BannerController.cs",
               "RelativeDocumentMoniker": "Bokifa.Presentation\\Controllers\\BannerController.cs",
@@ -2095,7 +2167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 95,
               "Title": "HeadBannerConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\HeadBannerConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\HeadBannerConfiguration.cs",
@@ -2107,7 +2179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 98,
               "Title": "IBannerService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\IBannerService.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\IServices\\IBannerService.cs",
@@ -2119,7 +2191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 99,
               "Title": "IEmailQueueService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\IEmailQueueService.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\IServices\\IEmailQueueService.cs",
@@ -2131,7 +2203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 96,
               "Title": "EmailQueueDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\EmailQueue\\EmailQueueDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\EmailQueue\\EmailQueueDto.cs",
@@ -2143,7 +2215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 100,
               "Title": "EmailQueueService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\EmailQueueService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\EmailQueueService.cs",
@@ -2155,7 +2227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 101,
               "Title": "EmailBackgroundService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Infrastructure\\BackgroundService\\EmailBackgroundService.cs",
               "RelativeDocumentMoniker": "Bokifa.Infrastructure\\BackgroundService\\EmailBackgroundService.cs",
@@ -2167,7 +2239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 102,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\ICategoryService.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\IServices\\ICategoryService.cs",
@@ -2179,7 +2251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 104,
               "Title": "IAuthorService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\IAuthorService.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\IServices\\IAuthorService.cs",
@@ -2191,7 +2263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 103,
               "Title": "IBlogService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\IBlogService.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\IServices\\IBlogService.cs",
@@ -2203,7 +2275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 105,
               "Title": "ContactController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Presentation\\Controllers\\ContactController.cs",
               "RelativeDocumentMoniker": "Bokifa.Presentation\\Controllers\\ContactController.cs",
@@ -2215,7 +2287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 106,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\IEmailService.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\IServices\\IEmailService.cs",
@@ -2227,7 +2299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 107,
               "Title": "NotificationModelDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\NotificationModel\\NotificationModelDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\NotificationModel\\NotificationModelDto.cs",
@@ -2239,7 +2311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 108,
               "Title": "ContactFormDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Contact\\ContactFormDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Contact\\ContactFormDto.cs",
@@ -2251,7 +2323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 110,
               "Title": "CreateContactAddressDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\ContactAdress\\CreateContactAddressDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\ContactAdress\\CreateContactAddressDto.cs",
@@ -2263,7 +2335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 109,
               "Title": "INotficationModelService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\INotficationModelService.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\IServices\\INotficationModelService.cs",
@@ -2275,7 +2347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 111,
               "Title": "ContactAddressDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\ContactAdress\\ContactAddressDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\ContactAdress\\ContactAddressDto.cs",
@@ -2287,7 +2359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 112,
               "Title": "ContactAddressController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Presentation\\Controllers\\ContactAddressController.cs",
               "RelativeDocumentMoniker": "Bokifa.Presentation\\Controllers\\ContactAddressController.cs",
@@ -2299,7 +2371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 113,
               "Title": "ContactAddressService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Services\\ContactAddressService.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Services\\ContactAddressService.cs",
@@ -2311,7 +2383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 114,
               "Title": "CreateNotificationModelDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\NotificationModel\\CreateNotificationModelDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\NotificationModel\\CreateNotificationModelDto.cs",
@@ -2323,7 +2395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 115,
               "Title": "CreateContactAddressValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\ContactAddress\\CreateContactAddressValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\ContactAddress\\CreateContactAddressValidator.cs",
@@ -2335,7 +2407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 116,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\User\\RegisterDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\User\\RegisterDto.cs",
@@ -2347,7 +2419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 117,
               "Title": "IContactAddressService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\IContactAddressService.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\IServices\\IContactAddressService.cs",
@@ -2359,7 +2431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 211,
+              "DocumentIndex": 214,
               "Title": "20250418095535_ajskdhjad.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250418095535_ajskdhjad.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250418095535_ajskdhjad.cs",
@@ -2371,7 +2443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 118,
               "Title": "ContactAddress.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\ContactAddress.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\ContactAddress.cs",
@@ -2383,7 +2455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 119,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\GlobalUsings.cs",
@@ -2395,7 +2467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 120,
               "Title": "NotificationModelController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Presentation\\Controllers\\NotificationModelController.cs",
               "RelativeDocumentMoniker": "Bokifa.Presentation\\Controllers\\NotificationModelController.cs",
@@ -2407,7 +2479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 121,
               "Title": "Bokifa.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Infrastructure\\Bokifa.Infrastructure.csproj",
               "RelativeDocumentMoniker": "Bokifa.Infrastructure\\Bokifa.Infrastructure.csproj",
@@ -2419,7 +2491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 122,
               "Title": "CreateNotificationModelValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\NotificationModel\\CreateNotificationModelValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\NotificationModel\\CreateNotificationModelValidator.cs",
@@ -2431,7 +2503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 210,
+              "DocumentIndex": 213,
               "Title": "20250416164222_asjkhdhjaksdhjs.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250416164222_asjkhdhjaksdhjs.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250416164222_asjkhdhjaksdhjs.cs",
@@ -2443,7 +2515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 123,
               "Title": "NotificationModelRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Repositories\\NotificationModelRepo.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Repositories\\NotificationModelRepo.cs",
@@ -2455,7 +2527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 124,
               "Title": "INotificationModelRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\IRepositories\\INotificationModelRepo.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\IRepositories\\INotificationModelRepo.cs",
@@ -2467,7 +2539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 125,
               "Title": "NotificationModelConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\NotificationModelConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\NotificationModelConfiguration.cs",
@@ -2479,7 +2551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 126,
               "Title": "BlogAndTagConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\BlogAndTagConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\BlogAndTagConfiguration.cs",
@@ -2491,7 +2563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 127,
               "Title": "ShippingInfoDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\ShippingInfo\\ShippingInfoDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\ShippingInfo\\ShippingInfoDto.cs",
@@ -2503,7 +2575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 128,
               "Title": "ShippingInfoController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Presentation\\Controllers\\ShippingInfoController.cs",
               "RelativeDocumentMoniker": "Bokifa.Presentation\\Controllers\\ShippingInfoController.cs",
@@ -2515,7 +2587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 206,
+              "DocumentIndex": 209,
               "Title": "20250416132823_kaldsjklaldsjkss.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250416132823_kaldsjklaldsjkss.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250416132823_kaldsjklaldsjkss.cs",
@@ -2527,7 +2599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 129,
               "Title": "ShippingInfo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\ShippingInfo.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\ShippingInfo.cs",
@@ -2539,7 +2611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 207,
+              "DocumentIndex": 210,
               "Title": "20250416132601_kaldsjklaldsjka.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250416132601_kaldsjklaldsjka.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250416132601_kaldsjklaldsjka.cs",
@@ -2551,7 +2623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 130,
               "Title": "CreateShippingInfoDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\ShippingInfo\\CreateShippingInfoDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\ShippingInfo\\CreateShippingInfoDto.cs",
@@ -2563,7 +2635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 208,
+              "DocumentIndex": 211,
               "Title": "20250416132301_kaldsjklaldsjk.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250416132301_kaldsjklaldsjk.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250416132301_kaldsjklaldsjk.cs",
@@ -2575,7 +2647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 131,
               "Title": "CreateShippingInfoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\ShippingInfo\\CreateShippingInfoValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\ShippingInfo\\CreateShippingInfoValidator.cs",
@@ -2587,7 +2659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 132,
               "Title": "IShippingInfoService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\IShippingInfoService.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\IServices\\IShippingInfoService.cs",
@@ -2599,7 +2671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 209,
+              "DocumentIndex": 212,
               "Title": "20250416131333_aksjldjlad.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250416131333_aksjldjlad.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250416131333_aksjldjlad.cs",
@@ -2611,7 +2683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 133,
               "Title": "ShippingInfoConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\ShippingInfoConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\ShippingInfoConfiguration.cs",
@@ -2623,7 +2695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 134,
               "Title": "ShippingInfoRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Repositories\\ShippingInfoRepo.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Repositories\\ShippingInfoRepo.cs",
@@ -2635,7 +2707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 135,
               "Title": "IShippingInfoRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\IRepositories\\IShippingInfoRepo.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\IRepositories\\IShippingInfoRepo.cs",
@@ -2647,7 +2719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 136,
               "Title": "ReviewConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\ReviewConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\ReviewConfiguration.cs",
@@ -2659,7 +2731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 137,
               "Title": "BookConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\BookConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\BookConfiguration.cs",
@@ -2671,7 +2743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 138,
               "Title": "UpdateContactAddressValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\ContactAddress\\UpdateContactAddressValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\ContactAddress\\UpdateContactAddressValidator.cs",
@@ -2683,7 +2755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 139,
               "Title": "UpdateContactAddressDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\ContactAdress\\UpdateContactAddressDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\ContactAdress\\UpdateContactAddressDto.cs",
@@ -2695,7 +2767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 204,
+              "DocumentIndex": 207,
               "Title": "20250416120252_jadshjadsj.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250416120252_jadshjadsj.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250416120252_jadshjadsj.cs",
@@ -2707,7 +2779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
+              "DocumentIndex": 140,
               "Title": "ContactAddressConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\ContactAddressConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\ContactAddressConfiguration.cs",
@@ -2719,7 +2791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 141,
               "Title": "ICurrencyService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\ICurrencyService.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\IServices\\ICurrencyService.cs",
@@ -2731,7 +2803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 205,
+              "DocumentIndex": 208,
               "Title": "20250416110149_ajdsjadkj.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250416110149_ajdsjadkj.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250416110149_ajdsjadkj.cs",
@@ -2743,7 +2815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 138,
+              "DocumentIndex": 142,
               "Title": "20250416110105_ajdsjadkj.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250416110105_ajdsjadkj.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250416110105_ajdsjadkj.cs",
@@ -2755,7 +2827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 139,
+              "DocumentIndex": 143,
               "Title": "20250416105850_ajdsjadkj.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250416105850_ajdsjadkj.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250416105850_ajdsjadkj.cs",
@@ -2767,19 +2839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 140,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "Bokifa.Domain\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T10:39:36.807Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 141,
+              "DocumentIndex": 144,
               "Title": "20250416102436_asdkasdkllllkjjjjjjll.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Migrations\\20250416102436_asdkasdkllllkjjjjjjll.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Migrations\\20250416102436_asdkasdkllllkjjjjjjll.cs",
@@ -2791,7 +2851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 142,
+              "DocumentIndex": 145,
               "Title": "AppUserConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\AppUserConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\AppUserConfiguration.cs",
@@ -2803,7 +2863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 143,
+              "DocumentIndex": 146,
               "Title": "IContactAddressRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\IRepositories\\IContactAddressRepo.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\IRepositories\\IContactAddressRepo.cs",
@@ -2815,7 +2875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 144,
+              "DocumentIndex": 147,
               "Title": "ContactAddressRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Repositories\\ContactAddressRepo.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Repositories\\ContactAddressRepo.cs",
@@ -2827,7 +2887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 145,
+              "DocumentIndex": 148,
               "Title": "AuthorConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\AuthorConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\AuthorConfiguration.cs",
@@ -2839,7 +2899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 146,
+              "DocumentIndex": 149,
               "Title": "CurrencyConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\CurrencyConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\CurrencyConfiguration.cs",
@@ -2851,7 +2911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 147,
+              "DocumentIndex": 150,
               "Title": "BlogConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\BlogConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\BlogConfiguration.cs",
@@ -2863,7 +2923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 148,
+              "DocumentIndex": 151,
               "Title": "CreateBookValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Book\\CreateBookValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Book\\CreateBookValidator.cs",
@@ -2875,7 +2935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 152,
+              "DocumentIndex": 155,
               "Title": "CurrencySeeder.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Seeds\\CurrencySeeder.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Seeds\\CurrencySeeder.cs",
@@ -2887,7 +2947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 151,
+              "DocumentIndex": 154,
               "Title": "Currency.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\Currency.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\Currency.cs",
@@ -2899,7 +2959,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 149,
+              "DocumentIndex": 152,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Bokifa.WebAPI\\appsettings.Development.json",
@@ -2911,7 +2971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 150,
+              "DocumentIndex": 153,
               "Title": "UpdateBookDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Book\\UpdateBookDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Book\\UpdateBookDto.cs",
@@ -2923,7 +2983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 154,
+              "DocumentIndex": 157,
               "Title": "CurrencyController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Presentation\\Controllers\\CurrencyController.cs",
               "RelativeDocumentMoniker": "Bokifa.Presentation\\Controllers\\CurrencyController.cs",
@@ -2935,7 +2995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 155,
+              "DocumentIndex": 158,
               "Title": "ApplicationServiceInstaller.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.WebAPI\\Configurations\\ApplicationServiceInstaller.cs",
               "RelativeDocumentMoniker": "Bokifa.WebAPI\\Configurations\\ApplicationServiceInstaller.cs",
@@ -2947,7 +3007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 156,
+              "DocumentIndex": 159,
               "Title": "DataSeeder.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Seeds\\DataSeeder.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Seeds\\DataSeeder.cs",
@@ -2959,7 +3019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 157,
+              "DocumentIndex": 160,
               "Title": "CurrencyRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Repositories\\CurrencyRepo.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Repositories\\CurrencyRepo.cs",
@@ -2971,7 +3031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 158,
+              "DocumentIndex": 161,
               "Title": "ICurrencyRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\IRepositories\\ICurrencyRepo.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\IRepositories\\ICurrencyRepo.cs",
@@ -2983,7 +3043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 153,
+              "DocumentIndex": 156,
               "Title": "CurrencyDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Currency\\CurrencyDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Currency\\CurrencyDto.cs",
@@ -2995,7 +3055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 168,
+              "DocumentIndex": 171,
               "Title": "UpdateTagDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Tag\\UpdateTagDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Tag\\UpdateTagDto.cs",
@@ -3007,7 +3067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 161,
+              "DocumentIndex": 164,
               "Title": "TagDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Tag\\TagDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Tag\\TagDto.cs",
@@ -3019,7 +3079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 162,
+              "DocumentIndex": 165,
               "Title": "CreateTagDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Tag\\CreateTagDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Tag\\CreateTagDto.cs",
@@ -3031,7 +3091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 166,
+              "DocumentIndex": 169,
               "Title": "UpdateBlogDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Blog\\UpdateBlogDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Blog\\UpdateBlogDto.cs",
@@ -3043,7 +3103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 165,
+              "DocumentIndex": 168,
               "Title": "BlogAndTagDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\BlogAndTag\\BlogAndTagDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\BlogAndTag\\BlogAndTagDto.cs",
@@ -3055,7 +3115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 169,
+              "DocumentIndex": 172,
               "Title": "CreateBlogAndTagDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\BlogAndTag\\CreateBlogAndTagDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\BlogAndTag\\CreateBlogAndTagDto.cs",
@@ -3067,7 +3127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 170,
+              "DocumentIndex": 173,
               "Title": "BookAndTagConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\BookAndTagConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\BookAndTagConfiguration.cs",
@@ -3079,7 +3139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 172,
+              "DocumentIndex": 175,
               "Title": "IBlogRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\IRepositories\\IBlogRepo.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\IRepositories\\IBlogRepo.cs",
@@ -3091,7 +3151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 171,
+              "DocumentIndex": 174,
               "Title": "BlogRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Repositories\\BlogRepo.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Repositories\\BlogRepo.cs",
@@ -3103,7 +3163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 175,
+              "DocumentIndex": 178,
               "Title": "BookAndCategory.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\BookAndCategory.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\BookAndCategory.cs",
@@ -3115,7 +3175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 173,
+              "DocumentIndex": 176,
               "Title": "BlogAndTag.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\BlogAndTag.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\BlogAndTag.cs",
@@ -3127,7 +3187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 159,
+              "DocumentIndex": 162,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\Tag.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\Tag.cs",
@@ -3139,7 +3199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 176,
+              "DocumentIndex": 179,
               "Title": "CreateVariantValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Variant\\CreateVariantValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Variant\\CreateVariantValidator.cs",
@@ -3151,7 +3211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 177,
+              "DocumentIndex": 180,
               "Title": "ResetPassword.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\UserValidators\\ResetPassword.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\UserValidators\\ResetPassword.cs",
@@ -3163,7 +3223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 178,
+              "DocumentIndex": 181,
               "Title": "LoginValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\UserValidators\\LoginValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\UserValidators\\LoginValidator.cs",
@@ -3175,7 +3235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 179,
+              "DocumentIndex": 182,
               "Title": "CreateTVariantValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\TVariant\\CreateTVariantValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\TVariant\\CreateTVariantValidator.cs",
@@ -3187,7 +3247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 180,
+              "DocumentIndex": 183,
               "Title": "CreateTTagValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\TTag\\CreateTTagValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\TTag\\CreateTTagValidator.cs",
@@ -3199,7 +3259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 181,
+              "DocumentIndex": 184,
               "Title": "CreateTHeadBannerValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\THeadBanner\\CreateTHeadBannerValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\THeadBanner\\CreateTHeadBannerValidator.cs",
@@ -3211,7 +3271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 182,
+              "DocumentIndex": 185,
               "Title": "CreateTCategoryValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\TCategory\\CreateTCategoryValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\TCategory\\CreateTCategoryValidator.cs",
@@ -3223,7 +3283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 183,
+              "DocumentIndex": 186,
               "Title": "CreateTagValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Tag\\CreateTagValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Tag\\CreateTagValidator.cs",
@@ -3235,7 +3295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 184,
+              "DocumentIndex": 187,
               "Title": "CreateReviewValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Review\\CreateReviewValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Review\\CreateReviewValidator.cs",
@@ -3247,7 +3307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 185,
+              "DocumentIndex": 188,
               "Title": "CreateVideoUploadValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\FileUpload\\CreateVideoUploadValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\FileUpload\\CreateVideoUploadValidator.cs",
@@ -3259,7 +3319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 186,
+              "DocumentIndex": 189,
               "Title": "CreateImageUploadValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\FileUpload\\CreateImageUploadValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\FileUpload\\CreateImageUploadValidator.cs",
@@ -3271,7 +3331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 187,
+              "DocumentIndex": 190,
               "Title": "CreateFileUploadValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\FileUpload\\CreateFileUploadValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\FileUpload\\CreateFileUploadValidator.cs",
@@ -3283,7 +3343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 188,
+              "DocumentIndex": 191,
               "Title": "CreateCategoryValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Category\\CreateCategoryValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Category\\CreateCategoryValidator.cs",
@@ -3295,7 +3355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 189,
+              "DocumentIndex": 192,
               "Title": "UpdateBookValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Book\\UpdateBookValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Book\\UpdateBookValidator.cs",
@@ -3307,7 +3367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 191,
+              "DocumentIndex": 194,
               "Title": "UpdateBannerValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Banner\\UpdateBannerValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Banner\\UpdateBannerValidator.cs",
@@ -3319,7 +3379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 190,
+              "DocumentIndex": 193,
               "Title": "CreateBannerValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Banner\\CreateBannerValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Banner\\CreateBannerValidator.cs",
@@ -3331,7 +3391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 192,
+              "DocumentIndex": 195,
               "Title": "CreateAuthorValidator.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\Validators\\Author\\CreateAuthorValidator.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\Validators\\Author\\CreateAuthorValidator.cs",
@@ -3343,7 +3403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 174,
+              "DocumentIndex": 177,
               "Title": "TBlog.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\TBlog.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\TBlog.cs",
@@ -3355,7 +3415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 195,
+              "DocumentIndex": 198,
               "Title": "TBlogController.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Presentation\\Controllers\\TBlogController.cs",
               "RelativeDocumentMoniker": "Bokifa.Presentation\\Controllers\\TBlogController.cs",
@@ -3367,7 +3427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 163,
+              "DocumentIndex": 166,
               "Title": "BlogDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Blog\\BlogDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Blog\\BlogDto.cs",
@@ -3379,7 +3439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 167,
+              "DocumentIndex": 170,
               "Title": "CreateBlogDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\Blog\\CreateBlogDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\Blog\\CreateBlogDto.cs",
@@ -3391,7 +3451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 197,
+              "DocumentIndex": 200,
               "Title": "ITBookService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\ITBookService.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\IServices\\ITBookService.cs",
@@ -3403,7 +3463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 196,
+              "DocumentIndex": 199,
               "Title": "ITBlogService.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Application\\IServices\\ITBlogService.cs",
               "RelativeDocumentMoniker": "Bokifa.Application\\IServices\\ITBlogService.cs",
@@ -3415,7 +3475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 194,
+              "DocumentIndex": 197,
               "Title": "TBook.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\TBook.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\TBook.cs",
@@ -3427,7 +3487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 199,
+              "DocumentIndex": 202,
               "Title": "TCategory.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\TCategory.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\TCategory.cs",
@@ -3439,7 +3499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 198,
+              "DocumentIndex": 201,
               "Title": "UpdateTBlogDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\TBlog\\UpdateTBlogDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\TBlog\\UpdateTBlogDto.cs",
@@ -3451,7 +3511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 193,
+              "DocumentIndex": 196,
               "Title": "CreateTBlogDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\TBlog\\CreateTBlogDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\TBlog\\CreateTBlogDto.cs",
@@ -3463,7 +3523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 164,
+              "DocumentIndex": 167,
               "Title": "TBlogDto.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\DTOs\\TBlog\\TBlogDto.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\DTOs\\TBlog\\TBlogDto.cs",
@@ -3475,7 +3535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 200,
+              "DocumentIndex": 203,
               "Title": "TBlogRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Repositories\\TBlogRepo.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Repositories\\TBlogRepo.cs",
@@ -3487,7 +3547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 201,
+              "DocumentIndex": 204,
               "Title": "ITBlogRepo.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\IRepositories\\ITBlogRepo.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\IRepositories\\ITBlogRepo.cs",
@@ -3499,7 +3559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 203,
+              "DocumentIndex": 206,
               "Title": "TBannerConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\TBannerConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\TBannerConfiguration.cs",
@@ -3511,7 +3571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 202,
+              "DocumentIndex": 205,
               "Title": "TBlogConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Persistance\\Configurations\\TBlogConfiguration.cs",
               "RelativeDocumentMoniker": "Bokifa.Persistance\\Configurations\\TBlogConfiguration.cs",
@@ -3523,7 +3583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 160,
+              "DocumentIndex": 163,
               "Title": "Blog.cs",
               "DocumentMoniker": "C:\\Users\\Cavid\\Desktop\\bokifa\\Bokifa.Domain\\Entities\\Blog.cs",
               "RelativeDocumentMoniker": "Bokifa.Domain\\Entities\\Blog.cs",
