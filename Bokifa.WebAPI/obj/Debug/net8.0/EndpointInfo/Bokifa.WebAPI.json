@@ -827,37 +827,6 @@
         }
       }
     },
-    "/api/CartItem/apply-promocode": {
-      "post": {
-        "tags": [
-          "CartItem"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CartItemQueryDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CartItemQueryDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CartItemQueryDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/Category/all": {
       "get": {
         "tags": [
@@ -1632,6 +1601,82 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Promcode/create-all-user": {
+      "post": {
+        "tags": [
+          "Promcode"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Code": {
+                    "type": "string"
+                  },
+                  "Discount": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "ExpirationDate": {
+                    "type": "string",
+                    "format": "date-time"
+                  }
+                }
+              },
+              "encoding": {
+                "Code": {
+                  "style": "form"
+                },
+                "Discount": {
+                  "style": "form"
+                },
+                "ExpirationDate": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Promcode/use-promocode": {
+      "post": {
+        "tags": [
+          "Promcode"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsePromocodeRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsePromocodeRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsePromocodeRequestDto"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -3413,20 +3458,6 @@
   },
   "components": {
     "schemas": {
-      "CartItemQueryDto": {
-        "type": "object",
-        "properties": {
-          "bookId": {
-            "type": "string",
-            "format": "uuid"
-          },
-          "promocodeId": {
-            "type": "string",
-            "format": "uuid"
-          }
-        },
-        "additionalProperties": false
-      },
       "CreateCartItemDto": {
         "type": "object",
         "properties": {
@@ -3597,6 +3628,16 @@
             "items": {
               "type": "string"
             },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UsePromocodeRequestDto": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string",
             "nullable": true
           }
         },

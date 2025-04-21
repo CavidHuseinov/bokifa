@@ -1,4 +1,5 @@
 ﻿using Bokifa.Domain.DTOs.CartItem;
+using Bokifa.Domain.DTOs.Promocode;
 
 
 namespace Bokifa.Presentation.Controllers
@@ -30,12 +31,6 @@ namespace Bokifa.Presentation.Controllers
         {
             await _services.DeleteAsync(id);
             return Ok("Deleted from cart");
-        }
-        [HttpPost("apply-promocode")]
-        public async Task<IActionResult> ApplyPromoCode(CartItemQueryDto dto)
-        {
-            var result = await _services.ApplyPromoCode(dto);
-            return Ok(result); 
         }
     }
 }

@@ -17,6 +17,7 @@ namespace Bokifa.Persistance.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
+                .HasDefaultSchema("bokifaT")
                 .HasAnnotation("ProductVersion", "8.0.14")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
@@ -30,11 +31,15 @@ namespace Bokifa.Persistance.Migrations
                     b.Property<Guid>("PromocodeId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
                     b.HasKey("AppUserId", "PromocodeId");
 
                     b.HasIndex("PromocodeId");
 
-                    b.ToTable("AppUserAndPromocodes");
+                    b.ToTable("AppUserAndPromocodes", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.Author", b =>
@@ -53,7 +58,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Authors");
+                    b.ToTable("Authors", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.Banner", b =>
@@ -90,7 +95,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Banners");
+                    b.ToTable("Banners", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.Blog", b =>
@@ -121,7 +126,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("AuthorId");
 
-                    b.ToTable("Blogs");
+                    b.ToTable("Blogs", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.BlogAndTag", b =>
@@ -136,7 +141,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("TagId");
 
-                    b.ToTable("BlogAndTags");
+                    b.ToTable("BlogAndTags", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.Book", b =>
@@ -179,7 +184,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("CurrencyId");
 
-                    b.ToTable("Books");
+                    b.ToTable("Books", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.BookAndCategory", b =>
@@ -194,7 +199,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("BookAndCategories");
+                    b.ToTable("BookAndCategories", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.BookAndTag", b =>
@@ -209,7 +214,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("TagId");
 
-                    b.ToTable("BookAndTags");
+                    b.ToTable("BookAndTags", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.BookAndVariant", b =>
@@ -224,7 +229,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("VariantId");
 
-                    b.ToTable("BookAndVariants");
+                    b.ToTable("BookAndVariants", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.CartItem", b =>
@@ -251,7 +256,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("PromocodeId");
 
-                    b.ToTable("CartItems");
+                    b.ToTable("CartItems", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.Category", b =>
@@ -269,7 +274,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.ContactAddress", b =>
@@ -300,7 +305,7 @@ namespace Bokifa.Persistance.Migrations
                     b.HasIndex("AppUserId")
                         .IsUnique();
 
-                    b.ToTable("ContactAddresses");
+                    b.ToTable("ContactAddresses", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.Currency", b =>
@@ -322,7 +327,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Currencies");
+                    b.ToTable("Currencies", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.Favorite", b =>
@@ -341,7 +346,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("BookId");
 
-                    b.ToTable("Favorites");
+                    b.ToTable("Favorites", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.HeadBanner", b =>
@@ -359,7 +364,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("HeadBanners");
+                    b.ToTable("HeadBanners", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.NotificationModel", b =>
@@ -374,7 +379,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("NotificationModels");
+                    b.ToTable("NotificationModels", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.Promocode", b =>
@@ -398,7 +403,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Promocodes");
+                    b.ToTable("Promocodes", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.Review", b =>
@@ -408,7 +413,6 @@ namespace Bokifa.Persistance.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("AppUserId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<Guid>("BookId")
@@ -426,7 +430,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("BookId");
 
-                    b.ToTable("Reviews");
+                    b.ToTable("Reviews", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.ShippingInfo", b =>
@@ -475,7 +479,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("AppUserId");
 
-                    b.ToTable("ShippingInfos");
+                    b.ToTable("ShippingInfos", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.TBanner", b =>
@@ -510,7 +514,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("BannerId");
 
-                    b.ToTable("TBanners");
+                    b.ToTable("TBanners", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.TBlog", b =>
@@ -537,7 +541,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("BlogId");
 
-                    b.ToTable("TBlogs");
+                    b.ToTable("TBlogs", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.TBook", b =>
@@ -564,7 +568,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("BookId");
 
-                    b.ToTable("TBooks");
+                    b.ToTable("TBooks", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.TCategory", b =>
@@ -587,7 +591,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("TCategory");
+                    b.ToTable("TCategory", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.THeadBanner", b =>
@@ -610,7 +614,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("HeadBannerId");
 
-                    b.ToTable("THeadBanners");
+                    b.ToTable("THeadBanners", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.TTag", b =>
@@ -633,7 +637,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("TagId");
 
-                    b.ToTable("TTags");
+                    b.ToTable("TTags", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.TVariant", b =>
@@ -656,7 +660,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("VariantId");
 
-                    b.ToTable("TVariants");
+                    b.ToTable("TVariants", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.Tag", b =>
@@ -674,7 +678,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tags");
+                    b.ToTable("Tags", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.Variant", b =>
@@ -692,7 +696,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Variants");
+                    b.ToTable("Variants", "bokifaT");
                 });
 
             modelBuilder.Entity("Bookifa.Domain.Entities.Identity.AppUser", b =>
@@ -781,7 +785,7 @@ namespace Bokifa.Persistance.Migrations
                     b.HasIndex("UserName")
                         .IsUnique();
 
-                    b.ToTable("AspNetUsers", (string)null);
+                    b.ToTable("AspNetUsers", "bokifaT");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -808,7 +812,7 @@ namespace Bokifa.Persistance.Migrations
                         .HasDatabaseName("RoleNameIndex")
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
-                    b.ToTable("AspNetRoles", (string)null);
+                    b.ToTable("AspNetRoles", "bokifaT");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -833,7 +837,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("RoleId");
 
-                    b.ToTable("AspNetRoleClaims", (string)null);
+                    b.ToTable("AspNetRoleClaims", "bokifaT");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -858,7 +862,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("AspNetUserClaims", (string)null);
+                    b.ToTable("AspNetUserClaims", "bokifaT");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
@@ -880,7 +884,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("AspNetUserLogins", (string)null);
+                    b.ToTable("AspNetUserLogins", "bokifaT");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
@@ -895,7 +899,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasIndex("RoleId");
 
-                    b.ToTable("AspNetUserRoles", (string)null);
+                    b.ToTable("AspNetUserRoles", "bokifaT");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
@@ -914,7 +918,7 @@ namespace Bokifa.Persistance.Migrations
 
                     b.HasKey("UserId", "LoginProvider", "Name");
 
-                    b.ToTable("AspNetUserTokens", (string)null);
+                    b.ToTable("AspNetUserTokens", "bokifaT");
                 });
 
             modelBuilder.Entity("Bokifa.Domain.Entities.AppUserAndPromocode", b =>
@@ -931,7 +935,30 @@ namespace Bokifa.Persistance.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.OwnsOne("Bookifa.Domain.ValueObjects.CreatedAtVO", "CreatedAt", b1 =>
+                        {
+                            b1.Property<string>("AppUserAndPromocodeAppUserId")
+                                .HasColumnType("nvarchar(450)");
+
+                            b1.Property<Guid>("AppUserAndPromocodePromocodeId")
+                                .HasColumnType("uniqueidentifier");
+
+                            b1.Property<DateTime>("Date")
+                                .HasColumnType("datetime2")
+                                .HasColumnName("CreatedAt");
+
+                            b1.HasKey("AppUserAndPromocodeAppUserId", "AppUserAndPromocodePromocodeId");
+
+                            b1.ToTable("AppUserAndPromocodes", "bokifaT");
+
+                            b1.WithOwner()
+                                .HasForeignKey("AppUserAndPromocodeAppUserId", "AppUserAndPromocodePromocodeId");
+                        });
+
                     b.Navigation("AppUser");
+
+                    b.Navigation("CreatedAt")
+                        .IsRequired();
 
                     b.Navigation("Promocode");
                 });
@@ -949,7 +976,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("AuthorId");
 
-                            b1.ToTable("Authors");
+                            b1.ToTable("Authors", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("AuthorId");
@@ -972,7 +999,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("BannerId");
 
-                            b1.ToTable("Banners");
+                            b1.ToTable("Banners", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("BannerId");
@@ -1001,7 +1028,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("BlogId");
 
-                            b1.ToTable("Blogs");
+                            b1.ToTable("Blogs", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("BlogId");
@@ -1050,7 +1077,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("BookId");
 
-                            b1.ToTable("Books");
+                            b1.ToTable("Books", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("BookId");
@@ -1152,7 +1179,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("CartItemAppUserId", "CartItemBookId");
 
-                            b1.ToTable("CartItems");
+                            b1.ToTable("CartItems", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("CartItemAppUserId", "CartItemBookId");
@@ -1181,7 +1208,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("CategoryId");
 
-                            b1.ToTable("Categories");
+                            b1.ToTable("Categories", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("CategoryId");
@@ -1210,7 +1237,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("ContactAddressId");
 
-                            b1.ToTable("ContactAddresses");
+                            b1.ToTable("ContactAddresses", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("ContactAddressId");
@@ -1235,7 +1262,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("CurrencyId");
 
-                            b1.ToTable("Currencies");
+                            b1.ToTable("Currencies", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("CurrencyId");
@@ -1273,7 +1300,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("FavoriteAppUserId", "FavoriteBookId");
 
-                            b1.ToTable("Favorites");
+                            b1.ToTable("Favorites", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("FavoriteAppUserId", "FavoriteBookId");
@@ -1300,7 +1327,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("HeadBannerId");
 
-                            b1.ToTable("HeadBanners");
+                            b1.ToTable("HeadBanners", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("HeadBannerId");
@@ -1323,7 +1350,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("NotificationModelId");
 
-                            b1.ToTable("NotificationModels");
+                            b1.ToTable("NotificationModels", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("NotificationModelId");
@@ -1346,7 +1373,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("PromocodeId");
 
-                            b1.ToTable("Promocodes");
+                            b1.ToTable("Promocodes", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("PromocodeId");
@@ -1361,8 +1388,7 @@ namespace Bokifa.Persistance.Migrations
                     b.HasOne("Bookifa.Domain.Entities.Identity.AppUser", "AppUser")
                         .WithMany("Comments")
                         .HasForeignKey("AppUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("Bokifa.Domain.Entities.Book", "Book")
                         .WithMany("Comments")
@@ -1381,7 +1407,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("ReviewId");
 
-                            b1.ToTable("Reviews");
+                            b1.ToTable("Reviews", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("ReviewId");
@@ -1414,7 +1440,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("ShippingInfoId");
 
-                            b1.ToTable("ShippingInfos");
+                            b1.ToTable("ShippingInfos", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("ShippingInfoId");
@@ -1445,7 +1471,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("TBannerId");
 
-                            b1.ToTable("TBanners");
+                            b1.ToTable("TBanners", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("TBannerId");
@@ -1476,7 +1502,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("TBlogId");
 
-                            b1.ToTable("TBlogs");
+                            b1.ToTable("TBlogs", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("TBlogId");
@@ -1507,7 +1533,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("TBookId");
 
-                            b1.ToTable("TBooks");
+                            b1.ToTable("TBooks", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("TBookId");
@@ -1538,7 +1564,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("TCategoryId");
 
-                            b1.ToTable("TCategory");
+                            b1.ToTable("TCategory", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("TCategoryId");
@@ -1568,7 +1594,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("THeadBannerId");
 
-                            b1.ToTable("THeadBanners");
+                            b1.ToTable("THeadBanners", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("THeadBannerId");
@@ -1599,7 +1625,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("TTagId");
 
-                            b1.ToTable("TTags");
+                            b1.ToTable("TTags", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("TTagId");
@@ -1630,7 +1656,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("TVariantId");
 
-                            b1.ToTable("TVariants");
+                            b1.ToTable("TVariants", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("TVariantId");
@@ -1655,7 +1681,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("TagId");
 
-                            b1.ToTable("Tags");
+                            b1.ToTable("Tags", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("TagId");
@@ -1678,7 +1704,7 @@ namespace Bokifa.Persistance.Migrations
 
                             b1.HasKey("VariantId");
 
-                            b1.ToTable("Variants");
+                            b1.ToTable("Variants", "bokifaT");
 
                             b1.WithOwner()
                                 .HasForeignKey("VariantId");

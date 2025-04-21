@@ -513,22 +513,6 @@
   },
   {
     "ContainingType": "Bokifa.Presentation.Controllers.CartItemController",
-    "Method": "ApplyPromoCode",
-    "RelativePath": "api/CartItem/apply-promocode",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "Bokifa.Domain.DTOs.CartItem.CartItemQueryDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Bokifa.Presentation.Controllers.CartItemController",
     "Method": "DeleteCartItem",
     "RelativePath": "api/CartItem/DeleteCartItem/{id}",
     "HttpMethod": "DELETE",
@@ -1026,6 +1010,48 @@
       {
         "Name": "id",
         "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.PromcodeController",
+    "Method": "CreateAsyncForAllUser",
+    "RelativePath": "api/Promcode/create-all-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Discount",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "ExpirationDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Bokifa.Presentation.Controllers.PromcodeController",
+    "Method": "UsePromocode",
+    "RelativePath": "api/Promcode/use-promocode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Bokifa.Domain.DTOs.Promocode.UsePromocodeRequestDto",
         "IsRequired": true
       }
     ],

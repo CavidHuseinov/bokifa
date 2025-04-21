@@ -1,7 +1,7 @@
 ﻿
 namespace Bokifa.Domain.Entities
 {
-    public class AppUserAndPromocode
+    public class AppUserAndPromocode:BaseEntity
     {
         public Guid PromocodeId { get; set; }
         public Promocode Promocode { get; set; } 

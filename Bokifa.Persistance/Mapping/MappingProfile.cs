@@ -168,7 +168,6 @@ namespace Bookifa.Persistance.Mapping
             #region CartItem
             CreateMap<CartItemDto, CartItem>().ReverseMap();
             CreateMap<CreateCartItemDto, CartItem>().ReverseMap();
-            CreateMap<CartItemQueryDto, CartItem>().ReverseMap();
             #endregion
 
             #region ContactAdress
@@ -222,6 +221,8 @@ namespace Bookifa.Persistance.Mapping
             CreateMap<PromocodeDto, Promocode>().ReverseMap();
             CreateMap<CreatePromocodeDto, Promocode>().ReverseMap();
             CreateMap<UpdatePromocodeDto, Promocode>().ReverseMap();
+            CreateMap<UsePromocodeRequestDto, Promocode>().ReverseMap();
+            CreateMap<CreatePromocodeForAllUserDto, Promocode>().ReverseMap();
             #endregion
 
             #region AppUserAndPromocode

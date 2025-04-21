@@ -1,5 +1,7 @@
 ﻿
+using Azure.Core;
 using Bokifa.Domain.DTOs.Promocode;
+using FluentValidation;
 
 namespace Bokifa.Presentation.Controllers
 {
@@ -28,6 +30,12 @@ namespace Bokifa.Presentation.Controllers
             var promocode = await _service.CreateAsync(dto);
             return Ok();
         }
+        [HttpPost("create-all-user")]
+        public async Task<IActionResult> CreateAsyncForAllUser([FromForm] CreatePromocodeForAllUserDto dto)
+        {
+            var promocode = await _service.CreateAsyncForAllUser(dto);
+            return Ok(); 
+        }
         [HttpPut]
         public async Task<IActionResult> UpdateAsync([FromBody] UpdatePromocodeDto dto)
         {
@@ -39,6 +47,13 @@ namespace Bokifa.Presentation.Controllers
         {
             await _service.DeleteAsync(id);
             return NoContent();
+        }
+        [HttpPost("use-promocode")]
+        public async Task<IActionResult> UsePromocode(UsePromocodeRequestDto request)
+        {
+            var isValid = await _service.IsPromocodeValid(request.ToString());
+            var result = await _service.UsePromocodeAsync(request.ToString());
+                return Ok("Promocode is valid");
         }
     }
 }

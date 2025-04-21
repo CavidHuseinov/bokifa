@@ -78,28 +78,7 @@ namespace Bokifa.Persistance.Services
  
             return cartItems; 
         }
-        public async Task<PromocodeDto> ApplyPromoCode(CartItemQueryDto dto)
-        {
-            var AppUserId = _sign.UserManager.GetUserId(_http.HttpContext.User);
-            var promoCode = await _promoCodeQuery.GetByIdAsync(dto.PromocodeId);
-            if (promoCode == null)
-            {
-                throw new Exception("Promocode not found");
-            }
 
-            var cartItem = await _query.GetAsync(c => c.AppUserId == AppUserId && c.BookId == dto.BookId);
-
-            if (cartItem == null)
-            {
-                throw new Exception("Cart item not found");
-            }
-
-            cartItem.PromocodeId = promoCode.Id;
-            await _command.UpdateAsync(cartItem);
-            await _work.SaveChangeAsync();
-
-            return _mapper.Map<PromocodeDto>(promoCode);
-        }
 
 
 

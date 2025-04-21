@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bokifa.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86a7339415d70644e47469018aa1afe116f7ff4f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e609bdd8047eaf5c39c65ce6cf846cf3b4fa649")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bokifa.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bokifa.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

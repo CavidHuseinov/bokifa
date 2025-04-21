@@ -47,6 +47,7 @@ namespace Bookifa.WebAPI.Configurations
             services.AddScoped<IShippingInfoRepo, ShippingInfoRepo>();
             services.AddScoped<INotificationModelRepo, NotificationModelRepo>();
             services.AddScoped<IPromocodeRepo, PromocodeRepo>();
+            services.AddScoped<IAppUserAndPromocodeRepo, AppUserAndPromocodeRepo>();
             #endregion
 
             #region Services

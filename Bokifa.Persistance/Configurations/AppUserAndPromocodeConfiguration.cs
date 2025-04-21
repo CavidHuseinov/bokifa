@@ -4,6 +4,14 @@
     {
         public void Configure(EntityTypeBuilder<AppUserAndPromocode> builder)
         {
+            builder.HasKey(x => x.Id);
+            builder.Property(x => x.Id).ValueGeneratedOnAdd();
+            builder.OwnsOne(x => x.CreatedAt, createdAtBuilder =>
+            {
+                createdAtBuilder.Property(x => x.Date)
+                    .HasColumnName("CreatedAt")
+                    .IsRequired();
+            });
             builder.HasKey(x => new { x.AppUserId, x.PromocodeId });
             builder.Property(x => x.AppUserId).IsRequired();
             builder.Property(x => x.PromocodeId).IsRequired();
